@@ -1,0 +1,25 @@
+<!-- app/views/vehicles/index.html.erb -->
+<h1>Vehicles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Manufacturer</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @vehicles.each do |vehicle| %>
+      <tr>
+        <td><%= vehicle.name %></td>
+        <td><%= vehicle.model %></td>
+        <td><%= vehicle.manufacturer %></td>
+        <td><%= link_to 'Show', vehicle_path(vehicle) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Vehicle', new_vehicle_path %>

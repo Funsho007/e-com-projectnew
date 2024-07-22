@@ -1,0 +1,25 @@
+<!-- app/views/planets/index.html.erb -->
+<h1>Planets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Diameter</th>
+      <th>Population</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @planets.each do |planet| %>
+      <tr>
+        <td><%= planet.name %></td>
+        <td><%= planet.diameter %></td>
+        <td><%= planet.population %></td>
+        <td><%= link_to 'Show', planet_path(planet) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Planet', new_planet_path %>

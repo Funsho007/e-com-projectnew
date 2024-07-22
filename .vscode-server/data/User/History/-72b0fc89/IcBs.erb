@@ -1,0 +1,98 @@
+<%= form_with(model: @customer, local: true) do |form| %>
+  <div class="field">
+    <%= form.label :first_name %>
+    <div class="control">
+      <%= form.text_field :first_name, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :last_name %>
+    <div class="control">
+      <%= form.text_field :last_name, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <div class="control">
+      <%= form.email_field :email, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <div class="control">
+      <%= form.password_field :password, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :password_confirmation %>
+    <div class="control">
+      <%= form.password_field :password_confirmation, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :primary_address %>
+    <div class="control">
+      <%= form.text_field :primary_address, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :primary_city %>
+    <div class="control">
+      <%= form.text_field :primary_city, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :primary_postal_code %>
+    <div class="control">
+      <%= form.text_field :primary_postal_code, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :primary_province_id, 'Primary Province' %>
+    <div class="control">
+      <%= form.collection_select :primary_province_id, Province.all, :id, :name, { prompt: 'Select Primary Province' }, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :alt_address %>
+    <div class="control">
+      <%= form.text_field :alt_address, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :alt_city %>
+    <div class="control">
+      <%= form.text_field :alt_city, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :alt_postal_code %>
+    <div class="control">
+      <%= form.text_field :alt_postal_code, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <%= form.label :alt_province_id, 'Alt Province' %>
+    <div class="control">
+      <%= form.collection_select :alt_province_id, Province.all, :id, :name, { prompt: 'Select Alt Province' }, class: 'input' %>
+    </div>
+  </div>
+
+  <div class="field">
+    <div class="control">
+      <%= form.submit 'Save', class: 'button is-primary' %>
+    </div>
+  </div>
+<% end %>

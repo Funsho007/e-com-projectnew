@@ -1,0 +1,9 @@
+<h1>People</h1>
+<ul>
+  <% @people.each do |person| %>
+    <li><%= link_to person.name, person_path(person) %></li>
+  <% end %>
+</ul>
+<div class="mt-8">
+    <%= link_to 'Back to Main Page', root_path, class: "text-blue-500 hover:underline text-lg" %>
+  </div>

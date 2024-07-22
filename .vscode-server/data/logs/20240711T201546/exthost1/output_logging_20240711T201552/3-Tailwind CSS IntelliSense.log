@@ -1,0 +1,86 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+[Global] Creating projects: [{"folder":"/home/ooke0392703/projects/E-commercePrettyface","config":"/home/ooke0392703/projects/E-commercePrettyface/config/tailwind.config.js","selectors":[{"pattern":"/home/ooke0392703/projects/E-commercePrettyface/config/tailwind.config.js","priority":0},{"pattern":"/home/ooke0392703/projects/E-commercePrettyface/config/**","priority":3},{"pattern":"/home/ooke0392703/projects/E-commercePrettyface/**","priority":4},{"pattern":"/home/ooke0392703/projects/E-commercePrettyface/**","priority":5}],"user":false,"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}]
+[Global] Preparing projects...
+[Global] Adding watch patterns: /home/ooke0392703/projects/E-commercePrettyface/config/tailwind.config.js, /home/ooke0392703/projects/E-commercePrettyface/config, /home/ooke0392703/projects/E-commercePrettyface
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[config/tailwind.config.js] Initializing...
+[Error - 8:42:25 PM] Error: Can't resolve 'tailwindcss' in '/home/ooke0392703/projects/E-commercePrettyface/config'
+    at d (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:130:7139)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:131:713
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:16:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:15:1) {
+  details: "resolve 'tailwindcss' in '/home/ooke0392703/projects/E-commercePrettyface/config'\n" +
+    '  Parsed request is a module\n' +
+    '  No description file found in /home/ooke0392703/projects/E-commercePrettyface/config or above\n' +
+    '  resolve as module\n' +
+    "    /home/ooke0392703/projects/E-commercePrettyface/config/node_modules doesn't exist or is not a directory\n" +
+    "    /home/ooke0392703/projects/E-commercePrettyface/node_modules doesn't exist or is not a directory\n" +
+    "    /home/ooke0392703/projects/node_modules doesn't exist or is not a directory\n" +
+    "    /home/ooke0392703/node_modules doesn't exist or is not a directory\n" +
+    "    /home/node_modules doesn't exist or is not a directory\n" +
+    "    /node_modules doesn't exist or is not a directory"
+}
+[config/tailwind.config.js] Failed to load workspace modules.
+[config/tailwind.config.js] Using bundled version of `tailwindcss`: v3.4.4
+[config/tailwind.config.js] Using bundled version of `postcss`: v8.4.31
+[config/tailwind.config.js] Building...
+[config/tailwind.config.js] File created: /home/ooke0392703/projects/E-commercePrettyface/yarn.lock
+[config/tailwind.config.js] Initializing...
+[Error - 9:02:48 AM] Error: Can't resolve 'tailwindcss' in '/home/ooke0392703/projects/E-commercePrettyface/config'
+    at d (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:130:7139)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:131:713
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:27:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:7901
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401
+    at eval (eval at create (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:5:78), <anonymous>:15:1)
+    at /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/tailwindServer.js:134:401 {
+  details: "resolve 'tailwindcss' in '/home/ooke0392703/projects/E-commercePrettyface/config'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: /home/ooke0392703/projects/E-commercePrettyface/package.json (relative path: ./config)\n' +
+    '    resolve as module\n' +
+    "      /home/ooke0392703/projects/E-commercePrettyface/config/node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /home/ooke0392703/projects/E-commercePrettyface/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /home/ooke0392703/projects/E-commercePrettyface/package.json (relative path: ./node_modules/tailwindcss)\n' +
+    '            no extension\n' +
+    "              /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss doesn't exist\n" +
+    '            .js\n' +
+    "              /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss.js doesn't exist\n" +
+    '            .json\n' +
+    "              /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss.json doesn't exist\n" +
+    '            .node\n' +
+    "              /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss.node doesn't exist\n" +
+    "        /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss doesn't exist\n" +
+    "      /home/ooke0392703/projects/node_modules doesn't exist or is not a directory\n" +
+    "      /home/ooke0392703/node_modules doesn't exist or is not a directory\n" +
+    "      /home/node_modules doesn't exist or is not a directory\n" +
+    "      /node_modules doesn't exist or is not a directory"
+}
+[config/tailwind.config.js] Failed to load workspace modules.
+[config/tailwind.config.js] Using bundled version of `tailwindcss`: v3.4.4
+[config/tailwind.config.js] Using bundled version of `postcss`: v8.4.31
+[config/tailwind.config.js] Building...
+[config/tailwind.config.js] File changed: /home/ooke0392703/projects/E-commercePrettyface/yarn.lock
+[config/tailwind.config.js] Initializing...
+[config/tailwind.config.js] supported features: ["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"]
+[config/tailwind.config.js] Loaded tailwindcss v3.4.4: /home/ooke0392703/projects/E-commercePrettyface/node_modules/tailwindcss
+[config/tailwind.config.js] Loaded Tailwind CSS config file: /home/ooke0392703/projects/E-commercePrettyface/config/tailwind.config.js
+[config/tailwind.config.js] Loaded postcss v8.4.39: /home/ooke0392703/projects/E-commercePrettyface/node_modules/postcss
+[config/tailwind.config.js] Building...

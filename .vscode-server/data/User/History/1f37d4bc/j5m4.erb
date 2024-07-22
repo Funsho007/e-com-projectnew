@@ -1,0 +1,10 @@
+<h1><%= @person.name %></h1>
+<p>Height: <%= @person.height %></p>
+<p>Mass: <%= @person.mass %></p>
+<p>Hair Color: <%= @person.hair_color %></p>
+<p>Skin Color: <%= @person.skin_color %></p>
+<p>Eye Color: <%= @person.eye_color %></p>
+<p>Birth Year: <%= @person.birth_year %></p>
+<p>Gender: <%= @person.gender %></p>
+<p>Home Planet: <%= link_to(@person.planet.name, planet_path(@person.planet)) if @person.planet %></p>
+<p>Species: <%= link_to(@person.species.name, species_path(@person.species)) if @person.species %></p>

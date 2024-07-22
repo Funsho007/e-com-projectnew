@@ -1,0 +1,25 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/ooke0392703/.cache/typescript/5.5/.npmrc
+5 silly config:load:file:/home/ooke0392703/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/ooke0392703/.npm/_logs/2024-07-14T22_26_23_671Z-
+10 verbose logfile /home/ooke0392703/.npm/_logs/2024-07-14T22_26_23_671Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/types-registry 438ms (cache revalidated)
+13 silly idealTree buildDeps
+14 silly fetch manifest types-registry@0.1.685
+15 silly placeDep ROOT types-registry@0.1.685 OK for:  want: 0.1.685
+16 silly reify moves {}
+17 silly audit bulk request { 'types-registry': [ '0.1.685' ] }
+18 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.685.tgz. Extracting by manifest.
+19 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 123ms
+20 silly audit report {}
+21 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.685.tgz 379ms (cache miss)
+22 silly ADD node_modules/types-registry
+23 verbose exit 0
+24 info ok

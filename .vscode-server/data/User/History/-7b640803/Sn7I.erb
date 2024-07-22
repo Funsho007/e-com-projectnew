@@ -1,0 +1,8 @@
+<h1>Vehicles</h1>
+<ul>
+  <% @vehicles.each do |vehicle| %>
+    <li><%= link_to vehicle.name, vehicle_path(vehicle) %></li>
+  <% end %>
+</ul>
+<%= link_to ' Main Page', root_path, class: "text-blue-500 hover:underline text-lg" %>
+  </div>

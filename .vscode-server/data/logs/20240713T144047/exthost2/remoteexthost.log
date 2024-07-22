@@ -1,0 +1,16 @@
+2024-07-13 14:41:02.923 [info] Extension host with pid 871784 started
+2024-07-13 14:41:03.259 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-13 14:41:03.273 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:03.274 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:03.275 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:05.367 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-13 14:41:05.409 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-07-13 14:41:05.938 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/413a92454c05e460d79c633fb7d9ea35/vscode.lock': Lock acquired.
+2024-07-13 14:41:06.209 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-13 14:41:06.210 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-13 14:41:15.400 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:15.401 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:15.402 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:15.403 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:42.092 [info] Eager extensions activated
+2024-07-13 21:18:10.135 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

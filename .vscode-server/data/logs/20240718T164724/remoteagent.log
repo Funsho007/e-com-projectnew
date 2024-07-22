@@ -1,0 +1,20 @@
+2024-07-18 16:47:24.984 [info] 
+
+
+
+
+2024-07-18 16:47:25.008 [info] Extension host agent started.
+2024-07-18 16:47:25.190 [info] Deleted uninstalled extension from disk shopify.ruby-extensions-pack /home/ooke0392703/.vscode-server/extensions/shopify.ruby-extensions-pack-0.1.9
+2024-07-18 16:47:25.191 [info] Deleted uninstalled extension from disk shopify.ruby-lsp /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.12
+2024-07-18 16:47:25.301 [info] [127.0.0.1][827c04f8][ManagementConnection] New connection established.
+2024-07-18 16:47:27.219 [info] [127.0.0.1][6fae9c0e][ExtensionHostConnection] New connection established.
+2024-07-18 16:47:27.225 [info] [127.0.0.1][6fae9c0e][ExtensionHostConnection] <739> Launched Extension Host Process.
+2024-07-18 16:47:33.275 [info] Getting Manifest... shopify.ruby-lsp
+2024-07-18 16:47:33.454 [info] Installing extension: shopify.ruby-lsp {"productVersion":{"version":"1.91.1","date":"2024-07-09T22:06:49.809Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ooke0392703/.vscode-server/extensions/extensions.json","external":"file:///home/ooke0392703/.vscode-server/extensions/extensions.json","path":"/home/ooke0392703/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-18 16:47:38.959 [info] Extension signature verification result for shopify.ruby-lsp: Success. Executed: true. Duration: 4745ms.
+2024-07-18 16:47:39.009 [info] Extracted extension to file:///home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14: shopify.ruby-lsp
+2024-07-18 16:47:39.018 [info] Renamed to /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14
+2024-07-18 16:47:39.044 [info] Marked extension as uninstalled shopify.ruby-lsp-0.7.13
+2024-07-18 16:47:39.051 [info] Extension installed successfully: shopify.ruby-lsp file:///home/ooke0392703/.vscode-server/extensions/extensions.json
+2024-07-18 17:17:41.381 [info] [127.0.0.1][827c04f8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-18 17:17:41.732 [info] [127.0.0.1][6fae9c0e][ExtensionHostConnection] <739> Extension Host Process exited with code: 0, signal: null.

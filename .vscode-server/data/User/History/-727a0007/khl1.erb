@@ -1,0 +1,36 @@
+<!-- app/views/home/index.html.erb -->
+<h1>Welcome to Pretty-faceHub</h1>
+<p>Your one-stop shop for all your makeup needs.</p>
+
+<h2>Available Types</h2>
+<ul>
+  <% @available_types.each do |type| %>
+    <li><%= type.name %></li>
+  <% end %>
+</ul>
+
+<h2>On Sale Products</h2>
+<div class="products">
+  <% @on_sale_products.each do |product| %>
+    <div class="product">
+      <h3><%= product.name %></h3>
+      <p><%= number_to_currency(product.price) %></p>
+      <% if product.image.attached? %>
+        <%= image_tag product.image, alt: product.name, style: "max-width: 100px;" %>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<h2>Recently Updated Products</h2>
+<div class="products">
+  <% @recently_updated_products.each do |product| %>
+    <div class="product">
+      <h3><%= product.name %></h3>
+      <p><%= number_to_currency(product.price) %></p>
+      <% if product.image.attached? %>
+        <%= image_tag product.image, alt: product.name, style: "max-width: 100px;" %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

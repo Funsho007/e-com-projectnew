@@ -1,0 +1,9 @@
+<div class="container">
+  <% if @page %>
+    <h1><%= @page.title %></h1>
+    <div><%= @page.content.html_safe %></div>
+  <% else %>
+    <h1>Page not found</h1>
+    <p>The page you are looking for does not exist.</p>
+  <% end %>
+</div>

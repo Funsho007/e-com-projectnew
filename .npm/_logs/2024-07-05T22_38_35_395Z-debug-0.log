@@ -1,0 +1,26 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/ooke0392703/.cache/typescript/5.4/.npmrc
+5 silly config:load:file:/home/ooke0392703/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/ooke0392703/.npm/_logs/2024-07-05T22_38_35_395Z-
+10 verbose logfile /home/ooke0392703/.npm/_logs/2024-07-05T22_38_35_395Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/types-registry 448ms (cache miss)
+13 silly idealTree buildDeps
+14 silly fetch manifest types-registry@0.1.685
+15 silly placeDep ROOT types-registry@0.1.685 REPLACE for:  want: 0.1.685
+16 silly reify moves {}
+17 silly audit bulk request {
+17 silly audit   '@popperjs/core': [ '2.11.8' ],
+17 silly audit   '@types/bootstrap': [ '5.2.10' ],
+17 silly audit   'types-registry': [ '0.1.685' ]
+17 silly audit }
+18 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 128ms
+19 silly audit report {}
+20 verbose exit 0
+21 info ok

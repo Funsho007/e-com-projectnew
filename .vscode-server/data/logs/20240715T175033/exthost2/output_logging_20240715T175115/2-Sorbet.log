@@ -1,0 +1,2 @@
+2024-07-15T22:51:19.575Z [info] Ignored start request, no active configuration. See https://sorbet.org/docs/vscode
+2024-07-15T22:51:23.172Z [error] Metrics-gathering disabled (error): Define the 'sorbet.metrics.getExportedApi' command to enable metrics gathering

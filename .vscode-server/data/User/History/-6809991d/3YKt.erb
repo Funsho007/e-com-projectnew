@@ -1,0 +1,5 @@
+<h1>Characters with this <%= params[:association].singularize.capitalize %></h1>
+
+<% @people_with_association.each do |person| %>
+  <p><%= link_to person.name, person_path(person) %></p>
+<% end %>

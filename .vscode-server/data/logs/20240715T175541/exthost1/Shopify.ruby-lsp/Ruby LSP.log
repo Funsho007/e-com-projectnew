@@ -1,0 +1,27 @@
+2024-07-15 17:56:06.750 [info] (E-commercePrettyface) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-15 17:56:07.755 [info] (E-commercePrettyface) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-15 17:56:08.759 [info] (E-commercePrettyface) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-15 17:56:09.979 [info] (E-commercePrettyface) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-15 17:56:11.200 [info] (E-commercePrettyface) Discovered version manager asdf
+2024-07-15 17:56:11.238 [info] (E-commercePrettyface) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/E-commercePrettyface using shell: /bin/bash
+2024-07-15 17:56:33.483 [info] (E-commercePrettyface) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-15 17:56:35.526 [info] (E-commercePrettyface) Resolving dependencies...
+
+2024-07-15 17:56:36.774 [info] (E-commercePrettyface) The Gemfile's dependencies are satisfied
+
+2024-07-15 17:56:45.089 [info] (E-commercePrettyface) Initializing Ruby LSP v0.17.7...
+
+2024-07-15 17:56:45.575 [info] (E-commercePrettyface) Finished initializing Ruby LSP!
+
+2024-07-15 17:56:46.180 [info] (E-commercePrettyface) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-15 17:56:46.374 [info] (E-commercePrettyface) Ruby LSP Rails booting server
+
+2024-07-15 17:57:26.634 [info] (E-commercePrettyface) Finished booting Ruby LSP Rails server
+
+2024-07-15 17:59:34.294 [info] (E-commercePrettyface) Fetching search index for Rails documentation
+
+2024-07-15 17:59:38.257 [info] (E-commercePrettyface) Finished fetching search index for Rails documentation
+

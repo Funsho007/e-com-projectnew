@@ -1,0 +1,18 @@
+<!-- app/views/species/show.html.erb -->
+
+<h1><%= @species.name %></h1>
+<p>Classification: <%= @species.classification %></p>
+<p>Designation: <%= @species.designation %></p>
+<p>Average Height: <%= @species.average_height %></p>
+<p>Average Lifespan: <%= @species.average_lifespan %></p>
+<p>Language: <%= @species.language %></p>
+
+<% if @species.planet %>
+  <p>Homeworld: <%= @species.planet.name %></p>
+  <p>Population: <%= @species.planet.population %></p>
+  <p>Climate: <%= @species.planet.climate %></p>
+  <p>Terrain: <%= @species.planet.terrain %></p>
+  <!-- Include other planet attributes as needed -->
+<% else %>
+  <p>No homeworld specified for this species.</p>
+<% end %>

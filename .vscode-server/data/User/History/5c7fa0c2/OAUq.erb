@@ -1,0 +1,25 @@
+<!-- app/views/spacecrafts/index.html.erb -->
+<h1>Spacecrafts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Model</th>
+      <th>Manufacturer</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @spacecrafts.each do |spacecraft| %>
+      <tr>
+        <td><%= spacecraft.name %></td>
+        <td><%= spacecraft.model %></td>
+        <td><%= spacecraft.manufacturer %></td>
+        <td><%= link_to 'Show', spacecraft_path(spacecraft) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Spacecraft', new_spacecraft_path %>

@@ -1,0 +1,133 @@
+<div class="container mx-auto p-4">
+  <h1 class="text-3xl font-bold mb-4">About StarWarsUniverse</h1>
+
+  <p class="text-lg mb-4">
+    Welcome to the Star Wars Universe application. This application uses the Star Wars API (SWAPI) and the Faker gem to fetch and generate data about various elements in the Star Wars universe.
+  </p>
+
+  <div class="mb-8">
+    <h2 class="text-2xl font-semibold mb-2">APIs and Data Sources</h2>
+    <ul class="list-disc list-inside">
+      <li class="mb-2">
+        <a href="https://swapi.dev/api/planets/" target="_blank" class="text-blue-500 hover:underline">SWAPI - Planets</a>: 
+        This endpoint provides data about the various planets in the Star Wars universe, including details such as name, climate, terrain, population, and more.
+      </li>
+      <li class="mb-2">
+        <a href="https://swapi.dev/api/people/" target="_blank" class="text-blue-500 hover:underline">SWAPI - People</a>: 
+        This endpoint provides data about characters in the Star Wars universe, including details such as name, height, mass, hair color, skin color, eye color, birth year, gender, and more.
+      </li>
+      <li class="mb-2">
+        <a href="https://faker.readthedocs.io/" target="_blank" class="text-blue-500 hover:underline">Faker</a>: 
+        The Faker gem is used to generate random data for development and testing purposes. It helps populate the database with realistic-looking data.
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 class="text-2xl font-semibold mb-2">Models</h2>
+    <ul class="list-disc list-inside">
+      <li class="mb-2">
+        <%= link_to 'Films', films_path, class: "text-blue-500 hover:underline" %>:
+        This model represents the films in the Star Wars series, including details such as title, episode number, director, producer, release date, and more.
+      </li>
+      <li class="mb-2">
+        <%= link_to 'People', people_path, class: "text-blue-500 hover:underline" %>:
+        This model represents characters in the Star Wars universe, including details such as name, height, mass, hair color, skin color, eye color, birth year, gender, and more.
+      </li>
+      <li class="mb-2">
+        <%= link_to 'Planets', planets_path, class: "text-blue-500 hover:underline" %>:
+        This model represents planets in the Star Wars universe, including details such as name, rotation period, orbital period, diameter, climate, gravity, terrain, surface water, population, and more.
+      </li>
+      <li class="mb-2">
+        <%= link_to 'Vehicles', vehicles_path, class: "text-blue-500 hover:underline" %>:
+        This model represents vehicles in the Star Wars universe, including details such as name, model, manufacturer, cost in credits, length, max speed, crew, passengers, cargo capacity, and more.
+      </li>
+      <li class="mb-2">
+        <%= link_to 'Starships', starships_path, class: "text-blue-500 hover:underline" %>:
+        This model represents starships in the Star Wars universe, including details such as name, model, manufacturer, cost in credits, length, max speed, crew, passengers, cargo capacity, hyperdrive rating, and more.
+      </li>
+      <li class="mb-2">
+        <%= link_to 'Species', species_index_path, class: "text-blue-500 hover:underline" %>:
+        This model represents species in the Star Wars universe, including details such as name, classification, designation, average height, skin colors, hair colors, eye colors, average lifespan, language, and more.
+      </li>
+    </ul>
+  </div>
+
+  <div class="mt-8">
+    <h2 class="text-2xl font-semibold mb-2">Data Integration and Associations</h2>
+    <p class="text-lg mb-4">
+      For the Star Wars website, I plan to utilize data from multiple sources provided by the Star Wars API (SWAPI). The data from SWAPI is structured as a collection of RESTful endpoints, each representing a specific category of Star Wars information such as planets, people, starships, vehicles, films, and species.
+      To integrate these different datasets, I will establish relationships between the tables based on the associations mentioned below. Here's an overview of the data, associations, and the required database tables and columns we will utilize:
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">1. People:</h3>
+    <p class="mb-2">
+      API Endpoint: People<br>
+      • Table Name: People<br>
+      • Columns: Person ID, Name, Height, Mass, Hair Color, Skin Color, Eye Color, Birth Year, Gender, Planet ID, Specie ID, Film IDs, Starship IDs, and Vehicle IDs.
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • Species Table: Many to One<br>
+      • Planets Table: Many to One<br>
+      • Films Table: Many to Many<br>
+      • Starships Table: Many to Many<br>
+      • Vehicles Table: Many to Many
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">2. Planets:</h3>
+    <p class="mb-2">
+      API Endpoint: Planets<br>
+      • Table Name: Planets<br>
+      • Columns: Planet ID, Name, Diameter, and Population
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • People Table: One to Many
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">3. Starships:</h3>
+    <p class="mb-2">
+      API Endpoint: Starships<br>
+      • Table Name: Starships<br>
+      • Columns: Starship ID, Name, Model, and Manufacturer.
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • People Table: Many to Many
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">4. Vehicles:</h3>
+    <p class="mb-2">
+      API Endpoint: Vehicles<br>
+      • Table Name: Vehicles<br>
+      • Columns: Vehicle ID, Name, Model, and Manufacturer.
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • People Table: Many to Many
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">5. Films:</h3>
+    <p class="mb-2">
+      API Endpoint: Films<br>
+      • Table Name: Films<br>
+      • Columns: Film ID, Title, Episode ID, Opening Crawl, Director, Producer, Release Date.
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • People Table: Many to Many
+    </p>
+
+    <h3 class="text-xl font-semibold mb-2">6. Species:</h3>
+    <p class="mb-2">
+      API Endpoint: Species<br>
+      • Table Name: Species<br>
+      • Columns: Species ID, Name, Average Lifespan, Language.
+    </p>
+    <p class="mb-2">
+      <strong>RELATIONSHIPS:</strong><br>
+      • People Table: One to Many
+    </p>
+  </div>
+</div>

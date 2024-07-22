@@ -1,0 +1,17 @@
+2024-07-13 14:41:03.303 [info] Extension host with pid 871817 started
+2024-07-13 14:41:03.509 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': Lock acquired.
+2024-07-13 14:41:04.014 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-13 14:41:04.017 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:04.017 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:04.029 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-13 14:41:06.005 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-13 14:41:06.303 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-13 14:41:06.304 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-13 14:41:16.408 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:16.412 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:16.413 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:16.414 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-13 14:41:30.105 [info] Eager extensions activated
+2024-07-13 14:43:22.054 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-13 21:18:10.508 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-14 17:26:15.487 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'

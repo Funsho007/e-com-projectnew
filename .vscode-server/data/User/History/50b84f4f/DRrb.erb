@@ -1,0 +1,22 @@
+<!-- app/views/spacecrafts/show.html.erb -->
+<h1><%= @spacecraft.name %></h1>
+
+<p>
+  <strong>Model:</strong>
+  <%= @spacecraft.model %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @spacecraft.manufacturer %>
+</p>
+
+<h2>Crew</h2>
+<ul>
+  <% @spacecraft.people.each do |person| %>
+    <li><%= link_to person.name, person_path(person) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_spacecraft_path(@spacecraft) %> |
+<%= link_to 'Back', spacecrafts_path %>

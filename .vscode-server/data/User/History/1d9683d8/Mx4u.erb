@@ -1,0 +1,119 @@
+<!-- app/views/products/index.html.erb -->
+<div class="container">
+  <%= render partial: 'filter' %>
+
+  <div class="container box">
+    <%= paginate @products %>
+    <% if params[:filter].present? %>
+      <% if params[:filter] == 'new' %>
+        <% if @products.empty? %>
+          <h3 class="title is-5">No New Products Found</h3>
+        <% else %>
+          <h3 class="title is-5">Current Filter: New Products</h3>
+        <% end %>
+      <% elsif params[:filter] == 'on_sale' %>
+        <% if @products.empty? %>
+          <h3 class="title is-5">No Products on Sale Found</h3>
+        <% else %>
+          <h3 class="title is-5">Current Filter: On Sale Products</h3>
+        <% end %>
+      <% end %>
+    <% else %>
+      <h3 class="title is-5">All Products</h3>
+    <% end %>
+
+    <div class="columns is-multiline">
+      <% @products.each do |product| %>
+        <div class="column is-one-quarter">
+          <div class="card equal-height-card">
+            <% if product.image_url.attached? %>
+              <div class="card-image">
+                <%= image_tag product.image_url.variant(resize_to_fit: [300, 200]), class: 'product-image' %>
+              </div>
+            <% end %>
+            <div class="card-content">
+              <h1 class="title is-size-5-touch is-truncated"><%= link_to product.name, product %></h1>
+              <p class="is-truncated"><%= product.brand.name %></p>
+              <div class="columns is-mobile">
+                <div class="column">
+                  <% if product.on_sale_status %>
+                    <p class="has-text-weight-bold"><span class="has-text-danger">-10%</span> $<%= (product.price * 0.9).round(2) %></p>
+                    <p class="has-text-decoration-line-through has-text-grey"><s>Price: $<%= product.price %></s></p>
+                  <% else %>
+                    <p>Price: $<%= product.price %></p>
+                  <% end %>
+                </div>
+                <div class="column is-narrow">
+                  <%= link_to 'View', product_path(product), class: 'button is-primary is-outlined mt-3' %>
+                </div>
+              </div>
+              <%= form_with(model: CartItem.new, url: cart_items_path, local: true) do |form| %>
+                <%= form.hidden_field :product_id, value: product.id %>
+                <%= form.number_field :quantity, value: 1, min: 1 %>
+                <%= form.submit 'Add to Cart', class: 'button is-link' %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<style>
+.is-purple-border {
+  border-color: purple;
+  color: purple; /* Optional: This will change the text color to purple as well */
+}
+
+.equal-height-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 20px; /* Add margin to separate cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better appearance */
+  transition: transform 0.3s ease; /* Smooth transform for hover effect */
+}
+
+.equal-height-card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
+.card-content {
+  flex: 1;
+  padding: 15px; /* Add padding inside the card content */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee; /* Separate image and content */
+  padding-bottom: 10px; /* Add padding below the image */
+}
+
+.card h1.title.is-size-5-touch.is-truncated {
+  font-size: 1.1em; /* Slightly increase font size */
+  margin-bottom: 10px; /* Add margin below title */
+}
+
+.card p.is-truncated {
+  margin-bottom: 10px; /* Add margin below brand name */
+}
+
+.card p.has-text-weight-bold {
+  margin-bottom: 5px; /* Add margin below sale price */
+}
+
+.card p.has-text-decoration-line-through.has-text-grey {
+  margin-bottom: 10px; /* Add margin below original price */
+}
+
+.container.box {
+  padding: 20px; /* Add padding to container box */
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+</style>

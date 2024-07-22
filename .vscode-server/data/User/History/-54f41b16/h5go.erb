@@ -1,0 +1,45 @@
+<!-- app/views/products/_filter.html.erb -->
+<div class="box">
+  <form action="<%= products_path %>" method="get">
+    <div class="field">
+      <label class="label">Search</label>
+      <div class="control">
+        <input class="input" type="text" name="q" placeholder="Search for products">
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Category</label>
+      <div class="control">
+        <div class="select">
+          <select name="category">
+            <option value="">All</option>
+            <% @categories.each do |category| %>
+              <option value="<%= category.id %>"><%= category.name %></option>
+            <% end %>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Brand</label>
+      <div class="control">
+        <div class="select">
+          <select name="brand">
+            <option value="">All</option>
+            <% @brands.each do |brand| %>
+              <option value="<%= brand.id %>"><%= brand.name %></option>
+            <% end %>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="control">
+        <button class="button is-primary" type="submit">Filter</button>
+      </div>
+    </div>
+  </form>
+</div>

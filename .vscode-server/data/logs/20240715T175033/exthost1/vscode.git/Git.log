@@ -1,0 +1,32 @@
+2024-07-15 17:50:48.214 [info] Log level: Info
+2024-07-15 17:50:48.214 [info] Validating found git in: "git"
+2024-07-15 17:50:48.214 [info] Using git "2.34.1" from "git"
+2024-07-15 17:50:48.214 [info] > git rev-parse --show-toplevel [16ms]
+2024-07-15 17:50:48.214 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-07-15 17:50:48.214 [info] Open repository: /home/ooke0392703/projects/testAdmin
+2024-07-15 17:50:48.217 [info] > git config --get commit.template [110ms]
+2024-07-15 17:50:48.247 [info] No remotes found in the git config file.
+2024-07-15 17:50:48.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-07-15 17:50:48.250 [warning] No such branch: main.
+2024-07-15 17:50:48.554 [info] > git status -z -uall [289ms]
+2024-07-15 17:50:49.031 [info] > git check-ignore -v -z --stdin [328ms]
+2024-07-15 17:50:49.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [541ms]
+2024-07-15 17:50:49.114 [warning] No such branch: main.
+2024-07-15 17:50:49.115 [info] > git rev-parse --show-toplevel [689ms]
+2024-07-15 17:50:49.149 [info] > git config --get commit.template [126ms]
+2024-07-15 17:50:49.151 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-15 17:50:49.164 [info] No remotes found in the git config file.
+2024-07-15 17:50:49.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-15 17:50:49.179 [warning] No such branch: main.
+2024-07-15 17:50:49.230 [info] > git rev-parse --show-toplevel [61ms]
+2024-07-15 17:50:49.260 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-15 17:50:49.276 [info] > git status -z -uall [48ms]
+2024-07-15 17:50:49.345 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [46ms]
+2024-07-15 17:50:49.345 [warning] No such branch: main.
+2024-07-15 17:50:49.358 [info] > git rev-parse --show-toplevel [82ms]
+2024-07-15 17:50:49.707 [info] > git rev-parse --show-toplevel [299ms]
+2024-07-15 17:50:49.761 [info] > git rev-parse --show-toplevel [19ms]
+2024-07-15 17:50:49.777 [info] > git rev-parse --show-toplevel [12ms]
+2024-07-15 17:50:49.809 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-15 17:50:49.839 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-15 17:50:49.887 [info] > git rev-parse --show-toplevel [2ms]

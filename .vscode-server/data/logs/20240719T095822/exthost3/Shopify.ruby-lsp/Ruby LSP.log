@@ -1,0 +1,37 @@
+2024-07-22 06:27:29.217 [info] (E-com-project-main) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-22 06:27:30.223 [info] (E-com-project-main) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-22 06:27:30.340 [info] (E-com-project-main) Discovered version manager rbenv
+2024-07-22 06:27:30.340 [info] (E-com-project-main) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/E-com-project-main using shell: /bin/bash
+2024-07-22 06:27:52.478 [info] (E-com-project-main) Ruby LSP> Skipping lockfile copies because there's no top level bundle
+
+2024-07-22 06:27:52.519 [info] (E-com-project-main) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp debug) || bundle install) 1>&2
+
+2024-07-22 06:27:52.803 [info] (E-com-project-main) The Gemfile's dependencies are satisfied
+
+2024-07-22 06:27:54.861 [info] (E-com-project-main) Fetching gem metadata from https://rubygems.org/
+2024-07-22 06:27:54.862 [info] (E-com-project-main) .
+2024-07-22 06:27:54.944 [info] (E-com-project-main) .
+2024-07-22 06:27:54.958 [info] (E-com-project-main) .
+2024-07-22 06:27:54.984 [info] (E-com-project-main) .
+2024-07-22 06:27:55.001 [info] (E-com-project-main) .
+2024-07-22 06:27:55.007 [info] (E-com-project-main) .
+2024-07-22 06:27:55.022 [info] (E-com-project-main) .
+2024-07-22 06:27:55.032 [info] (E-com-project-main) .
+2024-07-22 06:27:55.425 [info] (E-com-project-main) 
+
+2024-07-22 06:27:55.456 [info] (E-com-project-main) Resolving dependencies...
+
+2024-07-22 06:27:55.524 [info] (E-com-project-main) Resolving dependencies...
+
+2024-07-22 06:27:55.568 [info] (E-com-project-main) Using sorbet-runtime 0.5.11491 (was 0.5.11485)
+
+2024-07-22 06:27:56.352 [info] (E-com-project-main) Bundler attempted to update ruby-lsp but its version stayed the same
+
+2024-07-22 06:27:56.352 [info] (E-com-project-main) Bundler attempted to update debug but its version stayed the same
+Bundle updated!
+
+2024-07-22 06:27:57.604 [info] (E-com-project-main) Initializing Ruby LSP v0.17.8...
+
+2024-07-22 06:27:57.715 [info] (E-com-project-main) Finished initializing Ruby LSP!
+

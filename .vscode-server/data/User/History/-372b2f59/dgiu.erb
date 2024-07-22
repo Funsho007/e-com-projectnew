@@ -1,0 +1,25 @@
+<h1 class="text-2xl font-bold mb-4">Films</h1>
+
+<%= form_with url: films_path, method: :get, local: true, class: "mb-4" do %>
+  <div class="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0">
+    <div>
+      <%= label_tag :search, "Search Films", class: "block text-sm font-medium text-gray-700" %>
+      <%= text_field_tag :search, params[:search], class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" %>
+    </div>
+    <div>
+      <%= label_tag :director, "Filter by Director", class: "block text-sm font-medium text-gray-700" %>
+      <%= select_tag :director, options_for_select(@directors, params[:director]), include_blank: true, class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" %>
+    </div>
+    <div class="mt-4 md:mt-0">
+      <%= submit_tag "Search", class: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" %>
+    </div>
+  </div>
+<% end %>
+
+<ul class="space-y-2 mt-4">
+  <% @films.each do |film| %>
+    <li class="text-lg">
+      <%= link_to film.title, film_path(film), class: "text-indigo-600 hover:text-indigo-900" %>
+    </li>
+  <% end %>
+</ul>

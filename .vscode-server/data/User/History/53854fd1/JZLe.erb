@@ -1,0 +1,22 @@
+<!-- app/views/planets/show.html.erb -->
+<h1><%= @planet.name %></h1>
+
+<p>
+  <strong>Diameter:</strong>
+  <%= @planet.diameter %> km
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @planet.population %>
+</p>
+
+<h2>Residents</h2>
+<ul>
+  <% @planet.people.each do |person| %>
+    <li><%= link_to person.name, person_path(person) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_planet_path(@planet) %> |
+<%= link_to 'Back', planets_path %>

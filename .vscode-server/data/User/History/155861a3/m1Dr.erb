@@ -1,0 +1,39 @@
+<!-- app/views/admin/products/_form.html.erb -->
+
+<%= semantic_form_for [:admin, @product] do |f| %>
+  <div class="inputs">
+    <div class="input">
+      <%= f.input :name, as: :string, label: "Name" %>
+    </div>
+    <div class="input">
+      <%= f.input :brand, as: :select, collection: Brand.all.collect { |b| [b.name, b.id] }, label: "Brand" %>
+    </div>
+    <div class="input">
+      <%= f.input :type, as: :select, collection: Type.all.collect { |t| [t.name, t.id] }, label: "Type" %>
+    </div>
+    <div class="input">
+      <%= f.input :category, as: :select, collection: Category.all.collect { |c| [c.name, c.id] }, label: "Category" %>
+    </div>
+    <div class="input">
+      <%= f.input :price, as: :string, label: "Price" %>
+    </div>
+    <div class="input">
+      <%= f.input :description, as: :text, label: "Description" %>
+    </div>
+    <div class="input">
+      <%= f.input :image, as: :file, label: "Image" %>
+    </div>
+    <div class="input">
+      <%= f.input :on_sale, as: :boolean, label: "On Sale Status" %>
+    </div>
+    <div class="input">
+      <%= f.input :tags, as: :check_boxes, collection: Tag.all.collect { |t| [t.name, t.id] }, label: "Tags" %>
+    </div>
+  </div>
+  <div class="actions">
+    <%= f.actions do %>
+      <%= f.action :submit, label: "Create Product" %>
+      <%= f.action :cancel, wrapper_html: { class: "cancel" } %>
+    <% end %>
+  </div>
+<% end %>

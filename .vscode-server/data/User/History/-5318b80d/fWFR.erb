@@ -1,0 +1,11 @@
+<div class="container">
+ <h1><%= @page.title %></h1>
+<div><%= @page.content.html_safe %></div>
+    <%= @page.content.html_safe %>
+  </div>
+  <% if admin_user_signed_in? %>
+    <div class="buttons">
+      <%= link_to 'Edit Page', edit_page_path(@page), class: 'button is-primary' %>
+    </div>
+  <% end %>
+</div>

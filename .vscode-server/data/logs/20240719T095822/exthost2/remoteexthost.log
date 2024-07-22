@@ -1,0 +1,34 @@
+2024-07-19 15:23:50.269 [info] Extension host with pid 455454 started
+2024-07-19 15:23:50.300 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/bcaf08172bec35192f331bd45fec6526/vscode.lock': Lock acquired.
+2024-07-19 15:23:50.696 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-19 15:23:50.709 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-19 15:23:50.710 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:erb'
+2024-07-19 15:23:51.714 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-19 15:23:52.184 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-19 15:23:52.185 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-19 15:24:01.726 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 15:24:01.726 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 15:24:01.727 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 15:24:01.728 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 15:25:00.148 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-19 15:26:01.629 [info] Eager extensions activated
+2024-07-19 15:26:02.518 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at hs.shutdown (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:8468)
+	at hs.stop (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:8047)
+	at hs.stop (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:44:30271)
+	at hs.doInitialize (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:7872)
+	at async hs.start (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:4452)
+	at async Ra.start (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:56:522)
+	at async Ea.activateWorkspace (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:70:2829)
+	at async Ea.activate (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:70:1507)
+	at async CD (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:72:266)
+	at async c.n (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:6384)
+	at async c.m (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:6347)
+	at async c.l (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:5804)
+2024-07-19 15:27:00.355 [warning] DiagnosticCollection with name 'Ruby LSP' does already exist.
+2024-07-19 15:27:27.204 [warning] DiagnosticCollection with name 'Ruby LSP' does already exist.
+2024-07-19 15:31:41.925 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-19 15:31:41.926 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-19 15:35:16.080 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-07-21 20:16:48.166 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-21 20:29:20.626 [warning] DiagnosticCollection with name 'Ruby LSP' does already exist.

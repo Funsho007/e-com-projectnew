@@ -1,0 +1,887 @@
+Locating server…
+Booting server...
+Checking if /home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/assets/stylesheets/active_admin.scss may be Tailwind-related…
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"3.4.4","features":["layer:base","separator:root","content-list","jit","css-at-config","relative-content-paths","transpiled-configs"],"isDefaultVersion":true}}
+[Global] Creating projects: []
+[Global] Preparing projects...
+[Global] Initializing projects...
+[Global] Initialized 0 projects
+[Info  - 11:32:37 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb'
+}
+[Info  - 11:32:48 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/database.yml',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/database.yml'
+}
+[Info  - 11:39:10 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order.rb:Zone.Identifier'
+}
+[Info  - 11:39:12 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb'
+}
+[Info  - 11:48:06 AM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/about.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/about.rb'
+}
+[Info  - 12:01:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile'
+}
+[Info  - 12:02:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seeds.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seeds.rb'
+}
+[Info  - 12:04:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seeds.txt',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seeds.txt'
+}
+[Info  - 12:04:41 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 12:07:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb'
+}
+[Info  - 12:10:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 12:12:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile'
+}
+[Info  - 12:21:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 12:21:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile'
+}
+[Info  - 12:23:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 12:25:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb'
+}
+[Info  - 12:27:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 12:27:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb'
+}
+[Info  - 12:28:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 2:33:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb'
+}
+[Info  - 2:35:09 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.gitattributes_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.gitattributes_Zone.Identifier'
+}
+[Info  - 2:35:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.gitignore_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.gitignore_Zone.Identifier'
+}
+[Info  - 2:35:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/vendor/javascript/.keep_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/vendor/javascript/.keep_Zone.Identifier'
+}
+[Info  - 2:37:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 2:37:53 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb'
+}
+[Info  - 2:38:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb'
+}
+[Info  - 2:39:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb'
+}
+[Info  - 2:39:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier'
+}
+[Info  - 2:39:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier:Zone.Identifier'
+}
+[Info  - 2:39:57 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb:Zone.Identifier'
+}
+[Info  - 2:39:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier'
+}
+[Info  - 2:40:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb'
+}
+[Info  - 2:40:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb'
+}
+[Info  - 2:40:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:40:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:40:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:40:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:40:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:40:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:40:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:40:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:02 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:02 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb_Zone.Identifier'
+}
+[Info  - 2:41:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb:Zone.Identifier'
+}
+[Info  - 2:41:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 2:41:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:41:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:41:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 2:41:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:41:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:41:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 2:42:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:11 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:42:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 2:43:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:13 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 2:43:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb'
+}
+[Info  - 2:43:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb'
+}
+[Info  - 2:43:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb'
+}
+[Info  - 2:43:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.html.erb:Zone.Identifier'
+}
+[Info  - 2:43:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb'
+}
+[Info  - 2:43:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb'
+}
+[Info  - 2:43:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/mailer.text.erb'
+}
+[Info  - 2:43:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 2:43:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 2:43:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 2:44:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb'
+}
+[Info  - 2:44:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb'
+}
+[Info  - 2:44:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb:Zone.Identifier'
+}
+[Info  - 2:45:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb'
+}
+[Info  - 2:45:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb'
+}
+[Info  - 2:45:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/product_categories.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/product_categories.rb'
+}
+[Info  - 2:45:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/products.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/products.rb'
+}
+[Info  - 2:58:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb'
+}
+[Info  - 2:58:44 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb:Zone.Identifier'
+}
+[Info  - 2:58:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/abouts.rb_Zone.Identifier'
+}
+[Info  - 2:58:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb_Zone.Identifier'
+}
+[Info  - 2:59:12 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb_Zone.Identifier:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/contacts.rb_Zone.Identifier:Zone.Identifier'
+}
+[Info  - 2:59:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/dashboard.rb'
+}
+[Info  - 2:59:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/orders.rb'
+}
+[Info  - 2:59:24 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/product_categories.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/product_categories.rb'
+}
+[Info  - 2:59:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/products.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/admin/products.rb'
+}
+[Info  - 2:59:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/concerns/.keep',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/concerns/.keep'
+}
+[Info  - 2:59:49 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/about_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/about_controller.rb'
+}
+[Info  - 2:59:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/application_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/application_controller.rb'
+}
+[Info  - 2:59:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/base_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/base_controller.rb'
+}
+[Info  - 3:00:00 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/carts_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/carts_controller.rb'
+}
+[Info  - 3:00:04 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/home_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/home_controller.rb'
+}
+[Info  - 3:00:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/orders_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/orders_controller.rb'
+}
+[Info  - 3:00:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/about.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/about.rb'
+}
+[Info  - 3:00:28 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/admin_user.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/admin_user.rb'
+}
+[Info  - 3:00:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/application_record.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/application_record.rb'
+}
+[Info  - 3:00:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/contact.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/contact.rb'
+}
+[Info  - 3:00:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order_item.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order_item.rb'
+}
+[Info  - 3:00:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/order.rb'
+}
+[Info  - 3:00:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product_category.rb'
+}
+[Info  - 3:00:47 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/product.rb'
+}
+[Info  - 3:00:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/role.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/role.rb'
+}
+[Info  - 3:00:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/user_role.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/user_role.rb'
+}
+[Info  - 3:00:56 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/user.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/models/user.rb'
+}
+[Info  - 3:01:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb'
+}
+[Info  - 3:01:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb'
+}
+[Info  - 3:01:22 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb'
+}
+[Info  - 3:01:25 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/admin/home/index.html.erb:Zone.Identifier'
+}
+[Info  - 3:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb'
+}
+[Info  - 3:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb'
+}
+[Info  - 3:01:39 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/devise/confirmations/new.html.erb'
+}
+[Info  - 3:01:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 3:01:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 3:01:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/about.html.erb'
+}
+[Info  - 3:01:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 3:01:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 3:01:48 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/contact_us.html.erb'
+}
+[Info  - 3:01:51 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/home/index.html.erb'
+}
+[Info  - 3:02:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb:Zone.Identifier'
+}
+[Info  - 3:02:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb_Zone.Identifier:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb_Zone.Identifier:Zone.Identifier'
+}
+[Info  - 3:02:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:19 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/product_categories/show.html.erb'
+}
+[Info  - 3:02:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/application.rb'
+}
+[Info  - 3:02:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/environments/development.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/environments/development.rb'
+}
+[Info  - 3:03:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/active_admin.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/active_admin.rb'
+}
+[Info  - 3:03:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/assets.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/assets.rb'
+}
+[Info  - 3:03:31 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/content_security_policy.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/content_security_policy.rb'
+}
+[Info  - 3:03:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/devise.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/devise.rb'
+}
+[Info  - 3:03:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/filter_parameter_logging.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/filter_parameter_logging.rb'
+}
+[Info  - 3:03:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/inflections.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/inflections.rb'
+}
+[Info  - 3:03:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/kaminari_config.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/kaminari_config.rb'
+}
+[Info  - 3:03:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/permissions_policy.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/permissions_policy.rb'
+}
+[Info  - 3:03:50 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/rolify.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/rolify.rb'
+}
+[Info  - 3:03:52 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/stripe.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/initializers/stripe.rb'
+}
+[Info  - 3:03:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/boot.rb'
+}
+[Info  - 3:03:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/cable.yml',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/cable.yml'
+}
+[Info  - 3:04:55 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb'
+}
+[Info  - 3:04:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/puma.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/puma.rb'
+}
+[Info  - 3:05:01 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb'
+}
+[Info  - 3:05:16 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719190103_devise_create_users.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719190103_devise_create_users.rb'
+}
+[Info  - 3:05:20 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719190103_devise_create_users.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719190103_devise_create_users.rb:Zone.Identifier'
+}
+[Info  - 3:05:23 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb'
+}
+[Info  - 3:05:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192047_create_products.rb:Zone.Identifier'
+}
+[Info  - 3:05:28 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb'
+}
+[Info  - 3:05:31 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb:Zone.Identifier'
+}
+[Info  - 3:05:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192527_create_orders.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192527_create_orders.rb'
+}
+[Info  - 3:05:34 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192527_create_orders.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192527_create_orders.rb:Zone.Identifier'
+}
+[Info  - 3:05:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192645_create_order_items.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192645_create_order_items.rb'
+}
+[Info  - 3:05:37 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192645_create_order_items.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192645_create_order_items.rb:Zone.Identifier'
+}
+[Info  - 3:05:38 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193312_add_product_category_to_products.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193312_add_product_category_to_products.rb'
+}
+[Info  - 3:05:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193312_add_product_category_to_products.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193312_add_product_category_to_products.rb:Zone.Identifier'
+}
+[Info  - 3:05:40 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193446_add_user_to_orders.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193446_add_user_to_orders.rb'
+}
+[Info  - 3:05:42 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193446_add_user_to_orders.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193446_add_user_to_orders.rb:Zone.Identifier'
+}
+[Info  - 3:05:43 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193511_add_order_to_order_items.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193511_add_order_to_order_items.rb'
+}
+[Info  - 3:05:45 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193511_add_order_to_order_items.rb:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193511_add_order_to_order_items.rb:Zone.Identifier'
+}
+[Info  - 3:05:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193528_add_product_to_order_items.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719193528_add_product_to_order_items.rb'
+}
+[Info  - 3:05:58 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/schema.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/schema.rb'
+}
+[Info  - 3:06:10 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}
+[Info  - 3:06:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/.keep',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/.keep'
+}
+[Info  - 3:06:29 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/.keep:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/.keep:Zone.Identifier'
+}
+[Info  - 3:06:32 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/development.log',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/log/development.log'
+}
+[Info  - 3:06:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/storage/.keep',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/storage/.keep'
+}
+[Info  - 3:06:54 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version'
+}
+[Info  - 3:06:59 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version_Zone.Identifier'
+}
+[Info  - 3:07:03 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version:Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/.ruby-version:Zone.Identifier'
+}
+[Info  - 3:07:09 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/Gemfile'
+}
+[Info  - 3:07:26 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/assets/images/.keep_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/assets/images/.keep_Zone.Identifier'
+}
+[Info  - 3:07:35 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/assets/stylesheets/login.css_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/assets/stylesheets/login.css_Zone.Identifier'
+}
+[Info  - 3:07:36 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/channels/application_cable/channel.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/channels/application_cable/channel.rb_Zone.Identifier'
+}
+[Info  - 3:07:46 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/payments_controller.rb_Zone.Identifier',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/payments_controller.rb_Zone.Identifier'
+}
+[Info  - 3:13:06 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/_header.html.erb'
+}
+[Info  - 3:13:27 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 3:15:08 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/products_controller.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/controllers/products_controller.rb'
+}
+[Info  - 3:15:14 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/app/views/layouts/application.html.erb'
+}
+[Info  - 3:15:18 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/config/routes.rb'
+}
+[Info  - 3:15:21 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/schema.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/schema.rb'
+}
+[Info  - 3:15:33 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/migrate/20230719192248_create_product_categories.rb'
+}
+[Info  - 3:16:07 PM] [GLOBAL] No matching project for document {
+  fsPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb',
+  normalPath: '/home/ooke0392703/projects/E-com-project-main/E-com-project-main/db/seed.rb'
+}

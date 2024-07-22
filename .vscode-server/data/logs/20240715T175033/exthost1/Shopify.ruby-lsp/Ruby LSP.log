@@ -1,0 +1,6 @@
+2024-07-15 17:50:49.440 [info] (testAdmin) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-15 17:50:50.464 [info] (testAdmin) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-15 17:50:51.827 [info] (testAdmin) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-15 17:50:53.055 [info] (testAdmin) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-15 17:50:53.727 [info] (testAdmin) Discovered version manager asdf
+2024-07-15 17:50:53.742 [info] (testAdmin) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/testAdmin using shell: undefined

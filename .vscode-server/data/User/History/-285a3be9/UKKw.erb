@@ -1,0 +1,25 @@
+<!-- app/views/species/show.html.erb -->
+
+<h1><%= @species.name %></h1>
+<p>Classification: <%= @species.classification %></p>
+<p>Designation: <%= @species.designation %></p>
+<p>Average Height: <%= @species.average_height %></p>
+<p>Average Lifespan: <%= @species.average_lifespan %></p>
+<p>Language: <%= @species.language %></p>
+
+<% if @species.planet %>
+  <p>Homeworld: <%= @species.planet.name %></p>
+  <p>Population: <%= @species.planet.population %></p>
+  <p>Climate: <%= @species.planet.climate %></p>
+  <p>Terrain: <%= @species.planet.terrain %></p>
+
+<% else %>
+  <p>No homeworld specified for this species.</p>
+
+<p>
+  <%= link_to 'Home', root_path %> <!-- This links back to the homepage -->
+</p>
+<% end %>
+<%= link_to ' Main Page', root_path, class: "text-blue-500 hover:underline text-lg" %>
+<a href="javascript:history.back()" class="text-blue-500 hover:underline text-lg">Go Back</a>
+  </div>

@@ -1,0 +1,52 @@
+2024-07-11 13:34:24.801 [info] (StarWarsUniverse) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-11 13:34:25.806 [info] (StarWarsUniverse) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-11 13:34:26.808 [info] (StarWarsUniverse) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-11 13:34:28.052 [info] (StarWarsUniverse) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-11 13:34:28.535 [info] (StarWarsUniverse) Discovered version manager asdf
+2024-07-11 13:34:28.551 [info] (StarWarsUniverse) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/StarWarsUniverse using shell: undefined
+2024-07-11 13:35:00.400 [info] (StarWarsUniverse) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/StarWarsUniverse/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-11 13:35:00.418 [info] (StarWarsUniverse) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-11 13:35:00.806 [info] (StarWarsUniverse) The Gemfile's dependencies are satisfied
+
+2024-07-11 13:35:03.732 [info] (StarWarsUniverse) Fetching gem metadata from https://rubygems.org/
+2024-07-11 13:35:03.736 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.318 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.575 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.794 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.871 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.919 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.946 [info] (StarWarsUniverse) .
+2024-07-11 13:35:04.950 [info] (StarWarsUniverse) .
+2024-07-11 13:35:07.464 [info] (StarWarsUniverse) 
+
+2024-07-11 13:35:07.565 [info] (StarWarsUniverse) Resolving dependencies...
+
+2024-07-11 13:35:08.855 [info] (StarWarsUniverse) Using sorbet-runtime 0.5.11480 (was 0.5.11475)
+
+2024-07-11 13:35:08.867 [info] (StarWarsUniverse) Using rbs 3.5.2 (was 3.5.1)
+
+2024-07-11 13:35:08.871 [info] (StarWarsUniverse) Using ruby-lsp 0.17.6 (was 0.17.4)
+
+2024-07-11 13:35:08.888 [info] (StarWarsUniverse) Fetching ruby-lsp-rails 0.3.10 (was 0.3.8)
+
+2024-07-11 13:35:09.132 [info] (StarWarsUniverse) Installing ruby-lsp-rails 0.3.10 (was 0.3.8)
+
+2024-07-11 13:35:10.387 [info] (StarWarsUniverse) Bundle updated!
+
+2024-07-11 13:35:12.682 [info] (StarWarsUniverse) Initializing Ruby LSP v0.17.6...
+
+2024-07-11 13:35:12.796 [info] (StarWarsUniverse) Finished initializing Ruby LSP!
+
+2024-07-11 13:35:12.874 [info] (StarWarsUniverse) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-11 13:35:12.947 [info] (StarWarsUniverse) Ruby LSP Rails booting server
+
+2024-07-11 13:35:23.866 [info] (StarWarsUniverse) Finished booting Ruby LSP Rails server
+
+2024-07-11 13:54:20.053 [info] (StarWarsUniverse) Fetching search index for Rails documentation
+
+2024-07-11 13:54:22.897 [info] (StarWarsUniverse) Finished fetching search index for Rails documentation
+

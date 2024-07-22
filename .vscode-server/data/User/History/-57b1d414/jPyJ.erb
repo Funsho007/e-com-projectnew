@@ -1,0 +1,30 @@
+<!-- app/views/films/index.html.erb -->
+<h1>Films</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Episode ID</th>
+      <th>Director</th>
+      <th>Producer</th>
+      <th>Release Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @films.each do |film| %>
+      <tr>
+        <td><%= film.title %></td>
+        <td><%= film.episode_id %></td>
+        <td><%= film.director %></td>
+        <td><%= film.producer %></td>
+        <td><%= film.release_date %></td>
+        <td><%= link_to 'Show', film_path(film) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Film', new_film_path %>
+

@@ -1,0 +1,162 @@
+2024-07-16 15:10:54.157 [info] 
+
+
+
+
+2024-07-16 15:10:54.202 [info] Extension host agent started.
+2024-07-16 15:10:54.561 [info] [127.0.0.1][f040d9d0][ManagementConnection] New connection established.
+2024-07-16 15:10:56.079 [info] [127.0.0.1][627150eb][ExtensionHostConnection] New connection established.
+2024-07-16 15:10:56.170 [info] [127.0.0.1][627150eb][ExtensionHostConnection] <857> Launched Extension Host Process.
+2024-07-16 15:11:09.548 [info] Getting Manifest... shopify.ruby-extensions-pack
+2024-07-16 15:11:09.549 [info] Getting Manifest... shopify.ruby-lsp
+2024-07-16 15:11:09.765 [info] Installing extension: shopify.ruby-extensions-pack {"productVersion":{"version":"1.91.1","date":"2024-07-09T22:06:49.809Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ooke0392703/.vscode-server/extensions/extensions.json","external":"file:///home/ooke0392703/.vscode-server/extensions/extensions.json","path":"/home/ooke0392703/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-16 15:11:09.906 [info] Installing extension: shopify.ruby-lsp {"productVersion":{"version":"1.91.1","date":"2024-07-09T22:06:49.809Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ooke0392703/.vscode-server/extensions/extensions.json","external":"file:///home/ooke0392703/.vscode-server/extensions/extensions.json","path":"/home/ooke0392703/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-07-16 15:11:18.791 [info] Extension signature verification result for shopify.ruby-lsp: Success. Executed: true. Duration: 7809ms.
+2024-07-16 15:11:18.808 [info] Extension signature verification result for shopify.ruby-extensions-pack: Success. Executed: true. Duration: 7861ms.
+2024-07-16 15:11:18.882 [info] Extracted extension to file:///home/ooke0392703/.vscode-server/extensions/shopify.ruby-extensions-pack-0.1.10: shopify.ruby-extensions-pack
+2024-07-16 15:11:18.905 [info] Extracted extension to file:///home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.13: shopify.ruby-lsp
+2024-07-16 15:11:18.922 [info] Renamed to /home/ooke0392703/.vscode-server/extensions/shopify.ruby-extensions-pack-0.1.10
+2024-07-16 15:11:18.938 [info] Renamed to /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.13
+2024-07-16 15:11:18.959 [info] Marked extension as uninstalled shopify.ruby-extensions-pack-0.1.9
+2024-07-16 15:11:18.967 [info] Extension installed successfully: shopify.ruby-extensions-pack file:///home/ooke0392703/.vscode-server/extensions/extensions.json
+2024-07-16 15:11:18.985 [info] Marked extension as uninstalled shopify.ruby-lsp-0.7.12
+2024-07-16 15:11:18.993 [info] Extension installed successfully: shopify.ruby-lsp file:///home/ooke0392703/.vscode-server/extensions/extensions.json
+2024-07-17 06:43:03.511 [info] [127.0.0.1][ee74abb3][ManagementConnection] New connection established.
+2024-07-17 06:43:04.166 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] New connection established.
+2024-07-17 06:43:04.204 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] <395224> Launched Extension Host Process.
+2024-07-17 07:06:55.788 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 08:02:52.891 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 08:02:53.033 [info] [127.0.0.1][f040d9d0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 08:02:56.359 [info] [127.0.0.1][f040d9d0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 08:02:56.360 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 08:02:56.361 [info] [127.0.0.1][627150eb][ExtensionHostConnection] The client has reconnected.
+2024-07-17 08:02:57.124 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 08:02:57.855 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-17 08:02:58.644 [info] [127.0.0.1][f040d9d0][ManagementConnection] The client has reconnected.
+2024-07-17 09:07:19.899 [info] [127.0.0.1][f040d9d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-17 09:07:20.582 [info] [127.0.0.1][627150eb][ExtensionHostConnection] <857> Extension Host Process exited with code: 0, signal: null.
+2024-07-17 09:07:47.117 [info] [127.0.0.1][da6b9fbc][ManagementConnection] New connection established.
+2024-07-17 09:07:47.795 [info] [127.0.0.1][d45c4239][ExtensionHostConnection] New connection established.
+2024-07-17 09:07:47.835 [info] [127.0.0.1][d45c4239][ExtensionHostConnection] <419628> Launched Extension Host Process.
+2024-07-17 09:07:55.312 [info] [127.0.0.1][da6b9fbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-17 09:07:55.607 [info] [127.0.0.1][d45c4239][ExtensionHostConnection] <419628> Extension Host Process exited with code: 0, signal: null.
+2024-07-17 09:08:10.396 [info] [127.0.0.1][ebb424dc][ManagementConnection] New connection established.
+2024-07-17 09:08:10.977 [info] [127.0.0.1][d69fded8][ExtensionHostConnection] New connection established.
+2024-07-17 09:08:10.997 [info] [127.0.0.1][d69fded8][ExtensionHostConnection] <419993> Launched Extension Host Process.
+2024-07-17 10:50:32.375 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 10:50:56.598 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 10:52:59.978 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 10:52:59.978 [info] [127.0.0.1][ebb424dc][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 10:53:11.092 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 10:53:11.093 [info] [127.0.0.1][ebb424dc][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 10:53:11.094 [info] [127.0.0.1][d69fded8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 10:53:11.564 [info] [127.0.0.1][ebb424dc][ManagementConnection] The client has reconnected.
+2024-07-17 10:53:12.075 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 10:53:13.686 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-17 13:12:28.445 [info] [127.0.0.1][ebb424dc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-17 13:12:29.236 [info] [127.0.0.1][d69fded8][ExtensionHostConnection] <419993> Extension Host Process exited with code: 0, signal: null.
+2024-07-17 13:13:25.029 [info] [127.0.0.1][d9191cb2][ManagementConnection] New connection established.
+2024-07-17 13:13:25.701 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] New connection established.
+2024-07-17 13:13:25.708 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] <485350> Launched Extension Host Process.
+2024-07-17 14:26:18.727 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-17 14:26:19.221 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-17 14:26:19.655 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-17 14:26:19.983 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 14:54:04.205 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 15:01:55.970 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 15:01:55.972 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 15:01:57.320 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 15:01:57.320 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 15:01:57.321 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-17 15:01:59.221 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-17 15:02:00.070 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-17 15:02:00.564 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 15:49:01.734 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 15:53:09.595 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 15:53:09.621 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 15:53:16.524 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 15:53:16.524 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 15:53:16.525 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-17 15:53:17.834 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 15:53:19.662 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-17 15:53:19.666 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-17 18:43:26.804 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-17 19:58:49.184 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 19:58:49.591 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-17 19:58:58.815 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 19:58:58.815 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-17 19:58:58.816 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-17 19:58:59.454 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-17 19:59:22.125 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] The client has reconnected.
+2024-07-17 19:59:22.134 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has reconnected.
+2024-07-18 07:50:34.385 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 07:50:40.566 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 08:52:14.018 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 08:52:14.021 [info] [127.0.0.1][ee74abb3][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 08:54:13.615 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 08:56:03.966 [info] [127.0.0.1][ee74abb3][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 08:56:03.967 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 08:56:03.967 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-18 08:56:06.933 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 09:01:05.063 [info] [127.0.0.1][ee74abb3][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-18 09:01:07.889 [info] [127.0.0.1][3a27f2a8][ExtensionHostConnection] <395224> Extension Host Process exited with code: 0, signal: null.
+2024-07-18 09:56:46.963 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 10:02:58.965 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 10:03:13.280 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 10:03:13.281 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 10:03:16.663 [error] [127.0.0.1][3a27f2a8][ExtensionHostConnection] Unknown reconnection token (seen before).
+2024-07-18 10:03:18.619 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-18 10:05:32.822 [info] [127.0.0.1][5bc63511][ManagementConnection] New connection established.
+2024-07-18 10:05:56.374 [info] [127.0.0.1][ce65d16a][ExtensionHostConnection] New connection established.
+2024-07-18 10:05:56.378 [info] [127.0.0.1][ce65d16a][ExtensionHostConnection] <559172> Launched Extension Host Process.
+2024-07-18 13:00:48.941 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 13:00:49.136 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 13:17:57.868 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 13:17:57.868 [info] [127.0.0.1][5bc63511][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 13:17:57.869 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-18 13:18:04.416 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 13:18:10.127 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has reconnected.
+2024-07-18 13:19:27.235 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 13:19:27.237 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 13:19:27.237 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 14:46:00.992 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 14:46:00.993 [info] [127.0.0.1][5bc63511][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 14:46:00.993 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-18 14:46:01.982 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 14:46:06.706 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has reconnected.
+2024-07-18 14:46:07.945 [info] [127.0.0.1][ce65d16a][ExtensionHostConnection] The client has reconnected.
+2024-07-18 15:08:53.498 [info] [127.0.0.1][8e37cd29][ManagementConnection] New connection established.
+2024-07-18 15:08:54.114 [info] [127.0.0.1][6b2066e7][ExtensionHostConnection] New connection established.
+2024-07-18 15:08:54.160 [info] [127.0.0.1][6b2066e7][ExtensionHostConnection] <609552> Launched Extension Host Process.
+2024-07-18 15:09:52.426 [info] [127.0.0.1][8e37cd29][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-18 15:09:52.526 [info] [127.0.0.1][6b2066e7][ExtensionHostConnection] <609552> Extension Host Process exited with code: 0, signal: null.
+2024-07-18 15:09:58.039 [info] [127.0.0.1][48e62a6b][ManagementConnection] New connection established.
+2024-07-18 15:09:58.358 [info] [127.0.0.1][1c3e4d3a][ExtensionHostConnection] New connection established.
+2024-07-18 15:09:58.650 [info] [127.0.0.1][1c3e4d3a][ExtensionHostConnection] <609860> Launched Extension Host Process.
+2024-07-18 15:50:06.257 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 15:50:06.258 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 15:50:06.258 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 15:50:06.258 [info] [127.0.0.1][48e62a6b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 15:54:37.222 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 15:54:37.222 [info] [127.0.0.1][5bc63511][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 15:54:37.222 [info] [127.0.0.1][48e62a6b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 15:54:37.223 [info] [127.0.0.1][48e62a6b][ManagementConnection] The client has reconnected.
+2024-07-18 15:54:38.288 [info] [127.0.0.1][1c3e4d3a][ExtensionHostConnection] The client has reconnected.
+2024-07-18 15:54:41.103 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 15:54:41.147 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+2024-07-18 15:54:42.053 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has reconnected.
+2024-07-18 15:54:50.991 [info] [127.0.0.1][ce65d16a][ExtensionHostConnection] The client has reconnected.
+2024-07-18 16:29:10.333 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-18 16:29:10.333 [info] [127.0.0.1][48e62a6b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 16:29:10.334 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 16:29:10.334 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 16:30:37.949 [info] [127.0.0.1][d9191cb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 16:30:37.949 [info] [127.0.0.1][5bc63511][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 16:30:37.949 [info] [127.0.0.1][48e62a6b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 16:30:37.949 [info] [127.0.0.1][5bc63511][ManagementConnection] The client has reconnected.
+2024-07-18 16:30:41.238 [info] [127.0.0.1][1c3e4d3a][ExtensionHostConnection] The client has reconnected.
+2024-07-18 16:30:42.146 [info] [127.0.0.1][ce65d16a][ExtensionHostConnection] The client has reconnected.
+2024-07-18 16:30:42.560 [info] [127.0.0.1][48e62a6b][ManagementConnection] The client has reconnected.
+2024-07-18 16:30:43.358 [info] [127.0.0.1][d9191cb2][ManagementConnection] The client has reconnected.
+2024-07-18 16:30:43.369 [info] [127.0.0.1][5aaa4dc1][ExtensionHostConnection] The client has reconnected.
+                                                                                                                                                                                                                 

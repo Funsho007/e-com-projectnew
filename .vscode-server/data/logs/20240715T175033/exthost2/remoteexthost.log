@@ -1,0 +1,20 @@
+2024-07-15 17:51:15.678 [info] Extension host with pid 247917 started
+2024-07-15 17:51:15.678 [error] Error: EEXIST: file already exists, open '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock'
+2024-07-15 17:51:16.022 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-15 17:51:16.056 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-15 17:51:16.058 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 17:51:16.058 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 17:51:16.059 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 17:51:18.556 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-15 17:51:18.694 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': The lock does not look stale, elapsed: 146 ms, giving up.
+2024-07-15 17:51:18.715 [error] Error: EEXIST: file already exists, open '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da-1/vscode.lock'
+2024-07-15 17:51:18.730 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-15 17:51:18.731 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da-1/vscode.lock': The pid 1322313 appears to be gone.
+2024-07-15 17:51:18.731 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da-1/vscode.lock': Deleting a stale lock.
+2024-07-15 17:51:18.917 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da-1/vscode.lock': Lock acquired.
+2024-07-15 17:51:19.591 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-15 17:51:19.591 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-15 17:51:28.621 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 17:51:28.622 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 17:51:28.623 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 17:51:28.623 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'

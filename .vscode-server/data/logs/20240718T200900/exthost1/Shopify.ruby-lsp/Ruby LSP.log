@@ -1,0 +1,124 @@
+2024-07-18 20:09:08.285 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 20:09:08.858 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 20:09:08.997 [info] (finest) Discovered version manager rbenv
+2024-07-18 20:09:08.997 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 20:09:09.348 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 20:09:47.069 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-18 20:09:47.088 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-18 20:09:47.430 [info] (finest) The Gemfile's dependencies are satisfied
+
+2024-07-18 20:09:49.368 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-18 20:09:49.371 [info] (finest) .
+2024-07-18 20:09:49.671 [info] (finest) .
+2024-07-18 20:09:49.786 [info] (finest) .
+2024-07-18 20:09:49.915 [info] (finest) .
+2024-07-18 20:09:49.973 [info] (finest) .
+2024-07-18 20:09:50.053 [info] (finest) .
+2024-07-18 20:09:50.068 [info] (finest) .
+2024-07-18 20:09:50.072 [info] (finest) .
+2024-07-18 20:09:50.074 [info] (finest) .
+2024-07-18 20:09:51.714 [info] (finest) 
+
+2024-07-18 20:09:51.796 [info] (finest) Resolving dependencies...
+
+2024-07-18 20:09:52.332 [info] (finest) Resolving dependencies...
+
+2024-07-18 20:09:52.932 [info] (finest) Fetching base64 0.2.0
+
+2024-07-18 20:09:52.933 [info] (finest) Fetching mutex_m 0.2.0
+
+2024-07-18 20:09:52.940 [info] (finest) Fetching logger 1.6.0
+
+2024-07-18 20:09:52.941 [info] (finest) Using sorbet-runtime 0.5.11485 (was 0.5.11481)
+
+2024-07-18 20:09:53.175 [info] (finest) Installing mutex_m 0.2.0
+
+2024-07-18 20:09:53.178 [info] (finest) Installing base64 0.2.0
+
+2024-07-18 20:09:53.178 [info] (finest) Installing logger 1.6.0
+
+2024-07-18 20:09:53.204 [info] (finest) Using ruby-lsp 0.17.8 (was 0.17.7)
+
+2024-07-18 20:09:53.963 [info] (finest) Bundler attempted to update ruby-lsp-rails but its version stayed the same
+Bundle updated!
+
+2024-07-18 20:09:55.723 [info] (finest) Initializing Ruby LSP v0.17.8...
+
+2024-07-18 20:09:55.831 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-18 20:09:55.996 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-18 20:09:56.014 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-18 20:10:00.303 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-18 20:17:32.830 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-18 20:17:34.801 [info] (finest) Finished fetching search index for Rails documentation
+
+2024-07-18 21:20:00.375 [info] (finest) Shutting down Ruby LSP...
+
+2024-07-18 21:20:00.383 [info] (finest) Ruby LSP Rails shutting down server
+
+2024-07-18 21:20:00.892 [info] (finest) Shutdown complete with status 0
+
+2024-07-18 21:20:00.902 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 21:20:01.268 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 21:20:01.385 [info] (finest) Discovered version manager rbenv
+2024-07-18 21:20:01.385 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 21:20:01.780 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 21:20:02.182 [info] (finest) [Error - 9:20:02 PM] Server process exited with code 0.
+2024-07-18 21:20:33.639 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 21:20:33.825 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 21:20:33.930 [info] (finest) Discovered version manager rbenv
+2024-07-18 21:20:33.930 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 21:20:34.178 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-18 21:21:16.830 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 21:21:17.204 [info] (finest) Bundler can't satisfy your Gemfile's dependencies.
+Install missing gems with `bundle install`.
+
+2024-07-18 21:21:18.716 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-18 21:21:18.716 [info] (finest) .
+2024-07-18 21:21:19.117 [info] (finest) .
+2024-07-18 21:21:19.206 [info] (finest) .
+2024-07-18 21:21:19.274 [info] (finest) .
+2024-07-18 21:21:19.322 [info] (finest) .
+2024-07-18 21:21:19.383 [info] (finest) .
+2024-07-18 21:21:19.398 [info] (finest) .
+2024-07-18 21:21:19.402 [info] (finest) .
+2024-07-18 21:21:19.403 [info] (finest) .
+2024-07-18 21:21:20.762 [info] (finest) 
+
+2024-07-18 21:21:20.825 [info] (finest) Resolving dependencies...
+
+2024-07-18 21:21:21.738 [info] (finest) Fetching ruby-lsp-rails 0.3.10
+
+2024-07-18 21:21:21.976 [info] (finest) Installing ruby-lsp-rails 0.3.10
+
+2024-07-18 21:21:22.608 [info] (finest) Bundle complete! 24 Gemfile dependencies, 119 gems now installed.
+
+2024-07-18 21:21:22.608 [info] (finest) Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+2024-07-18 21:21:23.695 [info] (finest) Initializing Ruby LSP v0.17.8...
+
+2024-07-18 21:21:23.785 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-18 21:21:23.891 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-18 21:21:23.903 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-18 21:21:28.774 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-19 07:54:03.730 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-19 07:54:05.864 [info] (finest) Finished fetching search index for Rails documentation
+
+2024-07-19 09:56:36.084 [info] (finest) Shutting down Ruby LSP...
+
+2024-07-19 09:56:36.106 [info] (finest) Ruby LSP Rails shutting down server
+

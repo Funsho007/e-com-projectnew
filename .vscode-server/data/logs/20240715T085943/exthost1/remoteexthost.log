@@ -1,0 +1,20 @@
+2024-07-15 08:59:49.772 [info] Extension host with pid 1062 started
+2024-07-15 08:59:49.939 [error] Error: EEXIST: file already exists, open '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock'
+2024-07-15 08:59:49.986 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-15 08:59:49.988 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 08:59:49.989 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 08:59:50.000 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-15 08:59:52.256 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-15 08:59:52.302 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-15 08:59:52.330 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': The pid 871817 appears to be gone.
+2024-07-15 08:59:52.330 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': Deleting a stale lock.
+2024-07-15 08:59:52.381 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/46786c98034b81e1d90701387053c2da/vscode.lock': Lock acquired.
+2024-07-15 08:59:52.527 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-15 08:59:52.528 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-15 09:00:02.261 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 09:00:02.262 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 09:00:02.262 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 09:00:02.262 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 09:01:46.118 [info] Eager extensions activated
+2024-07-15 09:02:10.488 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-15 09:25:22.812 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'

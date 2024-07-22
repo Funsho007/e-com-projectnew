@@ -1,0 +1,2 @@
+web: bundle exec rdbg --open -n -c --bundle exec bin/rails server  "rdbg":
+css: bin/rails tailwindcss:watch

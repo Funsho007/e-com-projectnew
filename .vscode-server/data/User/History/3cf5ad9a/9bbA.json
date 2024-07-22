@@ -1,0 +1,35 @@
+{
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "redhat.telemetry.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Spinel",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": -1,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.cursorWidth": 100,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "livePreview.customExternalBrowser": "Chrome",
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "editor.rulers": [
+            120
+        ],
+        "editor.semanticHighlighting.enabled": true
+    },
+    "remote.SSH.remotePlatform": {
+        "WEb_Security": "linux"
+    },
+    "rubyLsp.rubyExecutablePath": "/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby"
+}

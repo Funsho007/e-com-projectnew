@@ -1,0 +1,28 @@
+<h1>Your Cart</h1>
+
+<% @cart.cart_items.each do |item| %>
+  <div class="cart-item box">
+    <p><strong>Product:</strong> <%= item.product.name %></p>
+    <p><strong>Quantity:</strong> <%= item.quantity %></p>
+
+    <%= form_with model: item, method: :delete, local: true do |form| %>
+      <%= form.submit 'Remove from Cart', class: 'button is-danger' %>
+    <% end %>
+
+    <%= form_with(model: item, local: true) do |form| %>
+      <div class="field">
+        <%= form.label :quantity %>
+        <div class="control">
+          <%= form.number_field :quantity, min: 1, class: 'input' %>
+        </div>
+      </div>
+      <div class="field">
+        <div class="control">
+          <%= form.submit 'Update Quantity', class: 'button is-link' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<%= link_to 'Back to Products', products_path, class: 'button is-info' %>

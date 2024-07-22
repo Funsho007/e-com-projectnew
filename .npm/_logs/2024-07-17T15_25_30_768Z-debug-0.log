@@ -1,0 +1,31 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/ooke0392703/.cache/typescript/5.5/.npmrc
+5 silly config:load:file:/home/ooke0392703/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install @types/bootstrap@ts5.5
+8 verbose argv "install" "--ignore-scripts" "@types/bootstrap@ts5.5" "--save-dev" "--user-agent" "typesInstaller/5.5.2"
+9 verbose logfile logs-max:10 dir:/home/ooke0392703/.npm/_logs/2024-07-17T15_25_30_768Z-
+10 verbose logfile /home/ooke0392703/.npm/_logs/2024-07-17T15_25_30_768Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 280ms (cache revalidated)
+13 silly idealTree buildDeps
+14 silly fetch manifest @types/bootstrap@5.2.10
+15 silly placeDep ROOT @types/bootstrap@5.2.10 OK for:  want: 5.2.10
+16 silly fetch manifest @popperjs/core@^2.9.2
+17 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 102ms (cache revalidated)
+18 silly placeDep ROOT @popperjs/core@2.11.8 OK for: @types/bootstrap@5.2.10 want: ^2.9.2
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   'types-registry': [ '0.1.685' ],
+20 silly audit   '@types/bootstrap': [ '5.2.10' ],
+20 silly audit   '@popperjs/core': [ '2.11.8' ]
+20 silly audit }
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 127ms
+22 silly audit report {}
+23 silly ADD node_modules/@popperjs/core
+24 silly ADD node_modules/@types/bootstrap
+25 verbose exit 0
+26 info ok

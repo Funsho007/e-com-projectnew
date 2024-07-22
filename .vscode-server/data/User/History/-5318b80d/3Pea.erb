@@ -1,0 +1,8 @@
+<div class="container">
+  <h1><%= @page %></h1>
+  <div><%= @page.content.html_safe %></div>
+
+  <% if @page.permalink == 'contact' %>
+    <%= render 'pages/contact_form' %>
+  <% end %>
+</div>

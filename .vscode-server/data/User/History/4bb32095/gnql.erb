@@ -1,0 +1,26 @@
+<%= form_with url: search_path, method: :get, local: true, class: "search-form" do |form| %>
+  <div class="field">
+    <%= form.label :keyword, "Search Products" %>
+    <%= form.text_field :keyword, value: params[:keyword] %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category, "Category" %>
+    <%= form.select :category, options_from_collection_for_select(@categories, :id, :name, selected: params[:category]), include_blank: "All Categories" %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Search" %>
+  </div>
+<% end %>
+
+<h2>Search Results</h2>
+<% if @products.present? %>
+  <ul class="search-results">
+    <% @products.each do |product| %>
+      <li><%= link_to product.title, product_path(product) %> - <%= product.description %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No products found</p>
+<% end %>

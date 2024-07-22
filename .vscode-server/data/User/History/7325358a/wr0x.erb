@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+    <%= render_breadcrumbs %>
+    <div class="card-deck">
+      <% if @product.image.present? %>
+        <%= image_tag @product&.image&.thumb&.url, class: "card-img-top"  %>
+      <% else %>
+        <%= image_tag("turbo_tech_parts.png", class: "card-img-top")  %>
+      <% end %>
+      <div class="card-body">
+        <h3 class="card-title"><%= @product.name %></h3>
+        <div class="card-text" id="description">
+          <%= truncate(@product.description, length: 200, omission: '...') %>
+          <%= link_to 'Show more', '#', class: 'toggle-description btn btn-link' %>
+          <span class="full-description" style="display: none;"><%= @product.description %></span>
+        </div>
+        <p> Unit Price$ <%= number_to_currency @product.price %></p>
+        <%= form_for @order_item, remote: true, local: false do |f| %>
+          <div class="input-group mb-3">
+            <%= f.number_field :quantity, value: 1, class: "form-control", min: 1  %>
+            <div class="input-group-append">
+              <%= f.hidden_field :product_id, value: @product.id %>
+              <%= f.hidden_field :price, value: @product.price %>
+              <%= f.submit "Add to Cart", class: "btn btn-outline-primary" %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleDescription = document.querySelector('.toggle-description');
+    const fullDescription = document.querySelector('.full-description');
+
+    toggleDescription.addEventListener('click', function(event) {
+      event.preventDefault();
+      document.getElementById('description').innerHTML = fullDescription.innerHTML;
+    });
+  });
+</script>

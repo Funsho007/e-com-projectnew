@@ -1,0 +1,37 @@
+
+<h1><%= @film.title %></h1>
+
+<p>
+  <strong>Episode ID:</strong>
+  <%= @film.episode_id %>
+</p>
+
+<p>
+  <strong>Opening Crawl:</strong>
+  <%= @film.opening_crawl %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @film.director %>
+</p>
+
+<p>
+  <strong>Producer:</strong>
+  <%= @film.producer %>
+</p>
+
+<p>
+  <strong>Release Date:</strong>
+  <%= @film.release_date %>
+</p>
+
+<h2>Characters</h2>
+<ul>
+  <% @film.people.each do |person| %>
+    <li><%= link_to person.name, person_path(person) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_film_path(@film) %> |
+<%= link_to 'Back', films_path %>

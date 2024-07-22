@@ -1,0 +1,49 @@
+<div class="container">
+  <h1 class="title">Guest Checkout - Enter Your Address</h1>
+
+  <% if flash[:error].present? %>
+    <div class="notification is-danger flash-message">
+      <%= flash[:error] %>
+    </div>
+  <% end %>
+
+  <%= form_tag save_guest_address_path, method: :post, class: 'box' do %>
+    <!-- Add form fields for address input -->
+    <div class="field">
+      <label class="label">Address Line :</label>
+      <div class="control">
+        <%= text_field_tag 'address[address_line1]', @address[:address_line1], class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">City:</label>
+      <div class="control">
+        <%= text_field_tag 'address[city]', @address[:city], class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Province:</label>
+      <div class="control">
+        <%= select_tag 'address[province]', options_for_select(@provinces_list, @address[:province].to_i), class: 'select' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Postal Code:</label>
+      <div class="control">
+        <%= text_field_tag 'address[postal_code]', @address[:postal_code], class: 'input' %>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="control">
+        <%= submit_tag 'Save Address', class: 'button is-primary' %>
+      </div>
+    </div>
+  <% end %>
+
+  <!-- Display a link to sign up for new customers -->
+  <%= link_to 'Sign Up and Save Address for Future Use', new_customer_registration_path, class: 'button is-link' %>
+</div>

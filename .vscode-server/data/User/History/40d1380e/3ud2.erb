@@ -1,0 +1,20 @@
+<%= form_with(model: contact, local: true) do |form| %>
+  <div class="form-group">
+    <%= form.label :name, "Your Name" %>
+    <%= form.text_field :name, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email, "Your Email" %>
+    <%= form.email_field :email, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :message, "Your Message" %>
+    <%= form.text_area :message, class: "form-control" %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Send", class: "btn btn-primary" %>
+  </div>
+<% end %>

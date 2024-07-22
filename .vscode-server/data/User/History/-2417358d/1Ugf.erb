@@ -1,0 +1,14 @@
+<h1>Your Orders</h1>
+
+<% if @orders.any? %>
+  <ul>
+    <% @orders.each do |order| %>
+      <li>
+        <%= link_to "Order ##{order.id} - #{order.created_at.strftime('%Y-%m-%d')}", order_path(order) %>
+        - Total: <%= number_to_currency(order.total_amount) %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>You have no orders.</p>
+<% end %>

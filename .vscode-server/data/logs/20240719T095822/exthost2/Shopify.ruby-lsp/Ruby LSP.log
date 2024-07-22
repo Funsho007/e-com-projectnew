@@ -1,0 +1,354 @@
+2024-07-19 15:23:54.641 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-19 15:23:55.645 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-19 15:23:56.194 [info] (finest) Discovered version manager rbenv
+2024-07-19 15:23:56.194 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:23:56.797 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:25:01.379 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-19 15:25:01.400 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-19 15:25:01.775 [info] (finest) The following gems are missing
+ * rails (7.1.3.4)
+ * puma (6.4.2)
+ * turbo-rails (2.0.5)
+ * selenium-webdriver (4.22.0)
+ * tailwindcss-rails (2.6.3)
+ * ruby-lsp-rails (0.3.10)
+ * actioncable (7.1.3.4)
+ * actionmailbox (7.1.3.4)
+ * actionmailer (7.1.3.4)
+
+2024-07-19 15:25:01.775 [info] (finest)  * actionpack (7.1.3.4)
+ * actiontext (7.1.3.4)
+ * actionview (7.1.3.4)
+ * activejob (7.1.3.4)
+ * activemodel (7.1.3.4)
+ * activerecord (7.1.3.4)
+ * activestorage (7.1.3.4)
+ * activesupport (7.1.3.4)
+ * railties (7.1.3.4)
+ * rack (3.1.7)
+ * sorbet-runtime (0.5.11485)
+ * rack-session (2.0.0)
+ * connection_pool (2.4.1)
+ * drb (2.2.1)
+ * rackup (2.1.0)
+ * webrick (1.8.1)
+Install missing gems with `bundle install`
+
+2024-07-19 15:25:02.031 [info] (finest) Bundler 2.5.15 is running, but your lockfile was generated with 2.5.3. Installing Bundler 2.5.3 and restarting using that version.
+
+2024-07-19 15:25:03.353 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-19 15:25:03.356 [info] (finest) .
+2024-07-19 15:25:03.387 [info] (finest) 
+
+2024-07-19 15:25:03.427 [info] (finest) Fetching bundler 2.5.3
+
+2024-07-19 15:25:04.172 [info] (finest) Installing bundler 2.5.3
+
+2024-07-19 15:25:06.041 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-19 15:25:06.042 [info] (finest) .
+2024-07-19 15:25:06.496 [info] (finest) .
+2024-07-19 15:25:06.606 [info] (finest) .
+2024-07-19 15:25:06.681 [info] (finest) .
+2024-07-19 15:25:06.764 [info] (finest) .
+2024-07-19 15:25:06.819 [info] (finest) .
+2024-07-19 15:25:06.842 [info] (finest) .
+2024-07-19 15:25:06.846 [info] (finest) .
+2024-07-19 15:25:06.847 [info] (finest) .
+2024-07-19 15:25:08.473 [info] (finest) 
+
+2024-07-19 15:25:08.543 [info] (finest) Fetching connection_pool 2.4.1
+
+2024-07-19 15:25:08.545 [info] (finest) Fetching drb 2.2.1
+
+2024-07-19 15:25:08.548 [info] (finest) Fetching rack 3.1.7
+
+2024-07-19 15:25:08.555 [info] (finest) Fetching webrick 1.8.1
+
+2024-07-19 15:25:08.716 [info] (finest) Installing connection_pool 2.4.1
+
+2024-07-19 15:25:08.732 [info] (finest) Fetching puma 6.4.2
+
+2024-07-19 15:25:08.735 [info] (finest) Installing drb 2.2.1
+
+2024-07-19 15:25:08.747 [info] (finest) Fetching activesupport 7.1.3.4
+
+2024-07-19 15:25:09.041 [info] (finest) Installing rack 3.1.7
+
+2024-07-19 15:25:09.077 [info] (finest) Fetching selenium-webdriver 4.22.0
+
+2024-07-19 15:25:09.194 [info] (finest) Installing webrick 1.8.1
+
+2024-07-19 15:25:09.215 [info] (finest) Fetching rack-session 2.0.0
+
+2024-07-19 15:25:09.558 [info] (finest) Installing puma 6.4.2 with native extensions
+
+2024-07-19 15:25:09.907 [info] (finest) Installing activesupport 7.1.3.4
+
+2024-07-19 15:25:10.087 [info] (finest) Fetching rackup 2.1.0
+
+2024-07-19 15:25:18.908 [info] (finest) Fetching activemodel 7.1.3.4
+
+2024-07-19 15:25:24.199 [info] (finest) Installing rack-session 2.0.0
+
+2024-07-19 15:25:24.248 [info] (finest) Installing rackup 2.1.0
+
+2024-07-19 15:25:24.279 [info] (finest) Fetching actionview 7.1.3.4
+
+2024-07-19 15:25:24.316 [info] (finest) Fetching activejob 7.1.3.4
+
+2024-07-19 15:25:24.363 [info] (finest) Installing activemodel 7.1.3.4
+
+2024-07-19 15:25:24.463 [info] (finest) Fetching activerecord 7.1.3.4
+
+2024-07-19 15:25:24.638 [info] (finest) Installing selenium-webdriver 4.22.0
+
+2024-07-19 15:25:24.822 [info] (finest) Installing actionview 7.1.3.4
+
+2024-07-19 15:25:24.882 [info] (finest) Installing activejob 7.1.3.4
+
+2024-07-19 15:25:25.044 [info] (finest) Fetching actionpack 7.1.3.4
+
+2024-07-19 15:25:25.906 [info] (finest) Installing activerecord 7.1.3.4
+
+2024-07-19 15:25:26.256 [info] (finest) Installing actionpack 7.1.3.4
+
+2024-07-19 15:25:26.307 [info] (finest) Fetching actioncable 7.1.3.4
+
+2024-07-19 15:25:26.309 [info] (finest) Fetching activestorage 7.1.3.4
+Fetching actionmailer 7.1.3.4
+
+2024-07-19 15:25:26.310 [info] (finest) Fetching railties 7.1.3.4
+
+2024-07-19 15:25:26.367 [info] (finest) Installing actioncable 7.1.3.4
+
+2024-07-19 15:25:26.424 [info] (finest) Installing activestorage 7.1.3.4
+
+2024-07-19 15:25:26.454 [info] (finest) Fetching actionmailbox 7.1.3.4
+
+2024-07-19 15:25:26.454 [info] (finest) Fetching actiontext 7.1.3.4
+
+2024-07-19 15:25:26.466 [info] (finest) Installing actionmailer 7.1.3.4
+
+2024-07-19 15:25:26.753 [info] (finest) Installing railties 7.1.3.4
+
+2024-07-19 15:25:26.811 [info] (finest) Installing actionmailbox 7.1.3.4
+
+2024-07-19 15:25:26.930 [info] (finest) Fetching tailwindcss-rails 2.6.3 (x86_64-linux)
+
+2024-07-19 15:25:26.931 [info] (finest) Fetching turbo-rails 2.0.5
+
+2024-07-19 15:25:27.069 [info] (finest) Installing actiontext 7.1.3.4
+
+2024-07-19 15:25:27.100 [info] (finest) Fetching rails 7.1.3.4
+
+2024-07-19 15:25:58.564 [info] (finest) Installing rails 7.1.3.4
+
+2024-07-19 15:25:58.567 [info] (finest) Installing turbo-rails 2.0.5
+
+2024-07-19 15:25:59.361 [info] (finest) Installing tailwindcss-rails 2.6.3 (x86_64-linux)
+
+2024-07-19 15:26:01.006 [info] (finest) Bundle complete! 22 Gemfile dependencies, 113 gems now installed.
+
+2024-07-19 15:26:01.006 [info] (finest) Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+2024-07-19 15:26:01.505 [info] (finest) bundler: failed to load command: ruby-lsp (/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp)
+
+2024-07-19 15:26:01.506 [info] (finest) /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/definition.rb:570:in `materialize': Could not find ruby-lsp-rails-0.3.10, sorbet-runtime-0.5.11485 in locally installed gems (Bundler::GemNotFound)
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/definition.rb:203:in `specs'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/definition.rb:270:in `specs_for'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/runtime.rb:18:in `setup'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler.rb:162:in `setup'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/setup.rb:26:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/ui/shell.rb:159:in `with_level'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/ui/shell.rb:111:in `silence'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/setup.rb:26:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli/exec.rb:56:in `require_relative'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli/exec.rb:56:in `kernel_load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli/exec.rb:23:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli.rb:451:in `exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/vendor/thor/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli.rb:34:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/cli.rb:28:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:28:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:20:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+2024-07-19 15:26:01.510 [info] (finest) [Error - 3:26:01 PM] Server initialization failed.
+2024-07-19 15:26:01.511 [info] (finest)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-19 15:26:01.511 [info] (finest) [Error - 3:26:01 PM] Ruby LSP client: couldn't create connection to server.
+2024-07-19 15:26:01.511 [info] (finest)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-19 15:26:01.511 [error] (finest) Error starting the server: Pending response rejected since connection got disposed
+2024-07-19 15:26:01.512 [info] (finest) [Error - 3:26:01 PM] Server process exited with code 1.
+2024-07-19 15:26:06.089 [error] (finest) Error restarting the server: Client is not running and can't be stopped. It's current state is: startFailed
+2024-07-19 15:26:21.680 [info] (finest) [Info  - 3:26:21 PM] Connection to server got closed. Server will restart.
+2024-07-19 15:26:21.680 [info] (finest) false
+2024-07-19 15:26:21.681 [info] (finest) [Error - 3:26:21 PM] Restarting server failed
+2024-07-19 15:26:21.681 [info] (finest) Error: Client got disposed and can't be restarted.
+	at hs.start (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:1845)
+	at hs.handleConnectionClosed (/home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.14/out/extension.js:41:13479)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-19 15:26:58.546 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-19 15:26:58.919 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-19 15:26:59.109 [info] (finest) Discovered version manager rbenv
+2024-07-19 15:26:59.109 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:26:59.515 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:27:00.834 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-19 15:27:00.850 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-19 15:27:01.276 [info] (finest) The following gems are missing
+ * ruby-lsp-rails (0.3.10)
+
+2024-07-19 15:27:01.277 [info] (finest)  * sorbet-runtime (0.5.11485)
+Install missing gems with `bundle install`
+
+2024-07-19 15:27:03.136 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-19 15:27:03.136 [info] (finest) .
+2024-07-19 15:27:03.671 [info] (finest) .
+2024-07-19 15:27:03.771 [info] (finest) .
+2024-07-19 15:27:03.903 [info] (finest) .
+2024-07-19 15:27:03.955 [info] (finest) .
+2024-07-19 15:27:04.014 [info] (finest) .
+2024-07-19 15:27:04.032 [info] (finest) .
+2024-07-19 15:27:04.036 [info] (finest) .
+2024-07-19 15:27:04.038 [info] (finest) .
+2024-07-19 15:27:06.007 [info] (finest) 
+
+2024-07-19 15:27:06.075 [info] (finest) Fetching sorbet-runtime 0.5.11485
+
+2024-07-19 15:27:06.425 [info] (finest) Installing sorbet-runtime 0.5.11485
+
+2024-07-19 15:27:06.473 [info] (finest) Fetching ruby-lsp-rails 0.3.10
+
+2024-07-19 15:27:06.550 [info] (finest) Installing ruby-lsp-rails 0.3.10
+
+2024-07-19 15:27:07.224 [info] (finest) Bundle complete! 24 Gemfile dependencies, 119 gems now installed.
+
+2024-07-19 15:27:07.224 [info] (finest) Use `bundle info [gemname]` to see where a bundled gem is installed.
+
+2024-07-19 15:27:08.725 [info] (finest) Initializing Ruby LSP v0.17.8...
+
+2024-07-19 15:27:08.825 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-19 15:27:08.966 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-19 15:27:09.002 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-19 15:27:22.232 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-19 15:27:25.457 [info] (finest) Shutting down Ruby LSP...
+
+2024-07-19 15:27:25.458 [info] (finest) Ruby LSP Rails shutting down server
+
+2024-07-19 15:27:25.964 [info] (finest) Shutdown complete with status 0
+
+2024-07-19 15:27:25.973 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-19 15:27:26.082 [info] (finest) [Error - 3:27:26 PM] Server process exited with code 0.
+2024-07-19 15:27:26.313 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-19 15:27:26.426 [info] (finest) Discovered version manager rbenv
+2024-07-19 15:27:26.426 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:27:26.637 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-19 15:27:27.803 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-19 15:27:28.387 [info] (finest) Resolving dependencies...
+
+2024-07-19 15:27:28.608 [info] (finest) The Gemfile's dependencies are satisfied
+
+2024-07-19 15:27:29.571 [info] (finest) Initializing Ruby LSP v0.17.8...
+
+2024-07-19 15:27:29.643 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-19 15:27:29.777 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-19 15:27:29.814 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-19 15:27:34.118 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-20 07:35:44.717 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-20 07:35:46.341 [info] (finest) Finished fetching search index for Rails documentation
+
+2024-07-20 23:05:29.166 [info] (finest) Reloading Rails application
+
+2024-07-21 20:28:48.961 [info] (finest) Shutting down Ruby LSP...
+
+2024-07-21 20:28:49.078 [info] (finest) Ruby LSP Rails shutting down server
+
+2024-07-21 20:28:49.710 [info] (finest) Shutdown complete with status 0
+
+2024-07-21 20:28:49.742 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-21 20:28:49.850 [info] (finest) Ruby LSP Rails is force killing the server
+
+2024-07-21 20:28:50.666 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-21 20:28:51.031 [info] (finest) Discovered version manager rbenv
+2024-07-21 20:28:51.031 [info] (finest) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-21 20:28:51.612 [info] (finest) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-21 20:28:53.566 [info] (finest) [Error - 8:28:53 PM] Server process exited with code 0.
+2024-07-21 20:29:21.314 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-21 20:29:21.330 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-21 20:29:21.707 [info] (finest) Your Gemfile lists the gem turbo-rails (>= 0) more than once.
+You should probably keep only one of them.
+Remove any duplicate entries and specify the gem only once.
+While it's not a problem now, it could cause errors if you change the version of one of them later.
+
+2024-07-21 20:29:21.765 [info] (finest) The Gemfile's dependencies are satisfied
+
+2024-07-21 20:29:22.103 [info] (finest) Your Gemfile lists the gem turbo-rails (>= 0) more than once.
+You should probably keep only one of them.
+Remove any duplicate entries and specify the gem only once.
+While it's not a problem now, it could cause errors if you change the version of one of them later.
+
+2024-07-21 20:29:24.267 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-21 20:29:24.270 [info] (finest) .
+2024-07-21 20:29:24.893 [info] (finest) .
+2024-07-21 20:29:24.987 [info] (finest) .
+2024-07-21 20:29:25.104 [info] (finest) .
+2024-07-21 20:29:25.160 [info] (finest) .
+2024-07-21 20:29:25.190 [info] (finest) .
+2024-07-21 20:29:25.207 [info] (finest) .
+2024-07-21 20:29:25.211 [info] (finest) .
+2024-07-21 20:29:25.213 [info] (finest) .
+2024-07-21 20:29:27.327 [info] (finest) 
+
+2024-07-21 20:29:27.385 [info] (finest) Resolving dependencies...
+
+2024-07-21 20:29:28.046 [info] (finest) Fetching sorbet-runtime 0.5.11491 (was 0.5.11487)
+
+2024-07-21 20:29:28.373 [info] (finest) Installing sorbet-runtime 0.5.11491 (was 0.5.11487)
+
+2024-07-21 20:29:28.431 [info] (finest) Fetching ruby-lsp-rails 0.3.11 (was 0.3.10)
+
+2024-07-21 20:29:28.476 [info] (finest) Installing ruby-lsp-rails 0.3.11 (was 0.3.10)
+
+2024-07-21 20:29:29.327 [info] (finest) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundle updated!
+
+2024-07-21 20:29:30.814 [info] (finest) Initializing Ruby LSP v0.17.8...
+
+2024-07-21 20:29:30.898 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-21 20:29:31.053 [info] (finest) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-21 20:29:31.087 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-21 20:29:38.582 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-21 20:42:23.020 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-21 20:42:23.857 [info] (finest) Finished fetching search index for Rails documentation
+

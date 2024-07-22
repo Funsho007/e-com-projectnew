@@ -1,0 +1,15 @@
+2024-07-15 17:50:34.061 [info] 
+
+
+
+
+2024-07-15 17:50:34.138 [info] Extension host agent started.
+2024-07-15 17:50:34.621 [info] [127.0.0.1][58974722][ManagementConnection] New connection established.
+2024-07-15 17:50:42.077 [info] [127.0.0.1][166096fd][ExtensionHostConnection] New connection established.
+2024-07-15 17:50:42.186 [info] [127.0.0.1][166096fd][ExtensionHostConnection] <247430> Launched Extension Host Process.
+2024-07-15 17:50:47.805 [info] [127.0.0.1][bffc21f3][ManagementConnection] New connection established.
+2024-07-15 17:51:03.596 [info] [127.0.0.1][fd1409ad][ManagementConnection] New connection established.
+2024-07-15 17:51:07.614 [info] [127.0.0.1][823f80f0][ExtensionHostConnection] New connection established.
+2024-07-15 17:51:10.368 [info] [127.0.0.1][823f80f0][ExtensionHostConnection] <247917> Launched Extension Host Process.
+2024-07-15 17:51:16.982 [info] [127.0.0.1][cd11fa61][ExtensionHostConnection] New connection established.
+2024-07-15 17:51:18.170 [info] [127.0.0.1][cd11fa61][ExtensionHostConnection] <248012> Launched Extension Host Process.

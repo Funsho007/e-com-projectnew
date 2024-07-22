@@ -1,0 +1,38 @@
+2024-07-19 09:58:26.395 [info] Extension host with pid 339199 started
+2024-07-19 09:58:26.767 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-19 09:58:26.781 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-19 09:58:26.782 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-19 09:58:26.783 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-19 09:58:27.730 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/aef9a8b2b4d33702e04b2cc1ecd759bc/vscode.lock': Lock acquired.
+2024-07-19 09:58:27.797 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-19 09:58:28.078 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-19 09:58:28.079 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-19 09:58:29.457 [info] Eager extensions activated
+2024-07-19 09:58:29.471 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 09:58:29.472 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 09:58:29.473 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 09:58:29.474 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-19 09:58:59.716 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-19 10:04:31.475 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-19 11:41:17.083 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-19 11:41:17.084 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-19 11:41:17.084 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 14:10:11.942 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-07-20 14:10:11.963 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/aef9a8b2b4d33702e04b2cc1ecd759bc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-20 14:10:12.299 [error] Canceled: Canceled
+	at new I (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:146:34990)
+	at S.U (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:153:3107)
+	at f.g (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203861)
+	at f.executeCommand (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at A.registerCommand.description (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:202623)
+	at f.h (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:204400)
+	at f.g (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203392)
+	at f.executeCommand (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:156:203299)
+	at Object.executeCommand (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/out/vs/workbench/api/node/extensionHostProcess.js:166:23051)
+	at pE (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/extension.js:40:8764)
+	at Ne (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/extension.js:4:1357)
+	at me (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/extension.js:3:6845)
+	at Immediate.<anonymous> (/home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.5/dist/extension.js:3:6723)
+	at process.processImmediate (node:internal/timers:478:21) setContext undefined
+2024-07-20 14:10:12.495 [info] Extension host with pid 339199 exiting with code 0

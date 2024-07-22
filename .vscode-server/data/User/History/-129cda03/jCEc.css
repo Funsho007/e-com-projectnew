@@ -1,0 +1,26 @@
+/* app/assets/stylesheets/application.tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form .field {
+  margin-bottom: 15px;
+}
+
+.contact-form .actions {
+  margin-top: 10px;
+}
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/

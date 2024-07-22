@@ -1,0 +1,25 @@
+<!-- app/views/species/index.html.erb -->
+<h1>Species</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Average Lifespan</th>
+      <th>Language</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @species.each do |specie| %>
+      <tr>
+        <td><%= specie.name %></td>
+        <td><%= specie.average_lifespan %></td>
+        <td><%= specie.language %></td>
+        <td><%= link_to 'Show', specie_path(specie) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New Species', new_specie_path %>

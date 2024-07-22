@@ -1,0 +1,5 @@
+2024-07-18 20:29:30.949 [info] (MakeupHub) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 20:29:32.095 [info] (MakeupHub) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 20:29:32.697 [info] (MakeupHub) Discovered version manager rbenv
+2024-07-18 20:29:32.697 [info] (MakeupHub) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/MakeupHub using shell: /bin/bash
+2024-07-18 20:29:33.150 [info] (MakeupHub) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/MakeupHub using shell: /bin/bash

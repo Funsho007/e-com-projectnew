@@ -1,0 +1,41 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/ooke0392703/.cache/typescript/5.4/.npmrc
+5 silly config:load:file:/home/ooke0392703/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install @types/bootstrap@ts5.4
+8 verbose argv "install" "--ignore-scripts" "@types/bootstrap@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+9 verbose logfile logs-max:10 dir:/home/ooke0392703/.npm/_logs/2024-07-02T19_33_34_815Z-
+10 verbose logfile /home/ooke0392703/.npm/_logs/2024-07-02T19_33_34_815Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 373ms (cache miss)
+13 silly idealTree buildDeps
+14 silly fetch manifest @types/bootstrap@5.2.10
+15 silly placeDep ROOT @types/bootstrap@5.2.10 OK for:  want: 5.2.10
+16 silly fetch manifest @popperjs/core@^2.9.2
+17 http fetch GET 200 https://registry.npmjs.org/npm 910ms
+18 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 444ms (cache miss)
+19 silly placeDep ROOT @popperjs/core@2.11.8 OK for: @types/bootstrap@5.2.10 want: ^2.9.2
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   'types-registry': [ '0.1.685' ],
+21 silly audit   '@types/bootstrap': [ '5.2.10' ],
+21 silly audit   '@popperjs/core': [ '2.11.8' ]
+21 silly audit }
+22 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz. Extracting by manifest.
+23 silly tarball no local data for @types/bootstrap@https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.2.10.tgz. Extracting by manifest.
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 442ms
+25 silly audit report {}
+26 http fetch GET 200 https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.2.10.tgz 800ms (cache miss)
+27 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 908ms (cache miss)
+28 silly ADD node_modules/@popperjs/core
+29 silly ADD node_modules/@types/bootstrap
+30 notice
+30 notice New minor version of npm available! 10.7.0 -> 10.8.1
+30 notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+30 notice To update run: npm install -g npm@10.8.1
+30 notice  { force: true, [Symbol(proc-log.meta)]: true }
+31 verbose exit 0
+32 info ok

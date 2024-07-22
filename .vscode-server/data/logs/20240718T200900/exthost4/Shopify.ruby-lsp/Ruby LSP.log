@@ -1,0 +1,55 @@
+2024-07-18 20:30:27.635 [info] (MakeupHub) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 20:30:29.415 [info] (MakeupHub) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 20:30:30.719 [info] (MakeupHub) Discovered version manager rbenv
+2024-07-18 20:30:30.719 [info] (MakeupHub) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/MakeupHub using shell: /bin/bash
+2024-07-18 20:30:31.273 [info] (MakeupHub) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/MakeupHub using shell: /bin/bash
+2024-07-18 20:30:50.103 [info] (MakeupHub) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:30:50.443 [info] (MakeupHub) Your Ruby version is 3.3.0, but your Gemfile specified 3.1.2
+
+2024-07-18 20:30:51.104 [info] (MakeupHub) Your Ruby version is 3.3.0, but your Gemfile specified 3.1.2
+
+2024-07-18 20:30:51.110 [info] (MakeupHub) Ruby LSP> Running bundle install failed. Trying to re-generate the custom bundle from scratch
+
+2024-07-18 20:30:51.111 [info] (MakeupHub) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:30:51.782 [info] (MakeupHub) Your Ruby version is 3.3.0, but your Gemfile specified 3.1.2
+
+2024-07-18 20:30:52.535 [info] (MakeupHub) Your Ruby version is 3.3.0, but your Gemfile specified 3.1.2
+
+2024-07-18 20:30:52.914 [info] (MakeupHub) bundler: failed to load command: ruby-lsp (/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp)
+
+2024-07-18 20:30:52.914 [info] (MakeupHub) /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:426:in `validate_ruby!': Your Ruby version is 3.3.0, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:401:in `validate_runtime!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler.rb:145:in `setup'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/ui/shell.rb:136:in `with_level'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/ui/shell.rb:88:in `silence'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/setup.rb:20:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:56:in `require_relative'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:56:in `kernel_load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:23:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:484:in `exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:31:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:25:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/exe/bundle:48:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/friendly_errors.rb:103:in `with_friendly_errors'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/exe/bundle:36:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+2024-07-18 20:30:52.931 [info] (MakeupHub) [Error - 8:30:52 PM] Server initialization failed.
+2024-07-18 20:30:52.931 [info] (MakeupHub)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-18 20:30:52.932 [info] (MakeupHub) [Error - 8:30:52 PM] Ruby LSP client: couldn't create connection to server.
+2024-07-18 20:30:52.932 [info] (MakeupHub)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-18 20:30:52.932 [error] (MakeupHub) Error starting the server: Pending response rejected since connection got disposed
+2024-07-18 20:30:52.936 [info] (MakeupHub) [Error - 8:30:52 PM] Server process exited with code 1.
+2024-07-18 20:31:10.822 [info] (MakeupHub) [Error - 8:31:10 PM] Connection to server got closed. Server will not be restarted.

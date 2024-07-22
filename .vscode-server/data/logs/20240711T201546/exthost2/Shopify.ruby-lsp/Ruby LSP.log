@@ -1,0 +1,942 @@
+2024-07-12 23:57:06.494 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-12 23:57:07.546 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-12 23:57:08.240 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-12 23:57:08.240 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-12 23:57:08.594 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-12 23:57:32.531 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-12 23:57:32.924 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-12 23:57:33.047 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-12 23:57:34.657 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-12 23:57:34.880 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-12 23:57:35.091 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-12 23:57:35.102 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-12 23:57:40.026 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-12 23:59:05.169 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 00:11:36.995 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:11:37.003 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:11:37.506 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:11:37.515 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:11:37.644 [info] (Pretty-face) [Error - 12:11:37 AM] Server process exited with code 0.
+2024-07-13 00:11:37.717 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:11:37.812 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:11:37.812 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:11:38.171 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:11:40.201 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:11:40.506 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:11:40.654 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:11:41.696 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:11:41.748 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:11:41.823 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:11:41.830 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:11:45.328 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:12:24.568 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:12:24.579 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:12:25.083 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:12:25.093 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:12:25.247 [info] (Pretty-face) [Error - 12:12:25 AM] Server process exited with code 0.
+2024-07-13 00:12:25.643 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:12:25.913 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:12:25.914 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:12:26.573 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:12:28.108 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:12:28.121 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-13 00:12:28.426 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:12:30.575 [info] (Pretty-face) Fetching gem metadata from https://rubygems.org/
+2024-07-13 00:12:30.576 [info] (Pretty-face) .
+2024-07-13 00:12:30.841 [info] (Pretty-face) .
+2024-07-13 00:12:30.981 [info] (Pretty-face) .
+2024-07-13 00:12:31.154 [info] (Pretty-face) .
+2024-07-13 00:12:31.274 [info] (Pretty-face) .
+2024-07-13 00:12:31.300 [info] (Pretty-face) .
+2024-07-13 00:12:31.317 [info] (Pretty-face) .
+2024-07-13 00:12:31.321 [info] (Pretty-face) .
+2024-07-13 00:12:31.322 [info] (Pretty-face) .
+2024-07-13 00:12:32.811 [info] (Pretty-face) 
+
+2024-07-13 00:12:32.864 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:12:34.207 [info] (Pretty-face) Bundler attempted to update ruby-lsp but its version stayed the same
+
+2024-07-13 00:12:34.207 [info] (Pretty-face) Bundler attempted to update ruby-lsp-rails but its version stayed the same
+Bundle updated!
+
+2024-07-13 00:12:35.493 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:12:35.535 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:12:35.651 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:12:35.663 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:12:38.361 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:32:47.676 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 00:32:48.855 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 00:34:37.505 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:34:37.506 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:34:38.018 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:34:38.027 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:34:38.158 [info] (Pretty-face) [Error - 12:34:38 AM] Server process exited with code 0.
+2024-07-13 00:34:38.351 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:34:38.547 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:34:38.547 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:34:39.077 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:34:40.580 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:34:41.497 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:34:41.712 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:34:43.109 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:34:43.210 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:34:43.313 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:34:43.444 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:34:45.031 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:34:45.058 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:34:45.066 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:34:45.080 [info] (Pretty-face) [Error - 12:34:45 AM] Server process exited with code 0.
+2024-07-13 00:34:45.345 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:34:45.558 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:34:45.558 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:34:45.947 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:34:47.693 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:34:47.745 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:34:48.361 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:34:49.358 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:34:49.650 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:34:49.892 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:34:50.038 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:34:53.356 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:35:12.427 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:35:12.427 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:35:12.930 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:35:12.956 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:35:13.075 [info] (Pretty-face) [Error - 12:35:13 AM] Server process exited with code 0.
+2024-07-13 00:35:13.293 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:35:13.423 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:35:13.423 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:35:13.656 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:35:15.721 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:35:16.101 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:35:16.475 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:35:17.641 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:35:17.707 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:35:17.817 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:35:17.906 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:35:20.527 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:35:20.533 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:35:20.559 [info] (Pretty-face) [Error - 12:35:20 AM] Server process exited with code 0.
+2024-07-13 00:35:20.574 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:35:20.817 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:35:20.988 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:35:20.988 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:35:21.387 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:35:23.486 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:35:23.517 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:35:23.926 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:35:25.896 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:35:25.984 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:35:26.088 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:35:26.161 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:35:32.844 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:35:55.965 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 00:36:22.142 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:36:22.143 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:36:22.649 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:36:22.658 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:36:22.789 [info] (Pretty-face) [Error - 12:36:22 AM] Server process exited with code 0.
+2024-07-13 00:36:22.988 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:36:23.138 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:36:23.138 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:36:23.565 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:36:25.131 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:36:26.059 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:36:26.525 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:36:28.303 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:36:28.354 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:36:28.459 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:36:28.540 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:36:28.727 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:36:28.819 [info] (Pretty-face) /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:83:in `push': queue closed (ClosedQueueError)
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:83:in `block in start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/language_server-protocol-3.17.0.3/lib/language_server/protocol/transport/io/reader.rb:20:in `read'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:39:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/exe/ruby-lsp:110:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp:25:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:58:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:58:in `kernel_load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:23:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:451:in `exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:34:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:28:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:28:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:20:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+2024-07-13 00:36:28.836 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:36:28.837 [info] (Pretty-face) [Error - 12:36:28 AM] Server process exited with code 1.
+2024-07-13 00:36:29.116 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:36:29.237 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:36:29.237 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:36:29.511 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:36:31.551 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:36:31.584 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:36:32.186 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:36:34.286 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:36:34.337 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:36:34.462 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:36:34.583 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:36:39.702 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:38:36.275 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:38:36.277 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:38:36.780 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:38:36.792 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:38:36.915 [info] (Pretty-face) [Error - 12:38:36 AM] Server process exited with code 0.
+2024-07-13 00:38:37.012 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:38:37.109 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:38:37.109 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:38:37.437 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:38:39.537 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:38:39.896 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:38:40.183 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:38:41.466 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:38:41.511 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:38:41.628 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:38:41.723 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:38:46.900 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:39:07.441 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:39:07.442 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 00:39:07.945 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:39:07.954 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:39:08.064 [info] (Pretty-face) [Error - 12:39:08 AM] Server process exited with code 0.
+2024-07-13 00:39:08.160 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:39:08.255 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:39:08.255 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:39:08.531 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:39:10.024 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:39:10.036 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:39:10.326 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:39:11.581 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:39:11.617 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:39:11.702 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:39:11.797 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:39:16.235 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:39:19.244 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 00:39:49.762 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 00:42:29.568 [info] (Pretty-face) Shutting down Ruby LSP...
+Ruby LSP Rails shutting down server
+
+2024-07-13 00:42:30.072 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 00:42:30.099 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:42:30.231 [info] (Pretty-face) [Error - 12:42:30 AM] Server process exited with code 0.
+2024-07-13 00:42:30.480 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:42:30.590 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:42:30.590 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:42:30.838 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:42:32.138 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:42:33.140 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 00:42:33.903 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:42:36.258 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:42:36.346 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:42:36.433 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:42:36.507 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:42:36.596 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 00:42:36.749 [info] (Pretty-face) /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:83:in `push': queue closed (ClosedQueueError)
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:83:in `block in start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/language_server-protocol-3.17.0.3/lib/language_server/protocol/transport/io/reader.rb:20:in `read'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/lib/ruby_lsp/base_server.rb:39:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-0.17.7/exe/ruby-lsp:110:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp:25:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:58:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:58:in `kernel_load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli/exec.rb:23:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:451:in `exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:34:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/cli.rb:28:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:28:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.5.3/exe/bundle:20:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+2024-07-13 00:42:36.753 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 00:42:36.757 [info] (Pretty-face) [Error - 12:42:36 AM] Server process exited with code 1.
+2024-07-13 00:42:36.997 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 00:42:37.132 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 00:42:37.132 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:42:37.497 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 00:42:39.230 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 00:42:39.246 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 00:42:39.776 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 00:42:41.409 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 00:42:41.450 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 00:42:41.551 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 00:42:41.633 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 00:42:46.870 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 00:53:47.539 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 08:17:48.310 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 08:17:50.579 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 08:49:32.586 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 08:57:01.342 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 08:57:01.343 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 08:57:01.849 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 08:57:01.858 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 08:57:02.330 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 08:57:02.464 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 08:57:02.464 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 08:57:03.386 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 08:57:04.622 [info] (Pretty-face) [Error - 8:57:04 AM] Server process exited with code 0.
+2024-07-13 08:57:05.026 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 08:57:05.765 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 08:57:05.997 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 08:57:07.287 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 08:57:07.341 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 08:57:07.482 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 08:57:07.544 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 08:57:12.124 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 08:59:44.372 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 08:59:46.346 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 09:04:20.978 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 09:04:20.979 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 09:04:21.482 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 09:04:21.488 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 09:04:21.609 [info] (Pretty-face) [Error - 9:04:21 AM] Server process exited with code 0.
+2024-07-13 09:04:21.689 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 09:04:21.782 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 09:04:21.782 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 09:04:21.991 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 09:04:23.762 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 09:04:24.268 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 09:04:24.633 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 09:04:26.027 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 09:04:26.102 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 09:04:26.226 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 09:04:26.263 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 09:04:34.323 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 09:04:34.331 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 09:04:34.388 [info] (Pretty-face) [Error - 9:04:34 AM] Server process exited with code 0.
+2024-07-13 09:04:34.453 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 09:04:34.745 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 09:04:35.255 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 09:04:35.255 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 09:04:35.577 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 09:04:36.939 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 09:04:36.952 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-13 09:04:37.232 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 09:04:39.511 [info] (Pretty-face) Fetching gem metadata from https://rubygems.org/
+2024-07-13 09:04:39.512 [info] (Pretty-face) .
+2024-07-13 09:04:40.059 [info] (Pretty-face) .
+2024-07-13 09:04:40.162 [info] (Pretty-face) .
+2024-07-13 09:04:40.279 [info] (Pretty-face) .
+2024-07-13 09:04:40.332 [info] (Pretty-face) .
+2024-07-13 09:04:40.357 [info] (Pretty-face) .
+2024-07-13 09:04:40.371 [info] (Pretty-face) .
+2024-07-13 09:04:40.374 [info] (Pretty-face) .
+2024-07-13 09:04:40.376 [info] (Pretty-face) .
+2024-07-13 09:04:42.859 [info] (Pretty-face) 
+
+2024-07-13 09:04:42.982 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 09:04:44.833 [info] (Pretty-face) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update ruby-lsp-rails but its version stayed the same
+
+2024-07-13 09:04:44.833 [info] (Pretty-face) Bundle updated!
+
+2024-07-13 09:04:46.023 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 09:04:46.068 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 09:04:46.181 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 09:04:46.218 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 09:04:51.729 [info] (Pretty-face) Finished booting Ruby LSP Rails server
+
+2024-07-13 09:28:47.097 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 09:33:34.411 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 09:34:43.705 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 09:34:45.801 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 09:46:42.446 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 09:49:49.782 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 09:54:25.489 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 10:04:19.297 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 10:16:53.353 [info] (Pretty-face) Reloading Rails application
+
+2024-07-13 13:56:24.659 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 13:56:24.677 [info] (Pretty-face) Ruby LSP Rails shutting down server
+
+2024-07-13 13:56:25.181 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 13:56:25.183 [info] (Pretty-face) Ruby LSP Rails is force killing the server
+
+2024-07-13 13:56:25.191 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 13:56:25.804 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 13:56:26.057 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 13:56:26.057 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 13:56:26.349 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 13:56:26.353 [info] (Pretty-face) [Error - 1:56:26 PM] Server process exited with code 0.
+2024-07-13 13:56:29.086 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 13:56:30.903 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 13:56:31.844 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 13:56:34.058 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 13:56:34.137 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 13:56:34.261 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 13:56:34.332 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 13:56:38.386 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:34:in `block (2 levels) in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:32:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+Server dependent features will not be available
+
+2024-07-13 13:59:51.675 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 13:59:53.586 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 14:08:30.429 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 14:08:30.433 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 14:08:30.513 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 14:08:30.609 [info] (Pretty-face) [Error - 2:08:30 PM] Server process exited with code 0.
+2024-07-13 14:08:30.814 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 14:08:31.074 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 14:08:31.074 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:08:31.415 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:08:34.108 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 14:08:34.125 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-13 14:08:34.720 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 14:08:37.166 [info] (Pretty-face) Fetching gem metadata from https://rubygems.org/
+2024-07-13 14:08:37.167 [info] (Pretty-face) .
+2024-07-13 14:08:37.630 [info] (Pretty-face) .
+2024-07-13 14:08:37.908 [info] (Pretty-face) .
+2024-07-13 14:08:38.125 [info] (Pretty-face) .
+2024-07-13 14:08:38.276 [info] (Pretty-face) .
+2024-07-13 14:08:38.334 [info] (Pretty-face) .
+2024-07-13 14:08:38.357 [info] (Pretty-face) .
+2024-07-13 14:08:38.361 [info] (Pretty-face) .
+2024-07-13 14:08:38.364 [info] (Pretty-face) .
+2024-07-13 14:08:40.938 [info] (Pretty-face) 
+
+2024-07-13 14:08:41.105 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 14:08:43.987 [info] (Pretty-face) Bundler attempted to update ruby-lsp but its version stayed the same
+
+2024-07-13 14:08:43.987 [info] (Pretty-face) Bundler attempted to update ruby-lsp-rails but its version stayed the same
+Bundle updated!
+
+2024-07-13 14:08:46.155 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 14:08:46.287 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 14:08:46.466 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 14:08:46.532 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 14:08:51.349 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+
+2024-07-13 14:08:51.349 [info] (Pretty-face) Server dependent features will not be available
+
+2024-07-13 14:14:15.865 [info] (Pretty-face) Fetching search index for Rails documentation
+
+2024-07-13 14:14:18.046 [info] (Pretty-face) Finished fetching search index for Rails documentation
+
+2024-07-13 14:38:46.440 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 14:38:46.443 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 14:38:46.519 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 14:38:46.588 [info] (Pretty-face) [Error - 2:38:46 PM] Server process exited with code 0.
+2024-07-13 14:38:46.728 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 14:38:46.850 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 14:38:46.850 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:38:47.071 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:38:48.465 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 14:38:48.962 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 14:38:49.202 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 14:38:50.376 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 14:38:50.520 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 14:38:50.677 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 14:38:50.702 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 14:38:54.921 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+Server dependent features will not be available
+
+2024-07-13 14:39:35.168 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 14:39:35.171 [info] (Pretty-face) Shutdown complete with status 0
+

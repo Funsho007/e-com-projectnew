@@ -1,0 +1,8 @@
+<h1>Starships</h1>
+<ul>
+  <% @starships.each do |starship| %>
+    <li><%= link_to starship.name, starship_path(starship) %></li>
+  <% end %>
+</ul>
+<%= link_to ' Main Page', root_path, class: "text-blue-500 hover:underline text-lg" %>
+  </div>

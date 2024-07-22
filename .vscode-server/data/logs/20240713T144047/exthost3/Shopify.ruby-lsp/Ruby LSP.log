@@ -1,0 +1,577 @@
+2024-07-15 08:49:49.810 [info] (E-commercePrettyface) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-15 08:49:50.816 [info] (E-commercePrettyface) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-15 08:49:51.072 [info] (E-commercePrettyface) Discovered version manager rbenv
+2024-07-15 08:49:51.072 [info] (E-commercePrettyface) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/E-commercePrettyface using shell: /bin/bash
+2024-07-15 08:49:52.470 [info] (E-commercePrettyface) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/E-commercePrettyface using shell: /bin/bash
+2024-07-15 08:51:15.533 [info] (E-commercePrettyface) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/E-commercePrettyface/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-15 08:51:15.566 [info] (E-commercePrettyface) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-15 08:51:16.049 [info] (E-commercePrettyface) The following gems are missing
+ * httparty (0.22.0)
+ * bulma-rails (0.9.4)
+ * font-awesome-sass (6.5.2)
+
+2024-07-15 08:51:16.049 [info] (E-commercePrettyface)  * mini_magick (4.13.2)
+ * stripe (12.1.0)
+ * inherited_resources (1.14.0)
+ * rails (7.1.3.4)
+ * sprockets-rails (3.5.1)
+ * sqlite3 (1.7.3)
+ * puma (6.4.2)
+ * importmap-rails (2.0.1)
+ * turbo-rails (2.0.5)
+ * stimulus-rails (1.3.3)
+ * jbuilder (2.12.0)
+ * bootsnap (1.18.3)
+ * image_processing (1.12.2)
+ * debug (1.9.2)
+ * web-console (4.2.1)
+ * capybara (3.40.0)
+ * selenium-webdriver (4.22.0)
+ * webdrivers (5.2.0)
+ * tailwindcss-rails (2.6.1)
+ * foreman (0.88.1)
+ * activeadmin (3.2.2)
+ * devise (4.9.4)
+ * sassc-rails (2.1.2)
+ * faker (3.4.1)
+ * kaminari (1.2.2)
+ * bootstrap (5.0.2)
+ * ruby-lsp-rails (0.3.10)
+ * csv (3.3.0)
+ * mini_mime (1.1.5)
+ * multi_xml (0.7.1)
+ * sassc (2.4.0)
+ * actionpack (7.1.3.4)
+ * has_scope (0.8.2)
+ * railties (7.1.3.4)
+ * responders (3.1.1)
+ * actioncable (7.1.3.4)
+ * actionmailbox (7.1.3.4)
+
+2024-07-15 08:51:16.050 [info] (E-commercePrettyface)  * actionmailer (7.1.3.4)
+ * actiontext (7.1.3.4)
+ * actionview (7.1.3.4)
+ * activejob (7.1.3.4)
+ * activemodel (7.1.3.4)
+ * activerecord (7.1.3.4)
+ * activestorage (7.1.3.4)
+ * activesupport (7.1.3.4)
+ * sprockets (4.2.1)
+ * nio4r (2.7.3)
+ * msgpack (1.7.2)
+ * ruby-vips (2.2.1)
+ * irb (1.14.0)
+ * reline (0.5.9)
+ * bindex (0.8.1)
+ * addressable (2.8.7)
+ * nokogiri (1.16.6)
+
+2024-07-15 08:51:16.050 [info] (E-commercePrettyface)  * rack (3.1.6)
+ * rack-test (2.1.0)
+ * regexp_parser (2.9.2)
+ * xpath (3.2.0)
+ * rexml (3.3.1)
+ * rubyzip (2.3.2)
+ * websocket (1.2.11)
+ * arbre (1.7.0)
+ * formtastic (5.0.0)
+ * formtastic_i18n (0.7.0)
+ * jquery-rails (4.6.0)
+ * ransack (4.1.1)
+ * bcrypt (3.1.20)
+ * orm_adapter (0.5.0)
+ * warden (1.2.9)
+ * tilt (2.4.0)
+ * i18n (1.14.5)
+
+2024-07-15 08:51:16.050 [info] (E-commercePrettyface)  * kaminari-actionview (1.2.2)
+ * kaminari-activerecord (1.2.2)
+ * kaminari-core (1.2.2)
+ * autoprefixer-rails (10.4.16.0)
+ * popper_js (2.11.8)
+ * rbs (3.5.2)
+ * bigdecimal (3.1.8)
+ * ffi (1.17.0)
+ * racc (1.8.0)
+ * rack-session (2.0.0)
+ * rails-dom-testing (2.2.0)
+ * rails-html-sanitizer (1.6.0)
+ * rackup (2.1.0)
+ * rake (13.2.1)
+ * thor (1.3.1)
+ * zeitwerk (2.6.16)
+ * websocket-driver (0.7.6)
+ * mail (2.8.1)
+ * net-imap (0.4.14)
+
+2024-07-15 08:51:16.050 [info] (E-commercePrettyface)  * net-smtp (0.5.0)
+ * globalid (1.2.1)
+ * builder (3.3.0)
+ * erubi (1.13.0)
+ * marcel (1.0.4)
+ * concurrent-ruby (1.3.3)
+ * connection_pool (2.4.1)
+ * drb (2.2.1)
+ * minitest (5.24.1)
+ * tzinfo (2.0.6)
+ * rdoc (6.7.0)
+ * io-console (0.7.2)
+ * public_suffix (6.0.0)
+ * strscan (3.1.0)
+ * execjs (2.9.1)
+ * loofah (2.22.0)
+ * webrick (1.8.1)
+ * websocket-extensions (0.1.5)
+ * crass (1.0.6)
+
+2024-07-15 08:51:16.050 [info] (E-commercePrettyface)  * stringio (3.1.1)
+Install missing gems with `bundle install`
+
+2024-07-15 08:51:18.584 [info] (E-commercePrettyface) Fetching gem metadata from https://rubygems.org/
+2024-07-15 08:51:18.585 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.079 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.192 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.383 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.598 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.683 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.724 [info] (E-commercePrettyface) .
+2024-07-15 08:51:19.744 [info] (E-commercePrettyface) .
+2024-07-15 08:51:22.747 [info] (E-commercePrettyface) 
+
+2024-07-15 08:51:22.776 [info] (E-commercePrettyface) Fetching rake 13.2.1
+
+2024-07-15 08:51:23.043 [info] (E-commercePrettyface) Installing rake 13.2.1
+
+2024-07-15 08:51:23.068 [info] (E-commercePrettyface) Fetching bigdecimal 3.1.8
+
+2024-07-15 08:51:23.068 [info] (E-commercePrettyface) Fetching concurrent-ruby 1.3.3
+Fetching connection_pool 2.4.1
+Fetching drb 2.2.1
+
+2024-07-15 08:51:23.129 [info] (E-commercePrettyface) Installing bigdecimal 3.1.8 with native extensions
+
+2024-07-15 08:51:23.311 [info] (E-commercePrettyface) Installing concurrent-ruby 1.3.3
+
+2024-07-15 08:51:23.328 [info] (E-commercePrettyface) Installing connection_pool 2.4.1
+
+2024-07-15 08:51:23.352 [info] (E-commercePrettyface) Fetching minitest 5.24.1
+
+2024-07-15 08:51:23.425 [info] (E-commercePrettyface) Installing drb 2.2.1
+
+2024-07-15 08:51:23.445 [info] (E-commercePrettyface) Fetching builder 3.3.0
+
+2024-07-15 08:51:23.475 [info] (E-commercePrettyface) Fetching erubi 1.13.0
+
+2024-07-15 08:51:23.501 [info] (E-commercePrettyface) Installing minitest 5.24.1
+
+2024-07-15 08:51:23.532 [info] (E-commercePrettyface) Fetching racc 1.8.0
+
+2024-07-15 08:51:23.544 [info] (E-commercePrettyface) Installing builder 3.3.0
+
+2024-07-15 08:51:23.669 [info] (E-commercePrettyface) Installing erubi 1.13.0
+
+2024-07-15 08:51:23.687 [info] (E-commercePrettyface) Fetching crass 1.0.6
+
+2024-07-15 08:51:23.691 [info] (E-commercePrettyface) Fetching rack 3.1.6
+
+2024-07-15 08:51:23.708 [info] (E-commercePrettyface) Installing racc 1.8.0 with native extensions
+
+2024-07-15 08:51:23.744 [info] (E-commercePrettyface) Installing crass 1.0.6
+
+2024-07-15 08:51:23.761 [info] (E-commercePrettyface) Fetching nio4r 2.7.3
+
+2024-07-15 08:51:23.811 [info] (E-commercePrettyface) Installing rack 3.1.6
+
+2024-07-15 08:51:23.861 [info] (E-commercePrettyface) Fetching websocket-extensions 0.1.5
+
+2024-07-15 08:51:23.875 [info] (E-commercePrettyface) Installing nio4r 2.7.3 with native extensions
+
+2024-07-15 08:51:23.912 [info] (E-commercePrettyface) Installing websocket-extensions 0.1.5
+
+2024-07-15 08:51:23.930 [info] (E-commercePrettyface) Fetching zeitwerk 2.6.16
+
+2024-07-15 08:51:23.978 [info] (E-commercePrettyface) Installing zeitwerk 2.6.16
+
+2024-07-15 08:51:24.001 [info] (E-commercePrettyface) Fetching marcel 1.0.4
+
+2024-07-15 08:51:24.058 [info] (E-commercePrettyface) Installing marcel 1.0.4
+
+2024-07-15 08:51:24.071 [info] (E-commercePrettyface) Fetching mini_mime 1.1.5
+
+2024-07-15 08:51:24.118 [info] (E-commercePrettyface) Installing mini_mime 1.1.5
+
+2024-07-15 08:51:24.133 [info] (E-commercePrettyface) Fetching csv 3.3.0
+
+2024-07-15 08:51:24.199 [info] (E-commercePrettyface) Installing csv 3.3.0
+
+2024-07-15 08:51:24.223 [info] (E-commercePrettyface) Fetching formtastic_i18n 0.7.0
+
+2024-07-15 08:51:24.263 [info] (E-commercePrettyface) Installing formtastic_i18n 0.7.0
+
+2024-07-15 08:51:24.277 [info] (E-commercePrettyface) Fetching stringio 3.1.1
+
+2024-07-15 08:51:24.329 [info] (E-commercePrettyface) Installing stringio 3.1.1 with native extensions
+
+2024-07-15 08:51:26.516 [info] (E-commercePrettyface) Fetching io-console 0.7.2
+
+2024-07-15 08:51:26.682 [info] (E-commercePrettyface) Installing io-console 0.7.2 with native extensions
+
+2024-07-15 08:51:30.261 [info] (E-commercePrettyface) Fetching webrick 1.8.1
+
+2024-07-15 08:51:30.442 [info] (E-commercePrettyface) Installing webrick 1.8.1
+
+2024-07-15 08:51:30.470 [info] (E-commercePrettyface) Fetching thor 1.3.1
+
+2024-07-15 08:51:30.530 [info] (E-commercePrettyface) Installing thor 1.3.1
+
+2024-07-15 08:51:30.567 [info] (E-commercePrettyface) Fetching kaminari-core 1.2.2
+
+2024-07-15 08:51:30.617 [info] (E-commercePrettyface) Installing kaminari-core 1.2.2
+
+2024-07-15 08:51:30.708 [info] (E-commercePrettyface) Fetching public_suffix 6.0.0
+
+2024-07-15 08:51:30.869 [info] (E-commercePrettyface) Installing public_suffix 6.0.0
+
+2024-07-15 08:51:30.925 [info] (E-commercePrettyface) Fetching execjs 2.9.1
+
+2024-07-15 08:51:31.004 [info] (E-commercePrettyface) Installing execjs 2.9.1
+
+2024-07-15 08:51:31.069 [info] (E-commercePrettyface) Fetching bcrypt 3.1.20
+
+2024-07-15 08:51:31.138 [info] (E-commercePrettyface) Installing bcrypt 3.1.20 with native extensions
+
+2024-07-15 08:51:36.681 [info] (E-commercePrettyface) Fetching bindex 0.8.1
+
+2024-07-15 08:51:37.057 [info] (E-commercePrettyface) Installing bindex 0.8.1 with native extensions
+
+2024-07-15 08:51:39.292 [info] (E-commercePrettyface) Fetching msgpack 1.7.2
+
+2024-07-15 08:51:39.667 [info] (E-commercePrettyface) Installing msgpack 1.7.2 with native extensions
+
+2024-07-15 08:51:47.223 [info] (E-commercePrettyface) Fetching popper_js 2.11.8
+
+2024-07-15 08:51:47.406 [info] (E-commercePrettyface) Fetching ffi 1.17.0 (x86_64-linux-gnu)
+
+2024-07-15 08:51:47.509 [info] (E-commercePrettyface) Installing popper_js 2.11.8
+
+2024-07-15 08:51:47.562 [info] (E-commercePrettyface) Fetching tilt 2.4.0
+
+2024-07-15 08:51:47.887 [info] (E-commercePrettyface) Installing tilt 2.4.0
+
+2024-07-15 08:51:48.012 [info] (E-commercePrettyface) Fetching regexp_parser 2.9.2
+
+2024-07-15 08:51:48.048 [info] (E-commercePrettyface) Installing ffi 1.17.0 (x86_64-linux-gnu)
+
+2024-07-15 08:51:48.091 [info] (E-commercePrettyface) Installing regexp_parser 2.9.2
+
+2024-07-15 08:51:48.331 [info] (E-commercePrettyface) Fetching orm_adapter 0.5.0
+
+2024-07-15 08:51:48.405 [info] (E-commercePrettyface) Installing orm_adapter 0.5.0
+
+2024-07-15 08:51:48.491 [info] (E-commercePrettyface) Fetching foreman 0.88.1
+
+2024-07-15 08:51:48.519 [info] (E-commercePrettyface) Fetching mini_magick 4.13.2
+
+2024-07-15 08:51:48.569 [info] (E-commercePrettyface) Installing foreman 0.88.1
+
+2024-07-15 08:51:48.612 [info] (E-commercePrettyface) Installing mini_magick 4.13.2
+
+2024-07-15 08:51:48.711 [info] (E-commercePrettyface) Fetching strscan 3.1.0
+
+2024-07-15 08:51:48.803 [info] (E-commercePrettyface) Fetching rubyzip 2.3.2
+
+2024-07-15 08:51:48.814 [info] (E-commercePrettyface) Installing strscan 3.1.0 with native extensions
+
+2024-07-15 08:51:48.894 [info] (E-commercePrettyface) Installing rubyzip 2.3.2
+
+2024-07-15 08:51:48.959 [info] (E-commercePrettyface) Fetching websocket 1.2.11
+
+2024-07-15 08:51:49.032 [info] (E-commercePrettyface) Installing websocket 1.2.11
+
+2024-07-15 08:51:49.133 [info] (E-commercePrettyface) Fetching sqlite3 1.7.3 (x86_64-linux)
+
+2024-07-15 08:51:50.394 [info] (E-commercePrettyface) Installing sqlite3 1.7.3 (x86_64-linux)
+
+2024-07-15 08:51:50.822 [info] (E-commercePrettyface) Fetching stripe 12.1.0
+
+2024-07-15 08:51:50.957 [info] (E-commercePrettyface) Installing stripe 12.1.0
+
+2024-07-15 08:51:51.196 [info] (E-commercePrettyface) Fetching i18n 1.14.5
+
+2024-07-15 08:51:51.263 [info] (E-commercePrettyface) Installing i18n 1.14.5
+
+2024-07-15 08:51:51.341 [info] (E-commercePrettyface) Fetching tzinfo 2.0.6
+
+2024-07-15 08:51:51.654 [info] (E-commercePrettyface) Installing tzinfo 2.0.6
+
+2024-07-15 08:51:51.774 [info] (E-commercePrettyface) Fetching rack-session 2.0.0
+
+2024-07-15 08:51:51.851 [info] (E-commercePrettyface) Installing rack-session 2.0.0
+
+2024-07-15 08:51:51.888 [info] (E-commercePrettyface) Fetching rack-test 2.1.0
+
+2024-07-15 08:51:51.936 [info] (E-commercePrettyface) Installing rack-test 2.1.0
+
+2024-07-15 08:51:51.968 [info] (E-commercePrettyface) Fetching sprockets 4.2.1
+
+2024-07-15 08:51:52.077 [info] (E-commercePrettyface) Installing sprockets 4.2.1
+
+2024-07-15 08:51:52.192 [info] (E-commercePrettyface) Fetching warden 1.2.9
+
+2024-07-15 08:51:52.249 [info] (E-commercePrettyface) Installing warden 1.2.9
+
+2024-07-15 08:51:52.310 [info] (E-commercePrettyface) Fetching websocket-driver 0.7.6
+
+2024-07-15 08:51:52.367 [info] (E-commercePrettyface) Installing websocket-driver 0.7.6 with native extensions
+
+2024-07-15 08:51:54.745 [info] (E-commercePrettyface) Fetching nokogiri 1.16.6 (x86_64-linux)
+
+2024-07-15 08:51:56.545 [info] (E-commercePrettyface) Installing nokogiri 1.16.6 (x86_64-linux)
+
+2024-07-15 08:51:56.850 [info] (E-commercePrettyface) Fetching rackup 2.1.0
+
+2024-07-15 08:51:56.905 [info] (E-commercePrettyface) Installing rackup 2.1.0
+
+2024-07-15 08:51:56.916 [info] (E-commercePrettyface) Fetching addressable 2.8.7
+
+2024-07-15 08:51:56.989 [info] (E-commercePrettyface) Installing addressable 2.8.7
+
+2024-07-15 08:51:57.015 [info] (E-commercePrettyface) Fetching autoprefixer-rails 10.4.16.0
+
+2024-07-15 08:51:57.413 [info] (E-commercePrettyface) Installing autoprefixer-rails 10.4.16.0
+
+2024-07-15 08:51:57.616 [info] (E-commercePrettyface) Fetching reline 0.5.9
+
+2024-07-15 08:51:57.874 [info] (E-commercePrettyface) Installing reline 0.5.9
+
+2024-07-15 08:51:57.965 [info] (E-commercePrettyface) Fetching puma 6.4.2
+
+2024-07-15 08:51:58.082 [info] (E-commercePrettyface) Installing puma 6.4.2 with native extensions
+
+2024-07-15 08:51:59.990 [info] (E-commercePrettyface) Fetching sassc 2.4.0
+
+2024-07-15 08:52:00.225 [info] (E-commercePrettyface) Installing sassc 2.4.0 with native extensions
+
+2024-07-15 08:52:08.184 [info] (E-commercePrettyface) Fetching ruby-vips 2.2.1
+
+2024-07-15 08:52:08.440 [info] (E-commercePrettyface) Installing ruby-vips 2.2.1
+
+2024-07-15 08:52:08.498 [info] (E-commercePrettyface) Fetching rbs 3.5.2
+
+2024-07-15 08:52:09.198 [info] (E-commercePrettyface) Installing rbs 3.5.2 with native extensions
+
+2024-07-15 08:52:16.843 [info] (E-commercePrettyface) Fetching faker 3.4.1
+
+2024-07-15 08:52:17.484 [info] (E-commercePrettyface) Installing faker 3.4.1
+
+2024-07-15 08:52:18.318 [info] (E-commercePrettyface) Fetching net-imap 0.4.14
+
+2024-07-15 08:52:18.439 [info] (E-commercePrettyface) Installing net-imap 0.4.14
+
+2024-07-15 08:52:18.524 [info] (E-commercePrettyface) Fetching net-smtp 0.5.0
+
+2024-07-15 08:52:18.655 [info] (E-commercePrettyface) Installing net-smtp 0.5.0
+
+2024-07-15 08:52:18.686 [info] (E-commercePrettyface) Fetching loofah 2.22.0
+
+2024-07-15 08:52:18.765 [info] (E-commercePrettyface) Installing loofah 2.22.0
+
+2024-07-15 08:52:18.813 [info] (E-commercePrettyface) Fetching rdoc 6.7.0
+
+2024-07-15 08:52:19.217 [info] (E-commercePrettyface) Installing rdoc 6.7.0
+
+2024-07-15 08:52:19.588 [info] (E-commercePrettyface) Fetching xpath 3.2.0
+
+2024-07-15 08:52:19.663 [info] (E-commercePrettyface) Installing xpath 3.2.0
+
+2024-07-15 08:52:19.697 [info] (E-commercePrettyface) Fetching rexml 3.3.1
+
+2024-07-15 08:52:19.794 [info] (E-commercePrettyface) Installing rexml 3.3.1
+
+2024-07-15 08:52:19.922 [info] (E-commercePrettyface) Fetching bootsnap 1.18.3
+
+2024-07-15 08:52:20.121 [info] (E-commercePrettyface) Installing bootsnap 1.18.3 with native extensions
+
+2024-07-15 08:52:24.151 [info] (E-commercePrettyface) Fetching image_processing 1.12.2
+
+2024-07-15 08:52:24.435 [info] (E-commercePrettyface) Installing image_processing 1.12.2
+
+2024-07-15 08:52:24.499 [info] (E-commercePrettyface) Fetching activesupport 7.1.3.4
+
+2024-07-15 08:52:24.735 [info] (E-commercePrettyface) Installing activesupport 7.1.3.4
+
+2024-07-15 08:52:25.000 [info] (E-commercePrettyface) Fetching multi_xml 0.7.1
+
+2024-07-15 08:52:25.054 [info] (E-commercePrettyface) Installing multi_xml 0.7.1
+
+2024-07-15 08:52:25.065 [info] (E-commercePrettyface) Fetching mail 2.8.1
+
+2024-07-15 08:52:25.243 [info] (E-commercePrettyface) Installing mail 2.8.1
+
+2024-07-15 08:52:25.475 [info] (E-commercePrettyface) Fetching rails-html-sanitizer 1.6.0
+
+2024-07-15 08:52:25.609 [info] (E-commercePrettyface) Installing rails-html-sanitizer 1.6.0
+
+2024-07-15 08:52:25.680 [info] (E-commercePrettyface) Fetching irb 1.14.0
+
+2024-07-15 08:52:25.706 [info] (E-commercePrettyface) Fetching capybara 3.40.0
+
+2024-07-15 08:52:25.786 [info] (E-commercePrettyface) Installing irb 1.14.0
+
+2024-07-15 08:52:26.020 [info] (E-commercePrettyface) Fetching selenium-webdriver 4.22.0
+
+2024-07-15 08:52:26.070 [info] (E-commercePrettyface) Installing capybara 3.40.0
+
+2024-07-15 08:52:26.776 [info] (E-commercePrettyface) Fetching rails-dom-testing 2.2.0
+
+2024-07-15 08:52:27.556 [info] (E-commercePrettyface) Installing rails-dom-testing 2.2.0
+
+2024-07-15 08:52:27.658 [info] (E-commercePrettyface) Fetching globalid 1.2.1
+
+2024-07-15 08:52:27.716 [info] (E-commercePrettyface) Installing globalid 1.2.1
+
+2024-07-15 08:52:27.778 [info] (E-commercePrettyface) Fetching activemodel 7.1.3.4
+
+2024-07-15 08:52:27.799 [info] (E-commercePrettyface) Fetching arbre 1.7.0
+
+2024-07-15 08:52:27.862 [info] (E-commercePrettyface) Installing activemodel 7.1.3.4
+
+2024-07-15 08:52:27.981 [info] (E-commercePrettyface) Installing arbre 1.7.0
+
+2024-07-15 08:52:28.071 [info] (E-commercePrettyface) Fetching httparty 0.22.0
+
+2024-07-15 08:52:28.182 [info] (E-commercePrettyface) Installing httparty 0.22.0
+
+2024-07-15 08:52:28.228 [info] (E-commercePrettyface) Fetching debug 1.9.2
+
+2024-07-15 08:52:28.356 [info] (E-commercePrettyface) Installing debug 1.9.2 with native extensions
+
+2024-07-15 08:52:28.419 [info] (E-commercePrettyface) Fetching actionview 7.1.3.4
+
+2024-07-15 08:52:28.588 [info] (E-commercePrettyface) Installing actionview 7.1.3.4
+
+2024-07-15 08:52:28.936 [info] (E-commercePrettyface) Fetching activejob 7.1.3.4
+
+2024-07-15 08:52:29.049 [info] (E-commercePrettyface) Installing activejob 7.1.3.4
+
+2024-07-15 08:52:29.328 [info] (E-commercePrettyface) Fetching activerecord 7.1.3.4
+
+2024-07-15 08:52:29.352 [info] (E-commercePrettyface) Installing selenium-webdriver 4.22.0
+
+2024-07-15 08:52:29.682 [info] (E-commercePrettyface) Installing activerecord 7.1.3.4
+
+2024-07-15 08:52:31.245 [info] (E-commercePrettyface) Fetching ruby-lsp-rails 0.3.10
+
+2024-07-15 08:52:33.365 [info] (E-commercePrettyface) Installing ruby-lsp-rails 0.3.10
+
+2024-07-15 08:52:34.042 [info] (E-commercePrettyface) Fetching actionpack 7.1.3.4
+
+2024-07-15 08:52:35.201 [info] (E-commercePrettyface) Installing actionpack 7.1.3.4
+
+2024-07-15 08:52:36.661 [info] (E-commercePrettyface) Fetching kaminari-actionview 1.2.2
+
+2024-07-15 08:52:37.256 [info] (E-commercePrettyface) Installing kaminari-actionview 1.2.2
+
+2024-07-15 08:52:37.490 [info] (E-commercePrettyface) Fetching jbuilder 2.12.0
+
+2024-07-15 08:52:37.732 [info] (E-commercePrettyface) Installing jbuilder 2.12.0
+
+2024-07-15 08:52:38.399 [info] (E-commercePrettyface) Fetching kaminari-activerecord 1.2.2
+
+2024-07-15 08:52:38.613 [info] (E-commercePrettyface) Installing kaminari-activerecord 1.2.2
+
+2024-07-15 08:52:38.701 [info] (E-commercePrettyface) Fetching ransack 4.1.1
+
+2024-07-15 08:52:38.987 [info] (E-commercePrettyface) Fetching webdrivers 5.2.0
+
+2024-07-15 08:52:39.640 [info] (E-commercePrettyface) Installing webdrivers 5.2.0
+
+2024-07-15 08:52:39.993 [info] (E-commercePrettyface) Fetching actioncable 7.1.3.4
+
+2024-07-15 08:52:40.118 [info] (E-commercePrettyface) Installing ransack 4.1.1
+
+2024-07-15 08:52:40.227 [info] (E-commercePrettyface) Installing actioncable 7.1.3.4
+
+2024-07-15 08:52:40.864 [info] (E-commercePrettyface) Fetching activestorage 7.1.3.4
+
+2024-07-15 08:52:41.079 [info] (E-commercePrettyface) Installing activestorage 7.1.3.4
+
+2024-07-15 08:52:42.051 [info] (E-commercePrettyface) Fetching actionmailer 7.1.3.4
+
+2024-07-15 08:52:42.065 [info] (E-commercePrettyface) Fetching formtastic 5.0.0
+
+2024-07-15 08:52:42.195 [info] (E-commercePrettyface) Installing actionmailer 7.1.3.4
+
+2024-07-15 08:52:42.411 [info] (E-commercePrettyface) Installing formtastic 5.0.0
+
+2024-07-15 08:52:42.519 [info] (E-commercePrettyface) Fetching has_scope 0.8.2
+
+2024-07-15 08:52:42.625 [info] (E-commercePrettyface) Installing has_scope 0.8.2
+
+2024-07-15 08:52:42.742 [info] (E-commercePrettyface) Fetching railties 7.1.3.4
+
+2024-07-15 08:52:43.061 [info] (E-commercePrettyface) Installing railties 7.1.3.4
+
+2024-07-15 08:52:43.521 [info] (E-commercePrettyface) Fetching sprockets-rails 3.5.1
+
+2024-07-15 08:52:43.608 [info] (E-commercePrettyface) Installing sprockets-rails 3.5.1
+
+2024-07-15 08:52:43.759 [info] (E-commercePrettyface) Fetching kaminari 1.2.2
+
+2024-07-15 08:52:43.854 [info] (E-commercePrettyface) Installing kaminari 1.2.2
+
+2024-07-15 08:52:44.040 [info] (E-commercePrettyface) Fetching actionmailbox 7.1.3.4
+
+2024-07-15 08:52:44.179 [info] (E-commercePrettyface) Installing actionmailbox 7.1.3.4
+
+2024-07-15 08:52:44.709 [info] (E-commercePrettyface) Fetching actiontext 7.1.3.4
+
+2024-07-15 08:52:45.015 [info] (E-commercePrettyface) Installing actiontext 7.1.3.4
+
+2024-07-15 08:52:45.248 [info] (E-commercePrettyface) Fetching responders 3.1.1
+
+2024-07-15 08:52:45.346 [info] (E-commercePrettyface) Installing responders 3.1.1
+
+2024-07-15 08:52:45.400 [info] (E-commercePrettyface) Fetching jquery-rails 4.6.0
+
+2024-07-15 08:52:45.456 [info] (E-commercePrettyface) Fetching importmap-rails 2.0.1
+
+2024-07-15 08:52:45.703 [info] (E-commercePrettyface) Installing importmap-rails 2.0.1
+
+2024-07-15 08:52:45.873 [info] (E-commercePrettyface) Fetching stimulus-rails 1.3.3
+
+2024-07-15 08:52:45.889 [info] (E-commercePrettyface) Installing jquery-rails 4.6.0
+
+2024-07-15 08:52:46.107 [info] (E-commercePrettyface) Installing stimulus-rails 1.3.3
+
+2024-07-15 08:52:46.211 [info] (E-commercePrettyface) Fetching tailwindcss-rails 2.6.1 (x86_64-linux)
+
+2024-07-15 08:52:46.271 [info] (E-commercePrettyface) Fetching turbo-rails 2.0.5
+
+2024-07-15 08:52:47.462 [info] (E-commercePrettyface) Fetching web-console 4.2.1
+
+2024-07-15 08:52:53.097 [info] (E-commercePrettyface) Installing web-console 4.2.1
+
+2024-07-15 08:52:53.122 [info] (E-commercePrettyface) Installing turbo-rails 2.0.5
+
+2024-07-15 08:52:53.305 [info] (E-commercePrettyface) Fetching rails 7.1.3.4
+
+2024-07-15 08:52:53.413 [info] (E-commercePrettyface) Installing rails 7.1.3.4
+
+2024-07-15 08:52:53.460 [info] (E-commercePrettyface) Fetching inherited_resources 1.14.0
+
+2024-07-15 08:52:53.504 [info] (E-commercePrettyface) Fetching devise 4.9.4
+
+2024-07-15 08:52:53.538 [info] (E-commercePrettyface) Installing inherited_resources 1.14.0
+
+2024-07-15 08:52:53.834 [info] (E-commercePrettyface) Installing devise 4.9.4
+
+2024-07-15 08:52:54.087 [info] (E-commercePrettyface) Fetching activeadmin 3.2.2
+
+2024-07-15 08:52:54.450 [info] (E-commercePrettyface) Installing activeadmin 3.2.2
+
+2024-07-15 08:52:56.099 [info] (E-commercePrettyface) Installing tailwindcss-rails 2.6.1 (x86_64-linux)
+

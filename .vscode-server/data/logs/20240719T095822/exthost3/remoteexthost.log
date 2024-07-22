@@ -1,0 +1,169 @@
+2024-07-21 20:21:52.057 [info] Extension host with pid 532955 started
+2024-07-21 20:21:52.147 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/aef9a8b2b4d33702e04b2cc1ecd759bc/vscode.lock': Lock acquired.
+2024-07-21 20:21:52.373 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-21 20:21:52.375 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-21 20:21:52.375 [info] ExtensionService#_doActivateExtension KoichiSasada.vscode-rdbg, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-21 20:21:52.376 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-21 20:21:52.387 [info] ExtensionService#_doActivateExtension sorbet.sorbet-vscode-extension, startup: false, activationEvent: 'onLanguage:ruby'
+2024-07-21 20:21:55.437 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-21 20:21:55.717 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-21 20:21:55.718 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-21 20:21:56.945 [info] Eager extensions activated
+2024-07-21 20:21:56.946 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-21 20:21:56.947 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-21 20:21:56.948 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-21 20:21:56.960 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-21 22:15:56.575 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-22 08:36:15.178 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 08:36:18.325 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 08:36:21.487 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 08:36:22.486 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 08:45:04.796 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 08:45:12.611 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 08:55:35.479 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 08:55:37.977 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 09:00:38.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 09:00:41.378 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 09:15:00.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 09:15:02.988 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 09:53:24.678 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10027
+2024-07-22 09:53:27.170 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:24:04.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10021
+2024-07-22 15:24:06.672 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:27:04.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:27:06.827 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:32:52.125 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:32:54.304 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:35:52.375 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:35:54.528 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:38:52.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:38:55.342 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:41:52.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:41:54.187 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:42:41.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:42:43.368 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:43:09.432 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:43:13.320 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:43:14.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:43:17.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-07-22 15:43:19.581 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)
+2024-07-22 15:43:19.669 [error] Error: No such branch: main.
+	at F.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/ooke0392703/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/main.js:2:940157)

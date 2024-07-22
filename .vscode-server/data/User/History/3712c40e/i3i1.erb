@@ -1,0 +1,22 @@
+<div class="container">
+  <h1 class="title is-1 mt-5">ABOUT US</h1>
+
+  <% @data_sources.each do |data_source| %>
+    <h3 class="subtitle is-3"><%= data_source[:title] %></h3>
+    <p><%= data_source[:desc1] %></p>
+    <p><%= data_source[:desc2] %></p>
+    <p><%= data_source[:desc3] %></p>
+    <p><%= data_source[:desc4] %></p>
+    <p><%= data_source[:desc5] %></p>
+    <p><%= data_source[:desc6] %></p>
+  <% end %>
+
+  <% if defined?(@erd_information) %>
+    <div class="mt-5 mb-5">
+      <h2 class="title is-2">Entity Relationship Diagram (ERD)</h2>
+      <p><%= @erd_information[:description] %></p>
+      <%= image_tag @erd_information[:image_path], alt: "ERD Image",class: "image is-fluid" %>
+    </div>
+  <% end %>
+</div>
+

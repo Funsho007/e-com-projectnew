@@ -1,0 +1,23 @@
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-container h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-us-container h2 {
+    color: #555;
+    margin-top: 30px;
+  }
+  
+  .about-us-container p {
+    line-height: 1.6;
+  }
+  
+  .about-us-container ul {
+    margin-left: 20px;
+  }

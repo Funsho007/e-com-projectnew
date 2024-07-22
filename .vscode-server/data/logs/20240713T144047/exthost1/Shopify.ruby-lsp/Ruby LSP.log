@@ -1,0 +1,473 @@
+2024-07-13 14:41:09.633 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 14:41:11.351 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 14:41:12.752 [info] (Pretty-face) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-13 14:41:13.774 [info] (Pretty-face) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-13 14:41:14.197 [info] (Pretty-face) Discovered version manager asdf
+2024-07-13 14:41:14.241 [info] (Pretty-face) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:41:21.721 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 14:41:21.840 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+
+2024-07-13 14:41:21.841 [info] (Pretty-face) Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 14:41:23.842 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 14:41:29.201 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 14:41:29.525 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 14:41:29.971 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 14:41:30.057 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 14:41:34.868 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+
+2024-07-13 14:41:34.869 [info] (Pretty-face) Server dependent features will not be available
+
+2024-07-13 14:47:21.990 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 14:47:22.003 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 14:47:22.080 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 14:47:22.295 [info] (Pretty-face) [Error - 2:47:22 PM] Server process exited with code 0.
+2024-07-13 14:47:22.458 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 14:47:22.579 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 14:47:22.579 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:47:22.837 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:47:24.076 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 14:47:24.646 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 14:47:24.894 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 14:47:26.419 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 14:47:26.573 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 14:47:26.778 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 14:47:26.899 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 14:47:30.643 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+Server dependent features will not be available
+
+2024-07-13 14:52:59.750 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 14:52:59.755 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 14:52:59.909 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 14:52:59.972 [info] (Pretty-face) [Error - 2:52:59 PM] Server process exited with code 0.
+2024-07-13 14:53:00.344 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 14:53:00.498 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 14:53:00.498 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:53:00.813 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 14:53:01.853 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-13 14:53:02.340 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 14:53:02.579 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 14:53:04.061 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 14:53:04.142 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 14:53:04.268 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 14:53:04.389 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 14:53:09.650 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+Server dependent features will not be available
+
+2024-07-13 21:20:34.596 [info] (Pretty-face) Shutting down Ruby LSP...
+
+2024-07-13 21:20:34.658 [info] (Pretty-face) Shutdown complete with status 0
+
+2024-07-13 21:20:34.692 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-13 21:20:35.392 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-13 21:20:35.695 [info] (Pretty-face) Discovered version manager rbenv
+2024-07-13 21:20:35.695 [info] (Pretty-face) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 21:20:37.045 [info] (Pretty-face) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-13 21:20:39.447 [info] (Pretty-face) [Error - 9:20:39 PM] Server process exited with code 0.
+2024-07-13 21:20:39.996 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-13 21:20:40.038 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-13 21:20:40.797 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-13 21:20:46.282 [info] (Pretty-face) Fetching gem metadata from https://rubygems.org/
+2024-07-13 21:20:46.283 [info] (Pretty-face) .
+2024-07-13 21:20:47.378 [info] (Pretty-face) .
+2024-07-13 21:20:47.653 [info] (Pretty-face) .
+2024-07-13 21:20:47.872 [info] (Pretty-face) .
+2024-07-13 21:20:47.948 [info] (Pretty-face) .
+2024-07-13 21:20:47.983 [info] (Pretty-face) .
+2024-07-13 21:20:48.011 [info] (Pretty-face) .
+2024-07-13 21:20:48.015 [info] (Pretty-face) .
+2024-07-13 21:20:48.017 [info] (Pretty-face) .
+2024-07-13 21:20:50.829 [info] (Pretty-face) 
+
+2024-07-13 21:20:50.929 [info] (Pretty-face) Resolving dependencies...
+
+2024-07-13 21:20:53.509 [info] (Pretty-face) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update ruby-lsp-rails but its version stayed the same
+
+2024-07-13 21:20:53.509 [info] (Pretty-face) Bundle updated!
+
+2024-07-13 21:20:55.664 [info] (Pretty-face) Initializing Ruby LSP v0.17.7...
+
+2024-07-13 21:20:55.785 [info] (Pretty-face) Finished initializing Ruby LSP!
+
+2024-07-13 21:20:56.124 [info] (Pretty-face) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-13 21:20:56.173 [info] (Pretty-face) Ruby LSP Rails booting server
+
+2024-07-13 21:21:01.808 [info] (Pretty-face) Ruby LSP Rails failed to initialize server: /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:3:in `<module:ActiveAdmin>': uninitialized constant InheritedResources::Base (NameError)
+
+  class BaseController < ::InheritedResources::Base
+                                             ^^^^^^
+Did you mean?  Base64
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller/authorization.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/base_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:5:in `<module:ActiveAdmin>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/page_controller.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from (eval at /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209):1:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `eval'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:209:in `register_page_controller'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/namespace.rb:85:in `register_page'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:96:in `register_page'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:33:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:70:in `setup'
+	from /home/ooke0392703/projects/Pretty-face/config/initializers/active_admin.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:690:in `block in load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:208:in `instrument'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:689:in `load_config_initializer'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/engine.rb:642:in `block in <class:Engine>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:32:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:231:in `block in tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:353:in `block (2 levels) in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:425:in `block (2 levels) in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:434:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:424:in `block in each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:418:in `each_strongly_connected_component_from'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:352:in `block in each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `call'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:350:in `each_strongly_connected_component'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:229:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/tsort.rb:208:in `tsort_each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/initializable.rb:60:in `run_initializers'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:426:in `initialize!'
+	from /home/ooke0392703/projects/Pretty-face/config/environment.rb:5:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application.rb:402:in `require_environment!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/actions.rb:20:in `boot_application!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:28:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:90:in `rescue in initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:40:in `initialize'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `new'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/runner_client.rb:16:in `create_client'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `bind_call'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/sorbet-runtime-0.5.11481/lib/types/private/methods/_methods.rb:279:in `block in _on_method_added'
+/home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.10/lib/ruby_lsp/ruby_lsp_rails/addon.rb:36:in `block in activate'
+Server dependent features will not be available
+

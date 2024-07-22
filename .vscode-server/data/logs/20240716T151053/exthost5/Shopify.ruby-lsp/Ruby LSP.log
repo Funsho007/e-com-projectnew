@@ -1,0 +1,129 @@
+2024-07-17 13:13:32.542 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-17 13:13:33.558 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-17 13:13:34.562 [info] (finest) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-17 13:13:35.855 [info] (finest) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-17 13:13:36.087 [info] (finest) Discovered version manager asdf
+2024-07-17 13:13:36.105 [info] (finest) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-17 13:13:39.132 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-17 13:13:39.182 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-17 13:13:40.022 [info] (finest) The Gemfile's dependencies are satisfied
+
+2024-07-17 13:13:43.330 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-17 13:13:43.331 [info] (finest) .
+2024-07-17 13:13:43.697 [info] (finest) .
+2024-07-17 13:13:43.801 [info] (finest) .
+2024-07-17 13:13:43.936 [info] (finest) .
+2024-07-17 13:13:44.037 [info] (finest) .
+2024-07-17 13:13:44.087 [info] (finest) .
+2024-07-17 13:13:44.108 [info] (finest) .
+2024-07-17 13:13:44.113 [info] (finest) .
+2024-07-17 13:13:44.116 [info] (finest) .
+2024-07-17 13:13:46.380 [info] (finest) 
+
+2024-07-17 13:13:46.458 [info] (finest) Resolving dependencies...
+
+2024-07-17 13:13:48.114 [info] (finest) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update ruby-lsp-rails but its version stayed the same
+Bundle updated!
+
+2024-07-17 13:13:49.387 [info] (finest) Initializing Ruby LSP v0.17.7...
+
+2024-07-17 13:13:49.502 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-17 13:13:49.587 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-17 13:13:49.653 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-17 13:13:55.326 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-17 13:17:17.463 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-17 13:17:22.502 [info] (finest) Finished fetching search index for Rails documentation
+
+2024-07-17 13:19:45.739 [info] (finest) Reloading Rails application
+
+2024-07-17 16:45:41.793 [info] (finest) Reloading Rails application
+
+2024-07-17 17:38:10.271 [info] (finest) Reloading Rails application
+
+2024-07-18 10:30:02.520 [info] (finest) Reloading Rails application
+
+2024-07-18 10:33:19.798 [info] (finest) Reloading Rails application
+
+2024-07-18 10:33:39.086 [info] (finest) Reloading Rails application
+
+2024-07-18 10:33:44.251 [info] (finest) Reloading Rails application
+
+2024-07-18 10:33:47.786 [info] (finest) Reloading Rails application
+
+2024-07-18 10:35:10.225 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:11.030 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:12.346 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:14.200 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:16.790 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:32.280 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:35.324 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:43.896 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:50.704 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:52.083 [info] (finest) Reloading Rails application
+
+2024-07-18 11:07:59.969 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:03.006 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:05.733 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:08.786 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:11.857 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:16.113 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:18.632 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:20.307 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:25.217 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:30.942 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:32.909 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:34.254 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:36.074 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:41.041 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:43.189 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:45.314 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:55.918 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:57.097 [info] (finest) Reloading Rails application
+
+2024-07-18 11:08:59.526 [info] (finest) Reloading Rails application
+
+2024-07-18 11:09:01.429 [info] (finest) Reloading Rails application
+
+2024-07-18 11:09:05.279 [info] (finest) Reloading Rails application
+
+2024-07-18 11:09:10.359 [info] (finest) Reloading Rails application
+
+2024-07-18 11:25:25.327 [info] (finest) Reloading Rails application
+
+2024-07-18 12:02:55.119 [info] (finest) Reloading Rails application
+

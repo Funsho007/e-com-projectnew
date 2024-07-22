@@ -1,0 +1,22 @@
+2024-07-15 17:51:24.228 [info] (Pretty-face) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-15 17:51:25.333 [info] (Pretty-face) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-15 17:51:26.352 [info] (Pretty-face) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-15 17:51:27.365 [info] (Pretty-face) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-15 17:51:27.877 [info] (Pretty-face) Discovered version manager asdf
+2024-07-15 17:51:27.893 [info] (Pretty-face) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/Pretty-face using shell: /bin/bash
+2024-07-15 17:51:36.387 [info] (Pretty-face) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/Pretty-face/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-15 17:51:36.483 [info] (Pretty-face) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+
+2024-07-15 17:51:36.483 [info] (Pretty-face) Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-15 17:51:39.846 [info] (Pretty-face) The Gemfile's dependencies are satisfied
+
+2024-07-15 17:51:56.710 [info] (Pretty-face) Fetching gem metadata from https://rubygems.org/.
+2024-07-15 17:51:58.921 [info] (Pretty-face) .
+2024-07-15 17:51:59.934 [info] (Pretty-face) .
+2024-07-15 17:52:01.463 [info] (Pretty-face) .
+2024-07-15 17:52:01.821 [info] (Pretty-face) .
+2024-07-15 17:52:01.949 [info] (Pretty-face) .
+2024-07-15 17:52:01.996 [info] (Pretty-face) .
+2024-07-15 17:52:02.013 [info] (Pretty-face) ..

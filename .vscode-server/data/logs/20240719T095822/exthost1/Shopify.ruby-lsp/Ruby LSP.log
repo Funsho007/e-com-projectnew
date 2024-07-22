@@ -1,0 +1,19 @@
+2024-07-19 11:39:12.842 [info] (E-com-project-main) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-19 11:39:13.459 [info] (E-com-project-main) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-19 11:39:13.591 [info] (E-com-project-main) Discovered version manager rbenv
+2024-07-19 11:39:13.591 [info] (E-com-project-main) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/E-com-project-main using shell: /bin/bash
+2024-07-19 11:39:33.231 [info] (E-com-project-main) Ruby LSP> Skipping lockfile copies because there's no top level bundle
+
+2024-07-19 11:39:33.233 [info] (E-com-project-main) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-19 11:39:33.506 [info] (E-com-project-main) Resolving dependencies...
+
+2024-07-19 11:39:33.528 [info] (E-com-project-main) The Gemfile's dependencies are satisfied
+
+2024-07-19 11:39:34.566 [info] (E-com-project-main) Initializing Ruby LSP v0.17.8...
+
+2024-07-19 11:39:34.651 [info] (E-com-project-main) Finished initializing Ruby LSP!
+
+2024-07-20 14:10:12.331 [info] (E-com-project-main) Shutting down Ruby LSP...
+

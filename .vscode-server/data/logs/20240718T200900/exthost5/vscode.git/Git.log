@@ -1,0 +1,82 @@
+2024-07-18 20:43:15.160 [info] Log level: Info
+2024-07-18 20:43:15.160 [info] Validating found git in: "git"
+2024-07-18 20:43:15.160 [info] Using git "2.34.1" from "git"
+2024-07-18 20:43:15.160 [info] > git rev-parse --show-toplevel [25ms]
+2024-07-18 20:43:15.170 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-07-18 20:43:15.254 [info] Open repository: /home/ooke0392703/projects/MakeupHub
+2024-07-18 20:43:15.316 [info] > git config --get commit.template [17ms]
+2024-07-18 20:43:15.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-07-18 20:43:15.379 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:15.490 [info] > git rev-parse --show-toplevel [44ms]
+2024-07-18 20:43:15.548 [info] > git status -z -uall [129ms]
+2024-07-18 20:43:17.865 [info] > git check-ignore -v -z --stdin [46ms]
+2024-07-18 20:43:17.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2197ms]
+2024-07-18 20:43:17.878 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:17.883 [info] > git rev-parse --show-toplevel [2337ms]
+2024-07-18 20:43:17.893 [info] > git fetch [2639ms]
+2024-07-18 20:43:17.893 [info] fatal: bad object refs/heads/Active-admin:Zone.Identifier
+error: https://github.com/MaryamGambo/MakeupHub.git did not send all necessary objects
+2024-07-18 20:43:17.930 [info] > git config --local branch.main.vscode-merge-base [47ms]
+2024-07-18 20:43:17.930 [warning] git config failed: Failed to execute git
+2024-07-18 20:43:17.937 [info] > git config --get commit.template [95ms]
+2024-07-18 20:43:17.956 [info] > git rev-parse --show-toplevel [40ms]
+2024-07-18 20:43:17.991 [info] > git config --get commit.template [49ms]
+2024-07-18 20:43:17.991 [info] > git reflog main --grep-reflog=branch: Created from *. [55ms]
+2024-07-18 20:43:18.079 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [59ms]
+2024-07-18 20:43:18.079 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-18 20:43:18.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [181ms]
+2024-07-18 20:43:18.156 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:18.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [82ms]
+2024-07-18 20:43:18.160 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:18.164 [info] > git rev-parse --show-toplevel [128ms]
+2024-07-18 20:43:18.165 [info] > git merge-base refs/heads/main refs/remotes/origin/main [21ms]
+2024-07-18 20:43:18.199 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [20ms]
+2024-07-18 20:43:18.227 [info] > git rev-parse --show-toplevel [44ms]
+2024-07-18 20:43:18.231 [info] > git diff --name-status -z --diff-filter=ADMR fd8881bd1273e42cd02e88014f236340e4cbab5b...refs/remotes/origin/main [15ms]
+2024-07-18 20:43:18.260 [info] > git rev-parse --show-toplevel [15ms]
+2024-07-18 20:43:18.282 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-18 20:43:18.325 [info] > git status -z -uall [76ms]
+2024-07-18 20:43:20.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1665ms]
+2024-07-18 20:43:20.035 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:20.049 [info] > git rev-parse --show-toplevel [1751ms]
+2024-07-18 20:43:20.070 [info] > git config --local branch.main.vscode-merge-base [22ms]
+2024-07-18 20:43:20.070 [warning] git config failed: Failed to execute git
+2024-07-18 20:43:20.101 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2024-07-18 20:43:20.105 [info] > git rev-parse --show-toplevel [36ms]
+2024-07-18 20:43:20.112 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-07-18 20:43:20.112 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-18 20:43:20.116 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-18 20:43:20.134 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-18 20:43:20.149 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 20:43:20.171 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 20:43:20.219 [info] > git show --textconv :Gemfile [15ms]
+2024-07-18 20:43:20.221 [info] > git ls-files --stage -- /home/ooke0392703/projects/MakeupHub/Gemfile [12ms]
+2024-07-18 20:43:20.238 [info] > git cat-file -s e06db25b0d41e0d2b69bad464376d565f0373cf2 [2ms]
+2024-07-18 20:43:21.057 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-18 20:43:24.981 [info] > git check-ignore -v -z --stdin [20ms]
+2024-07-18 20:43:39.610 [info] > git config --get commit.template [33ms]
+2024-07-18 20:43:39.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-07-18 20:43:39.627 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:39.677 [info] > git status -z -uall [36ms]
+2024-07-18 20:43:40.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [801ms]
+2024-07-18 20:43:40.503 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:43:40.521 [info] > git check-ignore -v -z --stdin [5ms]
+2024-07-18 20:43:40.522 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2024-07-18 20:43:40.522 [warning] git config failed: Failed to execute git
+2024-07-18 20:43:40.571 [info] > git reflog main --grep-reflog=branch: Created from *. [36ms]
+2024-07-18 20:43:40.609 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-07-18 20:43:40.609 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-07-18 20:43:49.269 [info] > git show --textconv :app/admin/admin_users.rb:Zone.Identifier [5ms]
+2024-07-18 20:43:49.271 [info] > git ls-files --stage -- /home/ooke0392703/projects/MakeupHub/app/admin/admin_users.rb:Zone.Identifier [3ms]
+2024-07-18 20:43:54.371 [info] > git show --textconv :app/admin/brands.rb [6ms]
+2024-07-18 20:43:54.372 [info] > git ls-files --stage -- /home/ooke0392703/projects/MakeupHub/app/admin/brands.rb [3ms]
+2024-07-18 20:43:54.387 [info] > git cat-file -s 9650dbfc695da371620241adc84d1aae71015a63 [10ms]
+2024-07-18 20:43:57.865 [info] > git show --textconv :app/admin/provinces.rb [5ms]
+2024-07-18 20:43:57.867 [info] > git ls-files --stage -- /home/ooke0392703/projects/MakeupHub/app/admin/provinces.rb [2ms]
+2024-07-18 20:43:57.879 [info] > git cat-file -s 0a70ca7240e38be03efdefedfe3ea185dc8aa771 [8ms]
+2024-07-18 20:44:00.321 [info] > git show --textconv :app/admin/provinces.rb:Zone.Identifier [6ms]
+2024-07-18 20:44:00.329 [info] > git ls-files --stage -- /home/ooke0392703/projects/MakeupHub/app/admin/provinces.rb:Zone.Identifier [9ms]
+2024-07-18 20:44:22.925 [info] > git config --get commit.template [6ms]
+2024-07-18 20:44:22.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-18 20:44:22.925 [info] warning: ignoring ref with broken name refs/heads/main:Zone.Identifier
+2024-07-18 20:44:22.966 [info] > git status -z -uall [34ms]

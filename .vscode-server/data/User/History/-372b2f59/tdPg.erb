@@ -1,0 +1,32 @@
+<h1>Films</h1>
+
+<%= form_with url: films_path, method: :get, local: true do |form| %>
+  <div>
+    <%= form.label :search, "Search Films" %>
+    <%= form.text_field :search, id: "film_search", autocomplete: "off" %>
+  </div>
+  <div>
+    <%= form.submit "Search" %>
+  </div>
+<% end %>
+
+<ul>
+  <% @films.each do |film| %>
+    <li>
+      <%= link_to film.title, film_path(film) %>
+    </li>
+  <% end %>
+</ul>
+
+<p>
+  <%= link_to 'Home', root_path %>
+  <%= link_to 'All Films', films_path %>
+</p>
+
+<script>
+  $(document).on('turbolinks:load', function() {
+    $('#film_search').autocomplete({
+      source: '<%= films_autocomplete_path %>'
+    });
+  });
+</script>

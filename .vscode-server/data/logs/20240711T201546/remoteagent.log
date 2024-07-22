@@ -1,0 +1,31 @@
+2024-07-11 20:15:47.420 [info] 
+
+
+
+
+2024-07-11 20:15:47.501 [info] Extension host agent started.
+2024-07-11 20:15:47.891 [info] [127.0.0.1][02594fde][ManagementConnection] New connection established.
+2024-07-11 20:15:49.240 [info] [127.0.0.1][dc407b49][ExtensionHostConnection] New connection established.
+2024-07-11 20:15:49.284 [info] [127.0.0.1][dc407b49][ExtensionHostConnection] <1103> Launched Extension Host Process.
+2024-07-12 20:16:44.506 [info] Getting Manifest... shopify.ruby-lsp
+2024-07-12 20:16:44.746 [info] Installing extension: shopify.ruby-lsp file:///home/ooke0392703/.vscode-server/extensions/extensions.json
+2024-07-12 20:16:55.442 [info] Extension signature verification result for shopify.ruby-lsp: Success. Executed: true. Duration: 7809ms.
+2024-07-12 20:16:55.604 [info] Extracted extension to file:///home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.12: shopify.ruby-lsp
+2024-07-12 20:16:55.654 [info] Renamed to /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.12
+2024-07-12 20:16:55.850 [info] Marked extension as uninstalled shopify.ruby-lsp-0.7.11
+2024-07-12 20:16:55.899 [info] Extension installed successfully: shopify.ruby-lsp file:///home/ooke0392703/.vscode-server/extensions/extensions.json
+2024-07-12 23:57:00.551 [info] [127.0.0.1][b17d90aa][ManagementConnection] New connection established.
+2024-07-12 23:57:01.330 [info] [127.0.0.1][97dbe2a2][ExtensionHostConnection] New connection established.
+2024-07-12 23:57:01.373 [info] [127.0.0.1][97dbe2a2][ExtensionHostConnection] <520217> Launched Extension Host Process.
+2024-07-13 14:39:34.735 [info] [127.0.0.1][b17d90aa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-13 14:39:34.988 [info] [127.0.0.1][02594fde][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-07-13 14:39:35.987 [info] [127.0.0.1][97dbe2a2][ExtensionHostConnection] <520217> Extension Host Process exited with code: 0, signal: null.
+2024-07-13 14:39:37.385 [info] [127.0.0.1][dc407b49][ExtensionHostConnection] <1103> Extension Host Process exited with code: 0, signal: null.
+2024-07-14 08:24:35.137 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-14 18:05:25.042 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-14 20:19:36.590 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ooke0392703/.vscode-server/bin/5437499feb04f7a586f677b155b039bc2b3669eb/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-07-14 20:19:55.803 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-14 20:21:05.962 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-15 07:21:27.939 [warning] No ptyHost heartbeat after 6 seconds

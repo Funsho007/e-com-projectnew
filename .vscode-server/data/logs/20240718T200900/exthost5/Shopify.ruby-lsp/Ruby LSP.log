@@ -1,0 +1,152 @@
+2024-07-18 20:43:18.198 [info] (MakeupHub) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-18 20:43:20.096 [info] (MakeupHub) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-18 20:43:21.093 [info] (MakeupHub) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-18 20:43:22.097 [info] (MakeupHub) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-18 20:43:22.484 [info] (MakeupHub) Discovered version manager asdf
+2024-07-18 20:43:22.499 [info] (MakeupHub) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/MakeupHub using shell: undefined
+2024-07-18 20:43:27.835 [info] (MakeupHub) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/MakeupHub/.ruby-lsp/Gemfile.lock already exists and is up to date
+Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:43:30.089 [info] (MakeupHub) Bundler can't satisfy your Gemfile's dependencies.
+Install missing gems with `bundle install`.
+
+2024-07-18 20:43:35.311 [info] (MakeupHub) Fetching gem metadata from https://rubygems.org/
+2024-07-18 20:43:35.314 [info] (MakeupHub) .
+2024-07-18 20:43:35.908 [info] (MakeupHub) .
+2024-07-18 20:43:36.080 [info] (MakeupHub) .
+2024-07-18 20:43:36.231 [info] (MakeupHub) .
+2024-07-18 20:43:36.414 [info] (MakeupHub) .
+2024-07-18 20:43:36.439 [info] (MakeupHub) .
+2024-07-18 20:43:36.454 [info] (MakeupHub) .
+2024-07-18 20:43:36.457 [info] (MakeupHub) .
+2024-07-18 20:43:36.461 [info] (MakeupHub) .
+2024-07-18 20:43:36.463 [info] (MakeupHub) .
+2024-07-18 20:43:37.935 [info] (MakeupHub) 
+
+2024-07-18 20:43:38.044 [info] (MakeupHub) Resolving dependencies...
+2024-07-18 20:43:38.383 [info] (MakeupHub) .
+2024-07-18 20:43:38.406 [info] (MakeupHub) 
+
+2024-07-18 20:43:38.430 [info] (MakeupHub) Your bundle is locked to nokogiri (1.15.2-x86_64-linux) from rubygems repository
+https://rubygems.org/ or installed locally, but that version can no longer be
+found in that source. That means the author of nokogiri (1.15.2-x86_64-linux)
+has removed it. You'll need to update your bundle to a version other than
+nokogiri (1.15.2-x86_64-linux) that hasn't been removed in order to install.
+
+2024-07-18 20:43:38.480 [info] (MakeupHub) Ruby LSP> Running bundle install failed. Trying to re-generate the custom bundle from scratch
+
+2024-07-18 20:43:38.482 [info] (MakeupHub) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:43:39.006 [info] (MakeupHub) Bundler can't satisfy your Gemfile's dependencies.
+Install missing gems with `bundle install`.
+
+2024-07-18 20:43:41.362 [info] (MakeupHub) Fetching gem metadata from https://rubygems.org/
+2024-07-18 20:43:41.363 [info] (MakeupHub) .
+2024-07-18 20:43:41.853 [info] (MakeupHub) .
+2024-07-18 20:43:42.106 [info] (MakeupHub) .
+2024-07-18 20:43:42.217 [info] (MakeupHub) .
+2024-07-18 20:43:42.340 [info] (MakeupHub) .
+2024-07-18 20:43:42.368 [info] (MakeupHub) .
+2024-07-18 20:43:42.381 [info] (MakeupHub) .
+2024-07-18 20:43:42.384 [info] (MakeupHub) .
+2024-07-18 20:43:42.387 [info] (MakeupHub) .
+2024-07-18 20:43:42.389 [info] (MakeupHub) .
+2024-07-18 20:43:43.687 [info] (MakeupHub) 
+
+2024-07-18 20:43:43.759 [info] (MakeupHub) Resolving dependencies...
+2024-07-18 20:43:44.160 [info] (MakeupHub) .
+2024-07-18 20:43:44.200 [info] (MakeupHub) 
+
+2024-07-18 20:43:44.244 [info] (MakeupHub) Your bundle is locked to nokogiri (1.15.2-x86_64-linux) from rubygems repository
+https://rubygems.org/ or installed locally, but that version can no longer be
+found in that source. That means the author of nokogiri (1.15.2-x86_64-linux)
+has removed it. You'll need to update your bundle to a version other than
+nokogiri (1.15.2-x86_64-linux) that hasn't been removed in order to install.
+
+2024-07-18 20:43:44.835 [info] (MakeupHub) bundler: failed to load command: ruby-lsp (/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby-lsp)
+
+2024-07-18 20:43:44.835 [info] (MakeupHub) /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/resolver.rb:269:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'sqlite3 (= 1.6.4)' in locally installed gems. (Bundler::GemNotFound)
+
+The source contains the following gems matching 'sqlite3':
+  * sqlite3-1.7.3-x86_64-linux
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/resolver.rb:252:in `map!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/resolver.rb:252:in `verify_gemfile_dependencies_are_found!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/resolver.rb:48:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/resolver.rb:23:in `resolve'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:269:in `resolve'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:468:in `materialize'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:190:in `specs'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/definition.rb:238:in `specs_for'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/runtime.rb:18:in `setup'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler.rb:151:in `setup'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/ui/shell.rb:136:in `with_level'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/ui/shell.rb:88:in `silence'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/setup.rb:20:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:56:in `require_relative'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:56:in `kernel_load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli/exec.rb:23:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:484:in `exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:31:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/cli.rb:25:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/exe/bundle:48:in `block in <top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/lib/bundler/friendly_errors.rb:103:in `with_friendly_errors'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bundler-2.3.7/exe/bundle:36:in `<top (required)>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/bundle:25:in `<main>'
+
+2024-07-18 20:43:44.848 [info] (MakeupHub) [Error - 8:43:44 PM] Server initialization failed.
+2024-07-18 20:43:44.848 [info] (MakeupHub)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-18 20:43:44.848 [info] (MakeupHub) [Error - 8:43:44 PM] Ruby LSP client: couldn't create connection to server.
+2024-07-18 20:43:44.848 [info] (MakeupHub)   Message: Pending response rejected since connection got disposed
+  Code: -32097 
+2024-07-18 20:43:44.848 [error] (MakeupHub) Error starting the server: Pending response rejected since connection got disposed
+2024-07-18 20:43:44.850 [info] (MakeupHub) [Error - 8:43:44 PM] Server process exited with code 1.
+2024-07-18 20:44:16.376 [info] (MakeupHub) [Info  - 8:44:16 PM] Connection to server got closed. Server will restart.
+2024-07-18 20:44:16.376 [info] (MakeupHub) false
+2024-07-18 20:44:16.694 [info] (MakeupHub) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/MakeupHub/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-18 20:44:16.698 [info] (MakeupHub) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:44:17.246 [info] (MakeupHub) Bundler can't satisfy your Gemfile's dependencies.
+Install missing gems with `bundle install`.
+
+2024-07-18 20:44:18.845 [info] (MakeupHub) Fetching gem metadata from https://rubygems.org/
+2024-07-18 20:44:18.846 [info] (MakeupHub) .
+2024-07-18 20:44:19.417 [info] (MakeupHub) .
+2024-07-18 20:44:19.554 [info] (MakeupHub) .
+2024-07-18 20:44:19.652 [info] (MakeupHub) .
+2024-07-18 20:44:19.764 [info] (MakeupHub) .
+2024-07-18 20:44:19.789 [info] (MakeupHub) .
+2024-07-18 20:44:19.803 [info] (MakeupHub) .
+2024-07-18 20:44:19.806 [info] (MakeupHub) .
+2024-07-18 20:44:19.809 [info] (MakeupHub) .
+2024-07-18 20:44:19.810 [info] (MakeupHub) .
+2024-07-18 20:44:21.186 [info] (MakeupHub) 
+
+2024-07-18 20:44:21.276 [info] (MakeupHub) Resolving dependencies...
+2024-07-18 20:44:21.601 [info] (MakeupHub) .
+2024-07-18 20:44:21.734 [info] (MakeupHub) 
+
+2024-07-18 20:44:21.758 [info] (MakeupHub) Your bundle is locked to nokogiri (1.15.2-x86_64-linux) from rubygems repository
+https://rubygems.org/ or installed locally, but that version can no longer be
+found in that source. That means the author of nokogiri (1.15.2-x86_64-linux)
+has removed it. You'll need to update your bundle to a version other than
+nokogiri (1.15.2-x86_64-linux) that hasn't been removed in order to install.
+
+2024-07-18 20:44:21.815 [info] (MakeupHub) Ruby LSP> Running bundle install failed. Trying to re-generate the custom bundle from scratch
+
+2024-07-18 20:44:21.817 [info] (MakeupHub) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-18 20:44:22.597 [info] (MakeupHub) Bundler can't satisfy your Gemfile's dependencies.
+Install missing gems with `bundle install`.
+

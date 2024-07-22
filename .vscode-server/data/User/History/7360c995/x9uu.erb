@@ -1,0 +1,10 @@
+<h1>Cart Item Details</h1>
+<p>
+  <strong>Product:</strong>
+  <%= @cart_item.product.name %>
+</p>
+<p>
+  <strong>Quantity:</strong>
+  <%= @cart_item.quantity %>
+</p>
+<%= link_to 'Back to Cart', cart_path %>

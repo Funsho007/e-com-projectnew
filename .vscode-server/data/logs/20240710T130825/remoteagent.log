@@ -1,0 +1,35 @@
+2024-07-10 13:08:26.104 [info] 
+
+
+
+
+2024-07-10 13:08:26.185 [info] Extension host agent started.
+2024-07-10 13:08:26.702 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] New connection established.
+2024-07-10 13:08:27.311 [info] Deleted uninstalled extension from disk bradlc.vscode-tailwindcss /home/ooke0392703/.vscode-server/extensions/bradlc.vscode-tailwindcss-0.12.4
+2024-07-10 13:08:27.312 [info] Deleted uninstalled extension from disk shopify.ruby-lsp /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.10
+2024-07-10 13:08:27.313 [info] Deleted uninstalled extension from disk shopify.ruby-lsp /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.5
+2024-07-10 13:08:27.314 [info] Deleted uninstalled extension from disk shopify.ruby-lsp /home/ooke0392703/.vscode-server/extensions/shopify.ruby-lsp-0.7.8
+2024-07-10 13:08:27.687 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] New connection established.
+2024-07-10 13:08:27.743 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] <1400> Launched Extension Host Process.
+2024-07-10 15:42:56.864 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-10 18:39:49.854 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] The client has reconnected.
+2024-07-10 18:39:51.197 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] The client has reconnected.
+2024-07-10 21:26:51.016 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 08:17:42.775 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 09:45:36.708 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 09:45:40.563 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] The client has reconnected.
+2024-07-11 09:45:43.567 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] The client has reconnected.
+2024-07-11 09:45:47.955 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 09:46:51.098 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 09:48:03.738 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] The client has reconnected.
+2024-07-11 09:48:04.030 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] The client has reconnected.
+2024-07-11 11:51:03.982 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] The client has reconnected.
+2024-07-11 11:51:04.315 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] The client has reconnected.
+2024-07-11 13:34:12.579 [info] [127.0.0.1][3c10d967][ManagementConnection] New connection established.
+2024-07-11 13:34:16.027 [info] [127.0.0.1][123c21cf][ExtensionHostConnection] New connection established.
+2024-07-11 13:34:16.143 [info] [127.0.0.1][123c21cf][ExtensionHostConnection] <282331> Launched Extension Host Process.
+2024-07-11 16:31:23.958 [warning] No ptyHost heartbeat after 6 seconds
+2024-07-11 16:44:40.199 [info] [127.0.0.1][ea0cc0bf][ManagementConnection] The client has reconnected.
+2024-07-11 16:44:40.831 [info] [127.0.0.1][3a5442e1][ExtensionHostConnection] The client has reconnected.
+2024-07-11 16:44:54.341 [info] [127.0.0.1][3c10d967][ManagementConnection] The client has reconnected.
+2024-07-11 16:44:54.686 [info] [127.0.0.1][123c21cf][ExtensionHostConnection] The client has reconnected.

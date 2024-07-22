@@ -1,0 +1,20 @@
+<div class="container box">
+  <h1 class="title">Checkout</h1>
+
+  <%= form_with(model: @order, url: checkout_create_path, method: :post, local: true) do |form| %>
+    <div class="field">
+      <%= form.label :address %>
+      <%= form.text_field :address, required: true %>
+    </div>
+    <div class="field">
+      <%= form.label :payment_method %>
+      <%= form.select :payment_method, ['Credit Card', 'PayPal'], required: true %>
+    </div>
+    <div class="actions">
+      <%= form.submit "Place Order", class: "button is-primary" %>
+    </div>
+  <% end %>
+
+  <!-- Debugging output -->
+  <%= form_with(model: @order, url: checkout_create_path, method: :post, local: true) %>
+</div>

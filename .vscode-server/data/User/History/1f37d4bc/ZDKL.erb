@@ -1,0 +1,35 @@
+<div class="container mt-4">
+  <h1 class="text-center mb-4"><%= @person.name %></h1>
+  
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <p><strong>Height:</strong> <%= @person.height %></p>
+      <p><strong>Mass:</strong> <%= @person.mass %></p>
+      <p><strong>Hair Color:</strong> <%= @person.hair_color %></p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Skin Color:</strong> <%= @person.skin_color %></p>
+      <p><strong>Eye Color:</strong> <%= @person.eye_color %></p>
+      <p><strong>Birth Year:</strong> <%= @person.birth_year %></p>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <p><strong>Gender:</strong> <%= @person.gender %></p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Home Planet:</strong> <%= link_to(@person.planet.name, planet_path(@person.planet), class: "text-blue-500 hover:underline") if @person.planet %></p>
+      <p><strong>Species:</strong> <%= link_to(@person.species.name, species_path(@person.species), class: "text-blue-500 hover:underline") if @person.species %></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-left">
+      <%= link_to 'Back to Main Page', root_path, class: "btn btn-primary" %>
+    </div>
+    <div class="col-md-6 text-right">
+      <a href="javascript:history.back()" class="btn btn-secondary">Go Back</a>
+    </div>
+  </div>
+</div>

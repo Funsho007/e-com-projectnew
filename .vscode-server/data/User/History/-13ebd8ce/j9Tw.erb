@@ -1,0 +1,64 @@
+<div class="container">
+  <h1 class="title">Invoice</h1>
+
+  <% if @customer_address.present? %>
+    <div class="box">
+      <p class="subtitle">Delivery to:</p>
+      <p><%= @customer_address[:address] %></p>
+      <p><%= "#{@customer_address[:city]}, #{@customer_address[:province].name}" %></p>
+      <p><%= @customer_address[:postal_code] %></p>
+
+      <% if customer_signed_in? %>
+        <%= link_to 'Edit Address', edit_customer_registration_path, class: 'button is-primary' %>
+      <% else %>
+        <%= link_to 'Edit Address', checkout_guest_path, class: 'button is-primary' %>
+      <% end %>
+    </div>
+  <% else %>
+    <div class="box">
+      <p>No delivery address available.</p>
+      <!-- Display a button or link to add a delivery address if needed -->
+    </div>
+  <% end %>
+
+  <table class="table is-bordered is-striped is-narrow is-hoverable">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @cart.each do |product_id, quantity| %>
+        <% product = Product.find(product_id) %>
+        <% product_price = product.price * quantity %>
+        <tr>
+          <td><%= product.name %></td>
+          <td><%= quantity %></td>
+          <td><%= number_to_currency(product.price) %></td>
+          <td><%= number_to_currency(product_price) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Total Price (excluding taxes):</td>
+        <td><%= number_to_currency(@subtotal) %></td>
+      </tr>
+      <tr>
+        <td colspan="3">Calculated Tax:</td>
+        <td><%= number_to_currency(@taxes) %></td>
+      </tr>
+      <tr>
+        <td colspan="3">Total Price (including taxes):</td>
+        <td><%= number_to_currency(@total_price) %></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="buttons has-addons" data-turbo='false'>
+    <%= button_to 'Place your order', checkout_create_path, method: :post, class: 'button is-success' %>
+  </div>
+</div>

@@ -1,0 +1,71 @@
+2024-07-17 09:08:17.674 [info] (finest) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-17 09:08:18.679 [info] (finest) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-17 09:08:19.684 [info] (finest) Checking if rvm is available on the path with command: /bin/bash -i -c 'rvm --version'
+2024-07-17 09:08:20.691 [info] (finest) Checking if asdf is available on the path with command: /bin/bash -i -c 'asdf --version'
+2024-07-17 09:08:20.808 [info] (finest) Discovered version manager asdf
+2024-07-17 09:08:20.825 [info] (finest) Running command: `. /home/ooke0392703/.asdf/asdf.sh && asdf exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/finest using shell: /bin/bash
+2024-07-17 09:08:51.715 [info] (finest) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/finest/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-17 09:08:51.763 [info] (finest) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-17 09:08:52.304 [info] (finest) The Gemfile's dependencies are satisfied
+
+2024-07-17 09:08:54.581 [info] (finest) Fetching gem metadata from https://rubygems.org/
+2024-07-17 09:08:54.582 [info] (finest) .
+2024-07-17 09:08:54.905 [info] (finest) .
+2024-07-17 09:08:55.151 [info] (finest) .
+2024-07-17 09:08:55.553 [info] (finest) .
+2024-07-17 09:08:55.729 [info] (finest) .
+2024-07-17 09:08:55.816 [info] (finest) .
+2024-07-17 09:08:55.844 [info] (finest) .
+2024-07-17 09:08:55.849 [info] (finest) .
+2024-07-17 09:08:55.851 [info] (finest) .
+2024-07-17 09:08:58.322 [info] (finest) 
+
+2024-07-17 09:08:58.441 [info] (finest) Resolving dependencies...
+
+2024-07-17 09:08:59.725 [info] (finest) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update ruby-lsp-rails but its version stayed the same
+
+2024-07-17 09:08:59.725 [info] (finest) Bundle updated!
+
+2024-07-17 09:09:01.298 [info] (finest) Initializing Ruby LSP v0.17.7...
+
+2024-07-17 09:09:01.415 [info] (finest) Finished initializing Ruby LSP!
+
+2024-07-17 09:09:01.499 [info] (finest) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-17 09:09:01.567 [info] (finest) Ruby LSP Rails booting server
+
+2024-07-17 09:09:06.786 [info] (finest) Finished booting Ruby LSP Rails server
+
+2024-07-17 09:27:52.109 [info] (finest) Fetching search index for Rails documentation
+
+2024-07-17 09:27:53.715 [info] (finest) Finished fetching search index for Rails documentation
+
+2024-07-17 09:28:48.040 [info] (finest) Reloading Rails application
+
+2024-07-17 09:35:40.168 [info] (finest) Reloading Rails application
+
+2024-07-17 11:00:22.599 [info] (finest) Reloading Rails application
+
+2024-07-17 11:29:42.602 [info] (finest) Reloading Rails application
+
+2024-07-17 11:56:59.643 [info] (finest) Reloading Rails application
+
+2024-07-17 12:07:23.278 [info] (finest) Reloading Rails application
+
+2024-07-17 12:11:56.613 [info] (finest) Reloading Rails application
+
+2024-07-17 12:11:59.272 [info] (finest) Reloading Rails application
+
+2024-07-17 12:35:14.151 [info] (finest) Reloading Rails application
+
+2024-07-17 12:51:00.932 [info] (finest) Reloading Rails application
+
+2024-07-17 12:53:52.506 [info] (finest) Reloading Rails application
+
+2024-07-17 13:12:28.686 [info] (finest) Shutting down Ruby LSP...
+Ruby LSP Rails shutting down server
+

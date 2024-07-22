@@ -1,0 +1,26 @@
+
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{​​
+    "name": "Debian",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+    "features": {​​
+        "ghcr.io/devcontainers-contrib/features/asdf-package:1": {​​
+            "plugin": "bundler",
+            "version":"1.16.1"
+        }​​,
+        "ghcr.io/devcontainers-contrib/features/ruby-asdf:0": {​​
+            "version": "2.3.4"
+        }​​
+    }​​,
+    "postStartCommand": "bundle install; gem install bundler:1.16.1"
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {​​}​​,
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+    // Configure tool-specific properties.
+    // "customizations": {​​}​​,
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "root"
+}​​
+<https://teams.microsoft.com/l/message/19:EQPcqY_ZR6uuP9QteHevLQkQ69QyyU9PEHoN8_uv18c1@thread.tacv2/1716817362232?tenantId=86fa9b45-7aa3-4070-8a54-edcef436bd44&amp;groupId=8262c652-8fa9-4b9b-b48c-113e6498223b&amp;parentMessageId=1716817362232&amp;teamName=Course-WEBD-3011-S1-2024SP&amp;channelName=General&amp;createdTime=1716817362232&amp;allowXTenantAccess=false>

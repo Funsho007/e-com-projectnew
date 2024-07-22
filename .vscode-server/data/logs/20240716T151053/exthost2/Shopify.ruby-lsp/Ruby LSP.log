@@ -1,0 +1,47 @@
+2024-07-17 06:43:12.393 [info] (E-commercePrettyface) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-17 06:43:13.399 [info] (E-commercePrettyface) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-17 06:43:14.278 [info] (E-commercePrettyface) Discovered version manager rbenv
+2024-07-17 06:43:14.278 [info] (E-commercePrettyface) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/E-commercePrettyface using shell: /bin/bash
+2024-07-17 06:43:15.446 [info] (E-commercePrettyface) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/E-commercePrettyface using shell: /bin/bash
+2024-07-17 06:43:47.625 [info] (E-commercePrettyface) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/E-commercePrettyface/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-17 06:43:47.673 [info] (E-commercePrettyface) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: ((bundle check && bundle update ruby-lsp ruby-lsp-rails) || bundle install) 1>&2
+
+2024-07-17 06:43:48.774 [info] (E-commercePrettyface) The Gemfile's dependencies are satisfied
+
+2024-07-17 06:43:53.036 [info] (E-commercePrettyface) Fetching gem metadata from https://rubygems.org/
+2024-07-17 06:43:53.039 [info] (E-commercePrettyface) .
+2024-07-17 06:43:53.673 [info] (E-commercePrettyface) .
+2024-07-17 06:43:53.842 [info] (E-commercePrettyface) .
+2024-07-17 06:43:54.036 [info] (E-commercePrettyface) .
+2024-07-17 06:43:54.113 [info] (E-commercePrettyface) .
+2024-07-17 06:43:54.199 [info] (E-commercePrettyface) .
+2024-07-17 06:43:54.212 [info] (E-commercePrettyface) .
+2024-07-17 06:43:54.215 [info] (E-commercePrettyface) .
+2024-07-17 06:43:56.998 [info] (E-commercePrettyface) 
+
+2024-07-17 06:43:57.371 [info] (E-commercePrettyface) Resolving dependencies...
+
+2024-07-17 06:43:59.933 [info] (E-commercePrettyface) Bundler attempted to update ruby-lsp but its version stayed the same
+Bundler attempted to update ruby-lsp-rails but its version stayed the same
+Bundle updated!
+
+2024-07-17 06:44:02.246 [info] (E-commercePrettyface) Initializing Ruby LSP v0.17.7...
+
+2024-07-17 06:44:02.454 [info] (E-commercePrettyface) Finished initializing Ruby LSP!
+
+2024-07-17 06:44:02.696 [info] (E-commercePrettyface) Activating Ruby LSP Rails addon v0.3.10
+
+2024-07-17 06:44:02.755 [info] (E-commercePrettyface) Ruby LSP Rails booting server
+
+2024-07-17 06:44:08.325 [info] (E-commercePrettyface) Finished booting Ruby LSP Rails server
+
+2024-07-17 10:37:05.672 [info] (E-commercePrettyface) Fetching search index for Rails documentation
+
+2024-07-17 10:37:07.416 [info] (E-commercePrettyface) Finished fetching search index for Rails documentation
+
+2024-07-18 09:01:07.089 [info] (E-commercePrettyface) Shutting down Ruby LSP...
+
+2024-07-18 09:01:07.172 [info] (E-commercePrettyface) Ruby LSP Rails shutting down server
+

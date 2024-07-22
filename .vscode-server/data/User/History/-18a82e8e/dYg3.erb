@@ -1,0 +1,22 @@
+<!-- app/views/species/show.html.erb -->
+<h1><%= @specie.name %></h1>
+
+<p>
+  <strong>Average Lifespan:</strong>
+  <%= @specie.average_lifespan %> years
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @specie.language %>
+</p>
+
+<h2>Members</h2>
+<ul>
+  <% @specie.people.each do |person| %>
+    <li><%= link_to person.name, person_path(person) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Edit', edit_specie_path(@specie) %> |
+<%= link_to 'Back', species_path %>

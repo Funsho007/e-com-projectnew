@@ -1,0 +1,20 @@
+<div class="container mx-auto p-4">
+  <h1 class="text-3xl font-bold mb-4">About StarWarsUniverse</h1>
+
+  <p class="mb-4">Welcome to the Star Wars Universe application. This application uses the Star Wars API (SWAPI) to fetch data about various elements in the Star Wars universe.</p>
+
+  <p class="mb-4">For more information about the API, visit: 
+    <a href="https://swapi.dev" target="_blank" class="text-blue-500 hover:underline">SWAPI - The Star Wars API</a>
+  </p>
+
+  <h2 class="text-2xl font-semibold mb-2">Models</h2>
+  <p class="mb-4">Explore the different entities in the Star Wars universe:</p>
+  <ul class="list-disc list-inside">
+    <li><%= link_to 'Films', films_path, class: "text-blue-500 hover:underline" %> - Information about the films in the Star Wars series.</li>
+    <li><%= link_to 'People', people_path, class: "text-blue-500 hover:underline" %> - Information about characters in the Star Wars universe.</li>
+    <li><%= link_to 'Planets', planets_path, class: "text-blue-500 hover:underline" %> - Information about planets in the Star Wars universe.</li>
+    <li><%= link_to 'Vehicles', vehicles_path, class: "text-blue-500 hover:underline" %> - Information about vehicles in the Star Wars universe.</li>
+    <li><%= link_to 'Starships', starships_path, class: "text-blue-500 hover:underline" %> - Information about starships in the Star Wars universe.</li>
+    <li><%= link_to 'Species', species_index_path, class: "text-blue-500 hover:underline" %> - Information about species in the Star Wars universe.</li>
+  </ul>
+</div>
