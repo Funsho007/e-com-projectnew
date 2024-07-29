@@ -1,0 +1,711 @@
+2024-07-26 22:37:38.969 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:37:40.040 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:37:40.415 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:37:40.415 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:37:40.930 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:37:42.399 [info] (prettystores) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/prettystores/.ruby-lsp/Gemfile.lock already exists and is up to date
+Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:37:42.747 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:37:44.319 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:37:44.425 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:37:44.532 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:37:44.540 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:37:47.316 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:38:44.044 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:38:44.056 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:38:44.560 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:38:44.570 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:38:44.670 [info] (prettystores) [Error - 10:38:44 PM] Server process exited with code 0.
+2024-07-26 22:38:44.776 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:38:44.897 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:38:44.897 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:38:45.187 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:38:46.543 [info] (prettystores) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/prettystores/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-26 22:38:46.558 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:38:46.894 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:38:48.139 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:38:48.200 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:38:48.273 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:38:48.280 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:38:51.770 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:39:01.700 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:39:01.712 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:39:02.507 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:39:02.510 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:39:02.626 [info] (prettystores) [Error - 10:39:02 PM] Server process exited with code 0.
+2024-07-26 22:39:02.772 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:39:02.877 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:39:02.877 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:03.119 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:04.541 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:39:05.150 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:39:05.527 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:39:07.059 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:39:07.116 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:39:07.246 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:39:07.257 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:39:07.479 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:39:07.494 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:39:07.515 [info] (prettystores) [Error - 10:39:07 PM] Server process exited with code 0.
+2024-07-26 22:39:07.531 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:39:07.955 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:39:08.553 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:39:08.553 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:09.776 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:11.843 [info] (prettystores) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/prettystores/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-26 22:39:11.859 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:39:12.504 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:39:14.197 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:39:14.272 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:39:14.367 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:39:14.376 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:39:18.538 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:39:24.841 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:39:24.853 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:39:25.359 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:39:25.369 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:39:25.440 [info] (prettystores) [Error - 10:39:25 PM] Server process exited with code 0.
+2024-07-26 22:39:25.657 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:39:25.775 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:39:25.776 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:26.115 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:39:28.041 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:39:29.031 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:39:29.405 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:39:30.986 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:39:31.094 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:39:31.322 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:39:31.344 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:39:35.985 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:39:39.917 [info] (prettystores) Reloading Rails application
+
+2024-07-26 22:40:04.159 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:40:04.169 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:40:04.672 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:40:04.683 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:40:04.777 [info] (prettystores) [Error - 10:40:04 PM] Server process exited with code 0.
+2024-07-26 22:40:04.959 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:40:05.134 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:40:05.134 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:40:05.414 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:40:06.866 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:40:07.418 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:40:07.732 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:40:08.995 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:40:09.054 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:40:09.131 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:40:09.139 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:40:13.742 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:40:22.513 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:40:22.527 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:40:23.115 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:40:23.123 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:40:23.340 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:40:23.471 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:40:23.471 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:40:23.472 [info] (prettystores) [Error - 10:40:23 PM] Server process exited with code 0.
+2024-07-26 22:40:23.682 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:40:25.409 [info] (prettystores) Ruby LSP> Skipping custom bundle setup since /home/ooke0392703/projects/prettystores/.ruby-lsp/Gemfile.lock already exists and is up to date
+
+2024-07-26 22:40:25.437 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:40:25.866 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:40:27.017 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:40:27.072 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:40:27.141 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:40:27.147 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:40:31.822 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:41:13.157 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:41:13.158 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:41:13.660 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:41:13.669 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:41:13.760 [info] (prettystores) [Error - 10:41:13 PM] Server process exited with code 0.
+2024-07-26 22:41:13.974 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:41:14.090 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:41:14.090 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:41:14.337 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:41:16.372 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:41:16.996 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:41:17.395 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:41:18.834 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:41:18.894 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:41:18.975 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:41:18.987 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:41:23.586 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:42:06.308 [info] (prettystores) Reloading Rails application
+
+2024-07-26 22:42:48.591 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:42:48.592 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:42:49.094 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:42:49.103 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:42:49.252 [info] (prettystores) [Error - 10:42:49 PM] Server process exited with code 0.
+2024-07-26 22:42:49.381 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:42:49.495 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:42:49.495 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:42:49.758 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:42:51.180 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:42:51.627 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:42:51.861 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:42:53.218 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:42:53.278 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:42:53.487 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:42:53.506 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:43:05.184 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:43:05.201 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:43:05.294 [info] (prettystores) [Error - 10:43:05 PM] Server process exited with code 0.
+2024-07-26 22:43:05.304 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:43:05.579 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:43:05.816 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:43:05.816 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:43:06.127 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:43:07.696 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:43:08.301 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:43:08.688 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:43:09.831 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:43:09.930 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:43:10.014 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:43:10.024 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:43:13.708 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:43:13.714 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:43:13.758 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:43:13.774 [info] (prettystores) [Error - 10:43:13 PM] Server process exited with code 0.
+2024-07-26 22:43:14.006 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:43:14.154 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:43:14.154 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:43:14.432 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:43:15.543 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:43:15.967 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:43:16.260 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:43:17.360 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:43:17.399 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:43:17.489 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:43:17.498 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:43:21.592 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:49:41.020 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-26 22:49:41.021 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-26 22:49:41.523 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-26 22:49:41.532 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-26 22:49:41.697 [info] (prettystores) [Error - 10:49:41 PM] Server process exited with code 0.
+2024-07-26 22:49:41.838 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-26 22:49:41.940 [info] (prettystores) Discovered version manager rbenv
+2024-07-26 22:49:41.940 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:49:42.168 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-26 22:49:43.526 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-26 22:49:43.979 [info] (prettystores) Resolving dependencies...
+
+2024-07-26 22:49:44.260 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-26 22:49:45.553 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-26 22:49:45.626 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-26 22:49:45.740 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-26 22:49:45.786 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-26 22:49:50.667 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-26 22:56:50.740 [info] (prettystores) Reloading Rails application
+
+2024-07-26 22:58:39.325 [info] (prettystores) Fetching search index for Rails documentation
+
+2024-07-26 22:58:41.567 [info] (prettystores) Finished fetching search index for Rails documentation
+
+2024-07-27 07:11:06.173 [info] (prettystores) Reloading Rails application
+
+2024-07-27 07:32:33.972 [info] (prettystores) Reloading Rails application
+
+2024-07-27 07:35:10.315 [info] (prettystores) Reloading Rails application
+
+2024-07-27 07:36:35.995 [info] (prettystores) Reloading Rails application
+
+2024-07-27 08:34:02.134 [info] (prettystores) Reloading Rails application
+
+2024-07-27 08:38:42.076 [info] (prettystores) Reloading Rails application
+
+2024-07-27 08:45:21.590 [info] (prettystores) Reloading Rails application
+
+2024-07-27 10:13:41.518 [info] (prettystores) Reloading Rails application
+
+2024-07-27 10:25:18.716 [info] (prettystores) Ruby LSP Rails error: /home/ooke0392703/projects/prettystores/app/models/product.rb:9:in `<class:Product>': uninitialized constant Product::ImageUploader (NameError)
+
+  mount_uploader :image, ImageUploader
+                         ^^^^^^^^^^^^^
+	from /home/ooke0392703/projects/prettystores/app/models/product.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:26:in `require'
+	from /home/ooke0392703/projects/prettystores/app/admin/products.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `block in load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/error.rb:44:in `capture'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `block in load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:228:in `block (2 levels) in attach_reloader'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `block in make_lambda'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:96:in `prepare!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:48:in `block in <class:Reloader>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `block in make_lambda'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:274:in `block in simple'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:602:in `block in invoke_after'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:602:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:602:in `invoke_after'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:111:in `run_callbacks'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:122:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:54:in `block (2 levels) in reload!'
+	from <internal:kernel>:90:in `tap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:53:in `block in reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:52:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:53:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:35:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:183:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `block in perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:40:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+2024-07-27 10:25:18.956 [info] (prettystores) Ruby LSP Rails error: /home/ooke0392703/projects/prettystores/app/models/product.rb:9:in `<class:Product>': uninitialized constant Product::ImageUploader (NameError)
+
+  mount_uploader :image, ImageUploader
+                         ^^^^^^^^^^^^^
+	from /home/ooke0392703/projects/prettystores/app/models/product.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:26:in `require'
+	from /home/ooke0392703/projects/prettystores/app/admin/products.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `block in load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/error.rb:44:in `capture'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `block in load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:142:in `routes'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:78:in `routes'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:6:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `eval_block'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:430:in `draw'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `block in load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:24:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:38:in `block in updater'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/file_update_checker.rb:85:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:13:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/finisher.rb:175:in `block (2 levels) in <module:Finisher>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `block in make_lambda'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:122:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:54:in `block (2 levels) in reload!'
+	from <internal:kernel>:90:in `tap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:53:in `block in reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:52:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:53:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:35:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:183:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `block in perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:40:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+2024-07-27 10:40:23.128 [info] (prettystores) Ruby LSP Rails error: /home/ooke0392703/projects/prettystores/app/models/product.rb:9:in `<class:Product>': uninitialized constant Product::ImageUploader (NameError)
+
+  mount_uploader :image, ImageUploader
+                         ^^^^^^^^^^^^^
+	from /home/ooke0392703/projects/prettystores/app/models/product.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:26:in `require'
+	from /home/ooke0392703/projects/prettystores/app/admin/products.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `block in load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/error.rb:44:in `capture'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `block in load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:142:in `routes'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:78:in `routes'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:6:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `eval_block'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:430:in `draw'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `block in load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:24:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:38:in `block in updater'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/file_update_checker.rb:85:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:13:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/finisher.rb:175:in `block (2 levels) in <module:Finisher>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `block in make_lambda'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:122:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:54:in `block (2 levels) in reload!'
+	from <internal:kernel>:90:in `tap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:53:in `block in reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:52:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:53:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:35:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:183:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `block in perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:40:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+Ruby LSP Rails error: /home/ooke0392703/projects/prettystores/app/models/product.rb:9:in `<class:Product>': uninitialized constant Product::ImageUploader (NameError)
+
+  mount_uploader :image, ImageUploader
+                         ^^^^^^^^^^^^^
+	from /home/ooke0392703/projects/prettystores/app/models/product.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:26:in `require'
+	from /home/ooke0392703/projects/prettystores/app/admin/products.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `block in load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/error.rb:44:in `capture'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:124:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `block in load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:116:in `load!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin/application.rb:142:in `routes'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activeadmin-3.2.2/lib/active_admin.rb:78:in `routes'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:6:in `block in <main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:448:in `eval_block'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/actionpack-7.1.3.4/lib/action_dispatch/routing/route_set.rb:430:in `draw'
+	from /home/ooke0392703/projects/prettystores/config/routes.rb:1:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `block in load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:50:in `load_paths'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:24:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:38:in `block in updater'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/file_update_checker.rb:85:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/routes_reloader.rb:13:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/application/finisher.rb:175:in `block (2 levels) in <module:Finisher>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `instance_exec'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:448:in `block in make_lambda'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:202:in `block (2 levels) in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:707:in `block (2 levels) in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `catch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:706:in `block in default_terminator'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:203:in `block in halting'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `block in invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `each'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:598:in `invoke_before'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:109:in `run_callbacks'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:129:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:125:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:122:in `run!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:54:in `block (2 levels) in reload!'
+	from <internal:kernel>:90:in `tap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:53:in `block in reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:52:in `reload!'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:53:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:35:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:183:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `block in perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:40:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+2024-07-27 11:50:29.183 [info] (prettystores) Ruby LSP Rails error: /home/ooke0392703/projects/prettystores/app/models/product.rb:9:in `<class:Product>': uninitialized constant Product::ImageUploader (NameError)
+
+  mount_uploader :image, ImageUploader
+                         ^^^^^^^^^^^^^
+	from /home/ooke0392703/projects/prettystores/app/models/product.rb:2:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/zeitwerk-2.6.16/lib/zeitwerk/kernel.rb:26:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `const_get'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:290:in `constantize'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/inflector/methods.rb:316:in `safe_constantize'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:123:in `resolve_database_info_from_model'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:49:in `execute'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:35:in `start'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/ruby-lsp-rails-0.3.11/lib/ruby_lsp/ruby_lsp_rails/server.rb:183:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `load'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:41:in `block in perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands/runner/runner_command.rb:40:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/command.rb:28:in `run'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:178:in `invoke_command'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.3.1/lib/thor.rb:527:in `dispatch'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command/base.rb:73:in `perform'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:71:in `block in invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:149:in `with_argv'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/command.rb:69:in `invoke'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/commands.rb:18:in `<main>'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from /home/ooke0392703/.asdf/installs/ruby/3.3.0/lib/ruby/gems/3.3.0/gems/bootsnap-1.18.3/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+	from bin/rails:4:in `<main>'
+
+2024-07-27 12:10:57.579 [info] (prettystores) Shutting down Ruby LSP...
+
+2024-07-27 12:10:57.579 [info] (prettystores) Ruby LSP Rails shutting down server
+
+2024-07-27 12:10:58.082 [info] (prettystores) Shutdown complete with status 0
+
+2024-07-27 12:10:58.092 [info] (prettystores) Checking if chruby is available on the path with command: /bin/bash -i -c 'chruby --version'
+2024-07-27 12:10:58.216 [info] (prettystores) [Error - 12:10:58 PM] Server process exited with code 0.
+2024-07-27 12:10:59.096 [info] (prettystores) Checking if rbenv is available on the path with command: /bin/bash -i -c 'rbenv --version'
+2024-07-27 12:10:59.215 [info] (prettystores) Discovered version manager rbenv
+2024-07-27 12:10:59.215 [info] (prettystores) Running command: `rbenv exec ruby -W0 -rjson -e 'STDERR.print({env: ENV.to_h,yjit:!!defined?(RubyVM::YJIT),version:RUBY_VERSION}.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-27 12:10:59.517 [info] (prettystores) Running command: `/home/ooke0392703/.asdf/installs/ruby/3.3.0/bin/ruby -W0 -rjson -e 'STDERR.print({ env: ENV.to_h, yjit: !!defined?(RubyVM::YJIT), version: RUBY_VERSION }.to_json)'` in /home/ooke0392703/projects/prettystores using shell: /bin/bash
+2024-07-27 12:11:00.870 [info] (prettystores) Ruby LSP> Running bundle install for the custom bundle. This may take a while...
+Ruby LSP> Command: (bundle check || bundle install) 1>&2
+
+2024-07-27 12:11:01.275 [info] (prettystores) Resolving dependencies...
+
+2024-07-27 12:11:01.478 [info] (prettystores) The Gemfile's dependencies are satisfied
+
+2024-07-27 12:11:02.856 [info] (prettystores) Initializing Ruby LSP v0.17.9...
+
+2024-07-27 12:11:02.920 [info] (prettystores) Finished initializing Ruby LSP!
+
+2024-07-27 12:11:03.069 [info] (prettystores) Activating Ruby LSP Rails addon v0.3.11
+
+2024-07-27 12:11:03.083 [info] (prettystores) Ruby LSP Rails booting server
+
+2024-07-27 12:11:07.371 [info] (prettystores) Finished booting Ruby LSP Rails server
+
+2024-07-27 12:15:53.076 [info] (prettystores) Fetching search index for Rails documentation
+
+2024-07-27 12:15:54.833 [info] (prettystores) Finished fetching search index for Rails documentation
+
+2024-07-27 12:24:57.086 [info] (prettystores) Reloading Rails application
+
+2024-07-28 03:47:29.202 [info] (prettystores) Shutting down Ruby LSP...
+Ruby LSP Rails shutting down server
+

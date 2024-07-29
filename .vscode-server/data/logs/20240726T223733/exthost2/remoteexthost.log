@@ -1,0 +1,18 @@
+2024-07-27 16:43:11.156 [info] Extension host with pid 381318 started
+2024-07-27 16:43:11.365 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-27 16:43:11.378 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-27 16:43:11.379 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-07-27 16:43:11.886 [info] Lock '/home/ooke0392703/.vscode-server/data/User/workspaceStorage/9bafdf3217a09073203e3133b2cb13d8/vscode.lock': Lock acquired.
+2024-07-27 16:43:12.389 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-27 16:43:12.413 [info] ExtensionService#_doActivateExtension Shopify.ruby-lsp, startup: true, activationEvent: 'workspaceContains:Gemfile.lock'
+2024-07-27 16:43:13.094 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-27 16:43:13.094 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-27 16:43:22.394 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 16:43:22.395 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 16:43:22.396 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 16:43:22.396 [info] ExtensionService#_doActivateExtension Shopify.ruby-extensions-pack, startup: false, activationEvent: 'onStartupFinished'
+2024-07-27 16:43:23.428 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8121
+2024-07-27 16:44:08.949 [info] Eager extensions activated
+2024-07-27 16:47:48.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8123
+2024-07-28 07:22:00.386 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8124
+2024-07-28 07:22:31.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 8128
