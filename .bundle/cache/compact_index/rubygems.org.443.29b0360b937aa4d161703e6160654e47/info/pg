@@ -249,3 +249,7 @@
 1.5.6-x86-mingw32 |checksum:6d41dc6affe8e2ac24269adb50d0e84c824ba8af75f8e8e5155923cf58a45447,ruby:< 3.3.dev&>= 2.5
 1.5.6-x64-mingw32 |checksum:277431401842b711dcbd5e9ae3c8c980915a24897227f2af7737ff80cfc06b73,ruby:< 3.1.dev&>= 2.5
 1.5.6-x64-mingw-ucrt |checksum:a20c014c71194329a05e57475034b8e80e5da47820775539bc5f6d4b9027502b,ruby:< 3.3.dev&>= 3.1
+1.5.7 |checksum:07a7d86e5aac8b964a0288076a7a7c699c27b25c9b40b001726f6eb03ed13427,ruby:>= 2.5
+1.5.7-x64-mingw-ucrt |checksum:dc28a74752ad4988ac100bf95c21b96f6a1f66180ef15595b88fc5b8eee8ced6,ruby:< 3.4.dev&>= 3.1
+1.5.7-x64-mingw32 |checksum:55f1fcad5496a37d57b95a3feb679a3c42dbb8ab223c4991906a2e583eccf2a7,ruby:< 3.1.dev&>= 2.5
+1.5.7-x86-mingw32 |checksum:f973e645ed7ec700211022415955c97d81bd4846e33f6d7dbfeccb671f7bf509,ruby:< 3.4.dev&>= 2.5

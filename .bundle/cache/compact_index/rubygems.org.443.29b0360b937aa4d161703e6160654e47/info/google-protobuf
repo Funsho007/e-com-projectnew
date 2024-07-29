@@ -1093,3 +1093,13 @@
 4.28.0.rc.1-x86_64-linux bigdecimal:>= 0,rake:>= 13|checksum:e6ad580e19fa4a0e51c861d627cc1e5499214d9ea522af834e20844850d6437b,ruby:< 3.4.dev&>= 3.0,rubygems:> 1.3.1
 4.28.0.rc.1 bigdecimal:>= 0,rake:>= 13|checksum:67f5a1dc2aba05eba3328d5298d129af205f201e5dee981c8adbcfb992bf933b,ruby:>= 3.0,rubygems:> 1.3.1
 4.28.0.rc.1-java bigdecimal:>= 0,ffi:~> 1,ffi-compiler:~> 1,rake:>= 13|checksum:ef241503df6585bc7fc6da47ac523e56fc7f50cf7001943ed1435c424b7af572,ruby:>= 3.0,rubygems:> 1.3.1
+3.25.4-aarch64-linux |checksum:d155538358d03af4bcac908811d2c8b287573005f0549d8cf55354ad0c0928ff,ruby:< 3.4.dev&>= 3.0
+3.25.4-arm64-darwin |checksum:6d39a99a7910fc6b03479c298f38be9497938f78c0f08c89d7542bc8205be8c7,ruby:< 3.4.dev&>= 3.0
+3.25.4-x64-mingw-ucrt |checksum:4c2e26a244f639aa658a33d74ab1a3ff74210756c14588b0bbf0d6b93ff388aa,ruby:< 3.4.dev&>= 3.1
+3.25.4-x64-mingw32 |checksum:343134507de2602079837727cc1121af39bce3e382e91f3aa14a259ae78be7d6,ruby:< 3.1.dev&>= 3.0
+3.25.4-x86-linux |checksum:7721d1b40f3edd951484b448f4b404bdc954159026c93ba5ee37a3a0e386a92c,ruby:< 3.4.dev&>= 3.0
+3.25.4-x86-mingw32 |checksum:fb00901bb3803ed361eb8e667af4d1ab2136c43ae870cc8b3a2ded08ceee2072,ruby:< 3.4.dev&>= 3.0
+3.25.4-x86_64-darwin |checksum:bf53084c00d78a8a960af5a3fc5175c59f1f4708ddd00398781a2c3a3370c977,ruby:< 3.4.dev&>= 3.0
+3.25.4-x86_64-linux |checksum:9e8e66fb5a00cf90f88f37b07e7da10ca9e176e28a3314fc80c4e7fdab120aeb,ruby:< 3.4.dev&>= 3.0
+3.25.4 |checksum:a1c594ca9d99c894e558f984d70731a8935ec639e75865f0181cab126a0aef0e,ruby:>= 2.7
+3.25.4-java ffi:~> 1,ffi-compiler:~> 1|checksum:475bd51efa276fa3668abcd3978d8937bae5894ffe9d963c0a9e5cf151a1ee35,ruby:>= 2.7

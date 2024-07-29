@@ -14,3 +14,4 @@
 0.4.0 protocol:~> 2.0|checksum:ffbc47cc7787db68ef0b14d13ba59a1e4c6e3dfc430ca29fdc6e7a356608425a,ruby:>= 2
 0.4.1 protocol:~> 2.0|checksum:55bcba0cf001cbff5a647a18172c4a885061ceec586395fb08ecbb98d039f627,ruby:>= 2
 0.5.0 |checksum:c35323d102b54cc96f21e7cefa558573ab1f287393e8e0ca13c193e5dc9b3cbc,ruby:>= 2
+0.6.0 |checksum:3f1a0f52cb5c158e43e93a6dd3be896d9c7dd345d76eb1bd9f26088681db2363,ruby:>= 2

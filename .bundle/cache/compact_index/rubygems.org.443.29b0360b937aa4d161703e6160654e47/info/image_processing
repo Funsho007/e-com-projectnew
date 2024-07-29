@@ -41,3 +41,4 @@
 1.12.0 mini_magick:< 5&>= 4.9.5,ruby-vips:< 3&>= 2.0.17|checksum:e2ec49f6c222c06cfbe83f97b74e79e442d6f77391eadb1c6defb3edcb77cec5,ruby:>= 2.3
 1.12.1 mini_magick:< 5&>= 4.9.5,ruby-vips:< 3&>= 2.0.17|checksum:21c084fa4ef4286c66cbee1525844b0143f65f2afcf80faa7369f24bc9a6e89c,ruby:>= 2.3
 1.12.2 mini_magick:< 5&>= 4.9.5,ruby-vips:< 3&>= 2.0.17|checksum:d3b9e9c5a1cc2607a5214cc28b90d317a03bdd06239584c97535dd73e46f62b8,ruby:>= 2.3
+1.13.0 mini_magick:< 5&>= 4.9.5,ruby-vips:< 3&>= 2.0.17|checksum:71cffe2707573b16a4800b10619dc851add8cf9e667931ae900b7cac1d9cdd65,ruby:>= 2.3

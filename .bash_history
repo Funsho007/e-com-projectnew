@@ -1339,3 +1339,345 @@ rails generate migration AddUsernameToUsers username:string:uniq
 rails db:migrate
 rails db:rollback STEP=1000
 rails db:reset
+ls
+cd E-com-project-main/
+ls
+rails s
+rails console
+rails generate migration AddAdminToUsers admin:boolean
+rails db:migrate
+rails console
+rails db:migrate
+rails db:seed
+rails db:migrate
+rails console
+rails db:reset
+rails console
+rails db:reset
+ls -l db/development.sqlite3
+chmod 664 db/development.sqlite3
+rails console
+cd E-com-project-main/
+rails s
+bundle install
+chmod 755 db
+ls -l db/
+chmod 664 db/development.sqlite3
+chmod 664 db/test.sqlite3
+chmod 664 db/production.sqlite3
+mount | grep "db/"
+lsof | grep development.sqlite3
+rails console
+rails db:seed
+git status
+rails s
+ls
+cd E-com-project-main/
+rails s
+bundle install
+bundle update
+rails s
+bundle install
+rails s
+bundle update
+bundle install
+rails s
+bundle update sqlite3
+rails s
+bundle update sqlite3
+bundle install
+rm Gemfile.lock
+bundle install
+gem list sqlite3
+rails s
+bundle exec rails s
+gem uninstall sqlite3 -v 1.7.3
+bundle install
+gem list sqlite3
+bundle install
+grep 'sqlite3' Gemfile.lock
+rails s
+rails s --trace
+bundle clean --force
+bundle install
+rails s
+bundle install
+rails s
+bundle clean --force
+rails s
+gem uninstall sqlite3
+gem install sqlite3 -v '2.0.2'
+rails s
+bundle install
+rails s
+bundle install
+rails s
+rails db:seed
+rails s
+bin/dev
+rails s
+bin/dev
+rails s
+git init
+git add .
+git commit -m "first commit"
+ll
+cd ..
+cd finest/
+code .
+git add .
+git commit -m "all"
+rails generate model Cart
+git add .
+git commit -m "cart model"
+rails generate model CartItem cart:references product:references quantity:integer
+git add . 
+git commit -m "cart item"
+rails db:migrate
+git add .
+git commit -m "cart contrller, cart modet updated"
+git add .
+git commit -m "cart_item controller"
+rails routes
+rails routes | grep cart_items
+clear
+rails routes | grep cart_items
+bundle install
+rails routes
+bin/dev
+rails db:migrate
+rails dbconsole
+rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bin/rails console
+rails db:migrate
+bundle exec rake db:migrate:status 
+bin/dev
+rm db/migrate/20240716122651_create_products.rb
+rails db:migrate
+rm db/migrate/20240716202731_create_static_pages.rb
+rails db:migrate
+rails db:drop
+rails db:create
+rails db:migrate
+rails generate migration ChangeColumnDefaultForTableName
+rails db:migrate
+rails generate migration CreateProducts
+rails db:migrate
+ls db/migrate
+rails db:migrate
+rails db:migrate:status
+rails db:migrate
+rails db:rollback STEP=create_products
+rails db:migrate
+cd e
+rails d
+rails s
+ls
+cd E-com-project-main/
+rails s
+bundle install
+rails s
+rails -m migrate
+rails db migrate
+rails
+bundle install
+rails db:migrate
+rails s
+rails console
+rails s
+rails s
+bundle install
+rails s
+rails db:migrate
+rails db:drop
+rails db:create
+rails db:migrate
+bin/dev
+rails db:seed
+bin/dev
+rails db:seed
+bin/dev
+rails db:seed
+ll
+cd projects
+ll
+cd finest/
+code .
+cd ..
+ll
+cd ..
+ls
+bin/dev
+bin/dev
+rails db:status
+cd ..
+ll
+cd E-commercePrettyface/
+code .
+rails s
+cd ..
+ll
+cd projects/
+cd Pretty-face/
+code .
+rails s
+cd projects/
+cd.
+cd ..
+ll
+rails s
+rails generate model Province name:string code:string
+rails generate model Tax name:string rate:decimal
+rails db:migrate
+rails db:seed
+rails generate migration AddTaxAndProvinceToProducts tax:references province:references
+rails db:migrate
+rails generate migration AddNullableTaxAndProvinceToProducts tax:references province:references
+rails db:migrate
+rails generate migration BackfillTaxAndProvinceForProducts
+rails db:migrate
+rails generate migration MakeTaxAndProvinceNonNullableInProducts
+rails db:migrate
+rails db:rollback STEP=1
+rails generate migration AddTaxAndProvinceToProducts
+rails generate migration RemoveTaxAndProvinceFromProducts
+rails db:migrate
+rails db:seed
+rails db:seed --trace
+rails db:seed
+rails s
+rails db:seed
+rails s
+bundle update activeadmin
+rails s
+bundle install
+rails s
+git status
+rails db:migration:status
+rails db:migrate:status
+rails db:rollback STEP=1
+rails console
+rails generate migration AddCityAndProvinceToOrders city:string province:string
+rails db:migrate
+rails s
+rails generate migration AddDetailsToUsers full_name:string address:string city:string postal_code:string
+rails db:migrate
+rails console
+rails db:migrate
+cd projects
+ll
+cd E-com
+cd Ecom
+code .
+bin/rails tailwindcss:install
+chmod +x bin/rails
+bundle install
+sudo bin/rails tailwindcss:install
+rbenv install 3.3.0
+rbenv local 3.3.0
+ruby -v
+rvm install 3.3.0
+rvm use 3.3.0 --default
+sudo apt-get update
+sudo apt-get install -y rbenv
+rbenv install 3.3.0
+rbenv local 3.3.0
+gem install bundler
+gem update
+bundle install
+bin/rails tailwindcss:install
+rails tailwindcss:install
+rails s
+exit
+rails generate migration CreateProvinces name:string
+rails db:migrate
+rails generate migration AddProvinceToUsers province_id:integer
+rails db:migrate
+rails generate migration AddCityAndPostalCodeToUsers city:string postal_code:string
+rails db:migrate
+rails db:seed
+rails generate migration AddAbbreviationToProvinces abbreviation:string
+rails db:migrate
+rails db:seed
+rails console
+rails generate migration AddDetailsToUsers address:string city:string postal_code:string province_id:integer
+rails tmp:clear
+config.autoload_paths += %W(#{config.root}/app/controllers)
+rails console
+> User
+rails generate migration AddFullNameToUsers full_name:string
+rails db:migrate
+bin/dev
+rails console
+rails db:seed
+rails generate migration AddAbbreviationToProvinces abbreviation:stringgem 'devise'
+gem 'devise'
+bundle install
+rails generate devise:install
+rails generate devise User
+bin/dev
+rails s
+cd E-commercePrettyface/
+bin/dev
+git init
+git commit -m "first commit"
+git add 
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Funsho007/prettystores.git
+git push -u origin main
+bin/bundle add tailwindcss-rails
+bin/rails tailwindcss:install
+sudo apt-get install autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev
+ll
+cd projects/
+ll
+cd Ecom
+code .
+cd ..
+ll
+cd finest/
+code .
+cd ..
+cd E-commercePrettyface/
+code ..
+cd ..
+rails new prettystores
+cd prettystores/
+code .
+cd ..
+cd Ecom/
+code .
+rails routes
+rails s
+bin/dev
+rails s
+rails server
+lsof -i :3000
+kill -9 <PID>
+COMMAND   PID   USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+ruby      12345 youruser   10u  IPv4  0t0  TCP *:3000 (LISTEN)
+lsof -i :3000
+kill -9 12345
+kill -9 3000
+rails s
+ll
+cd projects
+ll
+cd prettystores/
+code .
+cd ..
+cd Ecom/
+code .
